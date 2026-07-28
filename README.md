@@ -135,18 +135,39 @@ Hvězdičkou v prvním sloupci si označíš nemovitosti, které tě zaujaly.
 
 Označení se ukládá do prohlížeče, takže je okamžité a funguje i offline.
 Aby o něm ale věděl i hlídač v cloudu (ten e-maily posílá), musí se seznam
-dostat do repozitáře:
+dostat do [`data/favorites.json`](data/favorites.json) v repozitáři. Panel
+**Oblíbené** nad tabulkou ukazuje, kolik označených tam ještě není.
 
-1. V tabulce rozbal panel **Oblíbené** – ukazuje, kolik označených ještě není uloženo.
-2. **Zkopírovat** → **Otevřít favorites.json na GitHubu** → přepsat obsah
-   (Ctrl+A, Ctrl+V) → **Commit changes**.
-3. Od dalšího běhu hlídač sleduje cenu přesně u těchto nemovitostí.
+### Ukládání jedním tlačítkem (doporučeno)
 
-Tlačítko **Načíst seznam z repozitáře** jde opačným směrem – hodí se na dalším
-zařízení (mobil, druhý počítač), aby mělo stejný výběr.
+Jednorázově si vyrob přístupový token a vlož ho do panelu; pak stačí
+**Uložit do repozitáře**.
 
-Seznam je v [`data/favorites.json`](data/favorites.json) a je to obyčejný
-seznam id, takže se dá upravit i ručně.
+1. [github.com/settings/personal-access-tokens](https://github.com/settings/personal-access-tokens/new)
+   → *Repository access* → **Only select repositories** → tenhle repozitář
+2. *Permissions* → *Repository permissions* → **Contents: Read and write**
+   (nic dalšího token neumí – ke Secrets s heslem k e-mailu se nedostane)
+3. Vygenerovaný token vlož v panelu **Oblíbené → Přístupový token** a ulož
+
+Token zůstává jen v tom prohlížeči (localStorage) a odesílá se pouze na
+`api.github.com`. **Na sdíleném zařízení ho nezadávej** – kdo má přístup
+k prohlížeči, může s ním zapisovat do repozitáře. Až vyprší, tabulka to
+řekne a vyrobíš nový.
+
+Zápis je odolný vůči souběhu s robotem: posílá se i otisk původního souboru,
+takže když mezitím zapsal denní běh, GitHub změnu odmítne a stránka si sama
+načte novou verzi a zkusí to znovu.
+
+### Bez tokenu
+
+V panelu je i **Uložit ručně** – zkopíruješ obsah, otevřeš `favorites.json`
+na GitHubu, přepíšeš (Ctrl+A, Ctrl+V) a dáš *Commit changes*.
+
+### Na dalším zařízení
+
+**Načíst z repozitáře** stáhne aktuální seznam z GitHubu a přepíše jím označení
+v prohlížeči – hodí se na mobilu nebo druhém počítači. Soubor je obyčejný
+seznam id, takže se dá upravit i ručně přímo na GitHubu.
 
 ## Úpravy hledání
 Otevři [`config.py`](config.py) a uprav:

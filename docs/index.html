@@ -8,12 +8,12 @@
   :root{
     --bg:#f5f6f8; --card:#fff; --text:#1a1d21; --muted:#6b7280; --line:#e5e7eb;
     --accent:#0b5cad; --new:#fff7e6; --new-border:#f0b429; --removed:#9aa0a6;
-    --hover:#f0f4fa; --fav:#e08600;
+    --hover:#f0f4fa; --fav:#e08600; --ok:#1a7f37; --err:#b42318;
   }
   @media (prefers-color-scheme: dark){
     :root{--bg:#15171b; --card:#1e2126; --text:#e8eaed; --muted:#9aa0a6; --line:#2c3036;
       --accent:#5aa9f0; --new:#3a2f12; --new-border:#f0b429; --removed:#6b7280; --hover:#262a30;
-      --fav:#f0b429;}
+      --fav:#f0b429; --ok:#4ac26b; --err:#ff7b72;}
   }
   *{box-sizing:border-box}
   /* Stránka se nescrolluje jako celek – posouvá se jen tabulka (.wrap).
@@ -87,7 +87,20 @@
     background:var(--bg);color:var(--text);font-size:13px;cursor:pointer}
   .fav-actions button:hover{background:var(--hover)}
   .fav-actions a{color:var(--accent);font-size:13px}
+  .fav-actions button.primary{background:var(--accent);color:#fff;border-color:var(--accent);
+    font-weight:600}
+  .fav-actions button.primary:hover{filter:brightness(1.1);background:var(--accent)}
+  .fav-actions button:disabled{opacity:.5;cursor:default;filter:none}
+  .fav-actions input[type=password]{flex:1 1 260px;padding:6px 9px;border:1px solid var(--line);
+    border-radius:7px;background:var(--bg);color:var(--text);font-size:13px;min-width:0}
+  .fav-body details{margin-top:12px}
+  .fav-body details summary{cursor:pointer;color:var(--muted);font-size:12.5px;user-select:none}
+  .fav-body details summary:hover{color:var(--text)}
+  .fav-body details p{margin:8px 0}
+  .fav-note{color:var(--muted);font-size:11.5px;line-height:1.5}
   .fav-msg{color:var(--muted);font-size:12px}
+  .fav-msg.err{color:var(--err);font-weight:600}
+  .fav-msg.ok{color:var(--ok);font-weight:600}
   .warn{color:var(--fav);font-weight:600}
   /* Řazení pro mobil – na širokém displeji se řadí klikáním do hlavičky. */
   .m-sort{display:none;gap:6px;align-items:center}
@@ -181,16 +194,38 @@
   <summary id="favSummary">Oblíbené</summary>
   <div class="fav-body">
     <p id="favIntro"></p>
-    <textarea id="favJson" readonly spellcheck="false"></textarea>
     <div class="fav-actions">
-      <button id="favCopy">Zkopírovat</button>
-      <a id="favEdit" href="#" target="_blank" rel="noopener">Otevřít favorites.json na GitHubu →</a>
+      <button id="favPush" class="primary">Uložit do repozitáře</button>
+      <button id="favPull">Načíst z repozitáře</button>
       <span class="fav-msg" id="favMsg"></span>
     </div>
-    <div class="fav-actions">
-      <button id="favPull">Načíst seznam z repozitáře</button>
-      <span class="fav-msg">Přepíše označení v tomhle prohlížeči tím, co je uložené na GitHubu.</span>
-    </div>
+
+    <details id="favTokenBox">
+      <summary id="favTokenSummary">Přístupový token</summary>
+      <p>Bez tokenu se ukládá ručně (viz níže). S ním stačí tlačítko výš.
+        Vyrob si ho na <a href="https://github.com/settings/personal-access-tokens/new"
+        target="_blank" rel="noopener">github.com/settings/personal-access-tokens</a>:
+        <em>Repository access</em> → <em>Only select repositories</em> → tenhle repozitář,
+        <em>Permissions</em> → <em>Repository permissions</em> → <em>Contents</em>:
+        <em>Read and write</em>. Nic jiného token neumí.</p>
+      <div class="fav-actions">
+        <input type="password" id="favToken" placeholder="github_pat_…" autocomplete="off"
+               spellcheck="false">
+        <button id="favTokenSave">Uložit token</button>
+        <button id="favTokenForget">Zapomenout</button>
+      </div>
+      <p class="fav-note">Token zůstává jen v tomhle prohlížeči (localStorage) a odesílá se
+        pouze na api.github.com. Na cizím ani sdíleném zařízení ho nezadávej.</p>
+    </details>
+
+    <details id="favManual">
+      <summary>Uložit ručně (bez tokenu)</summary>
+      <textarea id="favJson" readonly spellcheck="false"></textarea>
+      <div class="fav-actions">
+        <button id="favCopy">Zkopírovat</button>
+        <a id="favEdit" href="#" target="_blank" rel="noopener">Otevřít favorites.json na GitHubu →</a>
+      </div>
+    </details>
   </div>
 </details>
 
@@ -263,48 +298,187 @@ function favJson(){
   }, null, 1)+"\n";
 }
 
-function editUrl(){
-  // Na GitHub Pages se adresa repozitáře dá odvodit z adresy stránky.
+// --- Zápis do repozitáře přes GitHub API ------------------------------------
+// Stránka nemá server, seznam oblíbených ale musí být v repozitáři, aby podle
+// něj hlídač posílal e-maily. S tokenem ho tam zapíše rovnou tlačítkem;
+// bez tokenu zbývá ruční cesta (zkopírovat a vložit na GitHubu).
+const FAV_PATH="data/favorites.json";
+const TOKEN_KEY="hlidac-nemovitosti-token";
+
+function repoInfo(){
+  // Na GitHub Pages se repozitář pozná z adresy stránky.
   const h=location.hostname, seg=location.pathname.split("/").filter(Boolean);
-  if(h.endsWith("github.io"))
-    return "https://github.com/"+h.split(".")[0]+"/"+(seg[0]||"")+"/edit/main/data/favorites.json";
-  return "https://github.com/krojtous/hlidac_nemovitosti/edit/main/data/favorites.json";
+  if(h.endsWith("github.io")) return {owner:h.split(".")[0], repo:seg[0]||""};
+  return {owner:"krojtous", repo:"hlidac_nemovitosti"};   // lokální náhled
+}
+function apiUrl(){
+  const r=repoInfo();
+  return "https://api.github.com/repos/"+r.owner+"/"+r.repo+"/contents/"+FAV_PATH;
+}
+function editUrl(){
+  const r=repoInfo();
+  return "https://github.com/"+r.owner+"/"+r.repo+"/edit/main/"+FAV_PATH;
+}
+
+function token(){
+  try{ return localStorage.getItem(TOKEN_KEY)||""; }catch(e){ return ""; }
+}
+function hlavicky(){
+  const h={"Accept":"application/vnd.github+json"};
+  if(token()) h["Authorization"]="Bearer "+token();
+  return h;
+}
+
+// GitHub posílá i vrací obsah v base64; JSON je v UTF-8, takže přes TextEncoder.
+function doBase64(text){
+  const bajty=new TextEncoder().encode(text);
+  let bin=""; bajty.forEach(b=>{bin+=String.fromCharCode(b);});
+  return btoa(bin);
+}
+function zBase64(b64){
+  const bin=atob((b64||"").replace(/\s/g,""));
+  const bajty=Uint8Array.from(bin, c=>c.charCodeAt(0));
+  return new TextDecoder().decode(bajty);
+}
+
+async function stavVRepozitari(){
+  // Vrátí {ids, sha} podle skutečného souboru na GitHubu. Bez tokenu to jde taky
+  // (veřejný repozitář), jen s nižším limitem dotazů.
+  const r=await fetch(apiUrl()+"?ref=main&_="+Date.now(), {headers:hlavicky()});
+  if(!r.ok){
+    // stav si neseme s sebou, ať umí volající poradit (neplatný token apod.)
+    const e=new Error("HTTP "+r.status); e.status=r.status; throw e;
+  }
+  const j=await r.json();
+  const data=JSON.parse(zBase64(j.content));
+  return {ids:Array.isArray(data.ids)?data.ids:[], sha:j.sha};
+}
+
+async function zapisDoRepozitare(){
+  // sha původního souboru je pojistka: když mezitím zapsal robot, GitHub zápis
+  // odmítne (409) a my si načteme aktuální verzi a zkusíme to ještě jednou.
+  for(let pokus=0; pokus<2; pokus++){
+    const {sha}=await stavVRepozitari();
+    const r=await fetch(apiUrl(), {
+      method:"PUT",
+      headers:Object.assign({"Content-Type":"application/json"}, hlavicky()),
+      body:JSON.stringify({
+        message:"Oblíbené: "+FAV.size+" nemovitostí",
+        content:doBase64(favJson()),
+        sha:sha, branch:"main"
+      })
+    });
+    if(r.ok) return;
+    if(r.status===409) continue;      // někdo byl rychlejší, zkusíme znovu
+    const chyba=await r.json().catch(()=>({}));
+    const e=new Error(chyba.message||("HTTP "+r.status));
+    e.status=r.status;
+    throw e;
+  }
+  throw new Error("Soubor se mezitím dvakrát změnil, zkus to prosím znovu.");
+}
+
+function zprava(text, druh){
+  const el=document.getElementById("favMsg");
+  el.textContent=text||"";
+  el.className="fav-msg"+(druh?" "+druh:"");
 }
 
 function renderFavPanel(){
   const navic=[...FAV].filter(id=>!REPO_FAV.has(id)).length;
   const chybi=[...REPO_FAV].filter(id=>!FAV.has(id)).length;
   const rozdil=navic+chybi;
+  const maToken=!!token();
   document.getElementById("favSummary").innerHTML =
     "Oblíbené ("+FAV.size+")" + (rozdil
-      ? " <span class=\"warn\">· "+rozdil+" zatím jen v tomhle prohlížeči</span>"
+      ? " <span class=\"warn\">· "+rozdil+" neuloženo</span>"
       : " · uložené v repozitáři");
   document.getElementById("favIntro").textContent = rozdil
-    ? "Hlídač posílá e-mail o změně ceny podle seznamu v repozitáři. Zkopíruj obsah "
-      + "níž, otevři favorites.json na GitHubu, přepiš ho (Ctrl+A, Ctrl+V) a ulož "
-      + "tlačítkem Commit changes. Do příštího běhu se to promítne do e-mailů."
+    ? (maToken
+        ? "Hlídač sleduje cenu podle seznamu v repozitáři. Tlačítkem níž tam "
+          + "označení přeneseš; do příštího běhu se to promítne do e-mailů."
+        : "Hlídač sleduje cenu podle seznamu v repozitáři. Ulož si token (viz níž) "
+          + "a půjde to jedním tlačítkem, jinak použij ruční cestu.")
     : "Seznam v tomhle prohlížeči odpovídá tomu v repozitáři – hlídač hlídá cenu "
-      + "přesně u těchto nemovitostí.";
+      + "a zmizení přesně u těchto nemovitostí.";
+  const push=document.getElementById("favPush");
+  push.disabled=!rozdil || !maToken;
+  push.title=maToken ? "" : "Nejdřív ulož přístupový token";
+  document.getElementById("favTokenSummary").textContent =
+    maToken ? "Přístupový token · uložený" : "Přístupový token · nenastavený";
+  document.getElementById("favManual").open = !maToken && rozdil>0;
   document.getElementById("favJson").value=favJson();
   document.getElementById("favEdit").href=editUrl();
 }
 
 function initFavPanel(){
   document.getElementById("favCopy").onclick=()=>{
-    const ta=document.getElementById("favJson"), msg=document.getElementById("favMsg");
+    const ta=document.getElementById("favJson");
     ta.select();
     if(navigator.clipboard){
       navigator.clipboard.writeText(ta.value).then(
-        ()=>{msg.textContent="Zkopírováno.";},
-        ()=>{msg.textContent="Zkopíruj ručně (Ctrl+C).";});
+        ()=>zprava("Zkopírováno.","ok"), ()=>zprava("Zkopíruj ručně (Ctrl+C)."));
     } else {
-      msg.textContent="Zkopíruj ručně (Ctrl+C).";
+      zprava("Zkopíruj ručně (Ctrl+C).");
     }
   };
-  document.getElementById("favPull").onclick=()=>{
-    FAV=new Set(REPO_FAV); saveFav(); renderFavPanel(); render();
-    document.getElementById("favMsg").textContent="Načteno z repozitáře.";
+
+  document.getElementById("favPush").onclick=async ()=>{
+    const b=document.getElementById("favPush");
+    b.disabled=true; zprava("Ukládám…");
+    try{
+      await zapisDoRepozitare();
+      REPO_FAV=new Set(FAV);
+      zprava("Uloženo do repozitáře.","ok");
+    }catch(e){
+      if(e.status===401) zprava("Token neplatí nebo vypršel – vyrob si nový.","err");
+      else if(e.status===403 || e.status===404)
+        zprava("Token nemá právo zápisu do tohohle repozitáře (Contents: Read and write).","err");
+      else zprava("Uložení selhalo: "+e.message,"err");
+    }
+    renderFavPanel();
   };
+
+  document.getElementById("favPull").onclick=async ()=>{
+    zprava("Načítám…");
+    try{
+      const {ids}=await stavVRepozitari();
+      REPO_FAV=new Set(ids);
+      FAV=new Set(ids); saveFav();
+      zprava("Načteno z repozitáře.","ok");
+    }catch(e){
+      // Když GitHub nedosáhneme, aspoň se vrátíme ke stavu z data.json.
+      FAV=new Set(REPO_FAV); saveFav();
+      zprava("GitHub se nepodařilo načíst ("+e.message+"), použit stav z poslední aktualizace.","err");
+    }
+    renderFavPanel(); render();
+  };
+
+  document.getElementById("favTokenSave").onclick=()=>{
+    const pole=document.getElementById("favToken");
+    const t=pole.value.trim();
+    if(!t){ zprava("Vlož token.","err"); return; }
+    try{ localStorage.setItem(TOKEN_KEY, t); }catch(e){ zprava("Nejde uložit: "+e.message,"err"); return; }
+    pole.value="";
+    zprava("Token uložen v tomhle prohlížeči.","ok");
+    renderFavPanel();
+  };
+  document.getElementById("favTokenForget").onclick=()=>{
+    try{ localStorage.removeItem(TOKEN_KEY); }catch(e){}
+    zprava("Token smazán z prohlížeče.");
+    renderFavPanel();
+  };
+}
+
+// Skutečný stav v repozitáři: data.json je jen z posledního běhu hlídače,
+// takže se po načtení stránky ještě doptáme GitHubu. Když to nevyjde
+// (offline, limit dotazů), zůstane hodnota z data.json.
+async function overStavVRepozitari(){
+  try{
+    const {ids}=await stavVRepozitari();
+    REPO_FAV=new Set(ids);
+    renderFavPanel();
+  }catch(e){ console.warn("Stav oblíbených z GitHubu se nepodařilo ověřit:", e); }
 }
 
 function fmtNum(n){return (n||0).toLocaleString("cs-CZ").replace(/ /g," ");}
@@ -499,6 +673,7 @@ fetch("data.json?_="+Date.now()).then(r=>r.json()).then(d=>{
   initFavPanel();
   renderFavPanel();
   render();
+  overStavVRepozitari();
 }).catch(e=>{
   document.getElementById("meta").textContent="Nepodařilo se načíst data.json";
   console.error(e);
