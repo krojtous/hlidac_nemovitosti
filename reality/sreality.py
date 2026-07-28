@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 """Stahování inzerátů ze Sreality.cz (neoficiální JSON API /api/v1/estates/search)."""
 
+import re
 import time
 import urllib.parse
 
 from . import http
 from .geo import reach_km
-from .model import make_listing, parse_areas_from_name, slugify
+from .model import make_listing, parse_areas_from_name
 
 API = "https://www.sreality.cz/api/v1/estates/search"
 PER_PAGE = 100
@@ -30,6 +31,44 @@ def _img_url(raw, transform):
 _MAIN_SEO = {1: "byt", 2: "dum", 3: "pozemek"}
 # category_main_cb -> naše kategorie
 _MAIN_TO_CATEGORY = {1: "byt", 2: "dum", 3: "pozemek"}
+
+# ---------------------------------------------------------------------------
+# Podtyp v adrese detailu.
+#
+# Sreality mají pro podtyp vlastní pevná slova a jiné než ta neznají – adresa
+# s neplatným podtypem vrátí 404. Nejde je odvodit z názvu podtypu:
+# „Lesy“ je v adrese „les“, „Ostatní“ je „ostatni-pozemky“ a u bytů se používá
+# přímo dispozice včetně plusu („4+kk“, ne „4-kk“).
+#
+# Zbytek adresy (lokalitu i to, jestli podtyp k nemovitosti vůbec sedí) si
+# Sreality nekontrolují – přesměrují na správnou adresu samy. Proto stačí,
+# když je podtyp jedno z jejich slov; při neznámém kódu použijeme náhradní
+# hodnotu podle hlavní kategorie a odkaz funguje dál.
+#
+# Ověřeno proti webu v červenci 2026.
+# ---------------------------------------------------------------------------
+_SUB_SEO = {
+    # pozemky
+    18: "komercni", 19: "bydleni", 20: "pole", 21: "les", 22: "louka",
+    23: "zahrada", 24: "ostatni-pozemky", 46: "rybnik", 48: "sady-vinice",
+    # domy
+    37: "rodinny",
+}
+_SUB_SEO_FALLBACK = {1: "4+kk", 2: "rodinny", 3: "bydleni"}
+
+# Dispozice bytu se do adresy píše tak, jak ji API vrátí: „4+kk“, „3+1“.
+_DISPOSITION_RE = re.compile(r"^\d+\+(?:kk|\d+)$")
+
+
+def _sub_seo(main_cb, sub_cb):
+    """Vrátí část adresy s podtypem nemovitosti (viz komentář u _SUB_SEO)."""
+    slug = _SUB_SEO.get((sub_cb or {}).get("value"))
+    if slug:
+        return slug
+    name = ((sub_cb or {}).get("name") or "").strip().lower()
+    if main_cb == 1 and _DISPOSITION_RE.match(name):
+        return name
+    return _SUB_SEO_FALLBACK.get(main_cb, "bydleni")
 
 
 def search(search_cfg, area, settings, log):
@@ -107,7 +146,8 @@ def _normalize(e, search_cfg):
         return None  # bez GPS neumíme zařadit do lokality
 
     main_cb = (e.get("category_main_cb") or {}).get("value")
-    sub = (e.get("category_sub_cb") or {}).get("name")
+    sub_cb = e.get("category_sub_cb") or {}
+    sub = sub_cb.get("name")
     name = e.get("advert_name") or ""
     area_m2, land_m2 = parse_areas_from_name(name)
 
@@ -122,8 +162,9 @@ def _normalize(e, search_cfg):
         return None
 
     hash_id = e.get("hash_id")
-    main_seo = _MAIN_SEO.get(main_cb, "x")
-    sub_seo = slugify(sub) if sub else "x"
+    main_seo = _MAIN_SEO.get(main_cb, "byt")
+    sub_seo = _sub_seo(main_cb, sub_cb)
+    # Lokalitu si Sreality opraví samy přesměrováním, stačí cokoliv nenulového.
     city_seo = loc.get("city_seo_name") or "x"
     url = f"https://www.sreality.cz/detail/prodej/{main_seo}/{sub_seo}/{city_seo}/{hash_id}"
 

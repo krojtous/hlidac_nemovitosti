@@ -1,457 +1,8 @@
 {
- "generated_at": "2026-07-28T16:21",
+ "generated_at": "2026-07-28T17:14",
  "count": 422,
- "criteria": {
-  "areas": [
-   {
-    "name": "Vratislavice nad Nisou",
-    "lat": 50.749,
-    "lon": 15.0959,
-    "area_radius_km": 2.0,
-    "radius_km": 1.0,
-    "reach_km": 3.0
-   },
-   {
-    "name": "Vlašim",
-    "lat": 49.7043,
-    "lon": 14.901,
-    "area_radius_km": 2.5,
-    "radius_km": 15.0,
-    "reach_km": 17.5
-   },
-   {
-    "name": "Ruprechtice (Liberec)",
-    "lat": 50.788,
-    "lon": 15.068,
-    "area_radius_km": 1.5,
-    "radius_km": 1.2,
-    "reach_km": 2.7
-   },
-   {
-    "name": "Masarykova třída (Liberec)",
-    "lat": 50.772,
-    "lon": 15.07,
-    "area_radius_km": 0.5,
-    "radius_km": 0.5,
-    "reach_km": 1.0
-   }
-  ],
-  "searches": [
-   {
-    "label": "Dům se zahradou",
-    "price_from": 100000,
-    "price_to": 12000000,
-    "min_area_m2": null
-   },
-   {
-    "label": "Byt 4+1 / 4+kk (min. 80 m²)",
-    "price_from": 100000,
-    "price_to": 12000000,
-    "min_area_m2": 80
-   },
-   {
-    "label": "Pozemek",
-    "price_from": 50000,
-    "price_to": 5000000,
-    "min_area_m2": null
-   }
-  ],
-  "sources": [
-   "Sreality.cz",
-   "Bezrealitky.cz"
-  ]
- },
+ "criteria": {},
  "listings": [
-  {
-   "id": "bezrealitky:942752",
-   "source": "bezrealitky",
-   "category": "dum",
-   "title": "Prodej domu 248 m², pozemek 1.000 m²",
-   "price": 11990000,
-   "area_m2": 248,
-   "land_area_m2": 1000,
-   "disposition": "5+kk",
-   "city": null,
-   "address": "Louňovice pod Blaníkem - Louňovice pod Blaníkem, Středočeský kraj",
-   "lat": 49.6371536,
-   "lon": 14.8470198,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/942752-nabidka-prodej-domu-lounovice-pod-blanikem",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/942k/942752/1757330669-vcrcfkppvi-dum1.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/942k/942752/1757330669-vcrcfkppvi-dum1.jpg",
-   "price_per_m2": 48347,
-   "matched_area": "Vlašim",
-   "distance_km": 8.42,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 11990000
-    }
-   ]
-  },
-  {
-   "id": "bezrealitky:1046330",
-   "source": "bezrealitky",
-   "category": "dum",
-   "title": "Prodej domu 151 m², pozemek 866 m²",
-   "price": 10700000,
-   "area_m2": 151,
-   "land_area_m2": 866,
-   "disposition": "5+1",
-   "city": null,
-   "address": "Karla Nového, Bystřice - Bystřice u Benešova, Středočeský kraj",
-   "lat": 49.729055,
-   "lon": 14.6659263,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1046330-nabidka-prodej-domu-karla-noveho-bystrice",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1046k/1046330/1784289584-hvcizpuwxd-nem-bystice432-58.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1046k/1046330/1784289584-hvcizpuwxd-nem-bystice432-58.jpg",
-   "price_per_m2": 70861,
-   "matched_area": "Vlašim",
-   "distance_km": 17.12,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 10700000
-    }
-   ]
-  },
-  {
-   "id": "bezrealitky:1039477",
-   "source": "bezrealitky",
-   "category": "dum",
-   "title": "Prodej domu 206 m², pozemek 885 m²",
-   "price": 3500000,
-   "area_m2": 206,
-   "land_area_m2": 885,
-   "disposition": "4+1",
-   "city": null,
-   "address": "Slapsko - Slapsko, Jihočeský kraj",
-   "lat": 49.5837527,
-   "lon": 14.7640094,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1039477-nabidka-prodej-domu-slapsko",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1039k/1039477/1782708978-mvepngsvrw-vitanovice-2.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1039k/1039477/1782708978-mvepngsvrw-vitanovice-2.jpg",
-   "price_per_m2": 16990,
-   "matched_area": "Vlašim",
-   "distance_km": 16.64,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 3500000
-    }
-   ]
-  },
-  {
-   "id": "bezrealitky:1023789",
-   "source": "bezrealitky",
-   "category": "dum",
-   "title": "Prodej domu 110 m², pozemek 896 m²",
-   "price": 5450000,
-   "area_m2": 110,
-   "land_area_m2": 896,
-   "disposition": "4+1",
-   "city": null,
-   "address": "Pod Vodárnou, Jablonec nad Nisou - Lukášov, Liberecký kraj",
-   "lat": 50.7530276,
-   "lon": 15.1306188,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023789-nabidka-prodej-domu-pod-vodarnou-jablonec-nad-nisou",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1023k/1023789/1778858537-xuauhtbjuk-a4481621-b3c2-4a25-b9ea-1457ec76e12c-1-105-c.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1023k/1023789/1778858537-xuauhtbjuk-a4481621-b3c2-4a25-b9ea-1457ec76e12c-1-105-c.jpg",
-   "price_per_m2": 49545,
-   "matched_area": "Vratislavice nad Nisou",
-   "distance_km": 2.48,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 5450000
-    }
-   ]
-  },
-  {
-   "id": "bezrealitky:1037820",
-   "source": "bezrealitky",
-   "category": "byt",
-   "title": "Prodej bytu 4+kk 109 m²",
-   "price": 7590000,
-   "area_m2": 109,
-   "land_area_m2": null,
-   "disposition": "4+kk",
-   "city": null,
-   "address": "Frýdlantská, Liberec - Liberec, Liberecký kraj",
-   "lat": 50.7701773,
-   "lon": 15.0573749,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037820-nabidka-prodej-bytu-frydlantska-liberec",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1037k/1037820/1782232558-nbhmynadsl-byt-c-cc-8c5-fry-cc-81dlantska-cc-81-1321-c3.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1037k/1037820/1782232558-nbhmynadsl-byt-c-cc-8c5-fry-cc-81dlantska-cc-81-1321-c3.jpg",
-   "price_per_m2": 69633,
-   "matched_area": "Masarykova třída (Liberec)",
-   "distance_km": 0.91,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 7590000
-    }
-   ]
-  },
-  {
-   "id": "bezrealitky:1036886",
-   "source": "bezrealitky",
-   "category": "pozemek",
-   "title": "Prodej pozemku 1.070 m²",
-   "price": 3390000,
-   "area_m2": 1070,
-   "land_area_m2": null,
-   "disposition": null,
-   "city": null,
-   "address": "Jablonec nad Nisou - Lukášov, Liberecký kraj",
-   "lat": 50.7478267,
-   "lon": 15.135204,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1036886-nabidka-prodej-pozemku-jablonec-nad-nisou",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1036k/1036886/1784812794-ncjbkdytqx-1000052591.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1036k/1036886/1784812794-ncjbkdytqx-1000052591.jpg",
-   "price_per_m2": 3168,
-   "matched_area": "Vratislavice nad Nisou",
-   "distance_km": 2.77,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 3390000
-    }
-   ]
-  },
-  {
-   "id": "bezrealitky:1048427",
-   "source": "bezrealitky",
-   "category": "pozemek",
-   "title": "Prodej pozemku 8.431 m²",
-   "price": 375950,
-   "area_m2": 8431,
-   "land_area_m2": null,
-   "disposition": null,
-   "city": null,
-   "address": "Postupice - Jemniště, Středočeský kraj",
-   "lat": 49.754044,
-   "lon": 14.791643,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048427-nabidka-prodej-pozemku-postupice",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1048k/1048427/1048427-1784809597-foto-1.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1048k/1048427/1048427-1784809597-foto-1.jpg",
-   "price_per_m2": 45,
-   "matched_area": "Vlašim",
-   "distance_km": 9.61,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 375950
-    }
-   ]
-  },
-  {
-   "id": "bezrealitky:1015868",
-   "source": "bezrealitky",
-   "category": "pozemek",
-   "title": "Prodej pozemku 2.281 m²",
-   "price": 66000,
-   "area_m2": 2281,
-   "land_area_m2": null,
-   "disposition": null,
-   "city": null,
-   "address": "Šebířov - Vyšetice, Jihočeský kraj",
-   "lat": 49.59422,
-   "lon": 14.762954,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1015868-nabidka-prodej-pozemku",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1015k/1015868/1015868-1776935254-foto-1.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1015k/1015868/1015868-1776935254-foto-1.jpg",
-   "price_per_m2": 29,
-   "matched_area": "Vlašim",
-   "distance_km": 15.77,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 66000
-    }
-   ]
-  },
-  {
-   "id": "bezrealitky:949795",
-   "source": "bezrealitky",
-   "category": "pozemek",
-   "title": "Prodej pozemku 6.571 m²",
-   "price": 215000,
-   "area_m2": 6571,
-   "land_area_m2": null,
-   "disposition": null,
-   "city": null,
-   "address": "Slapsko - Slapsko, Jihočeský kraj",
-   "lat": 49.583122,
-   "lon": 14.750015,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949795-nabidka-prodej-pozemku-slapsko",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/949k/949795/949795-1778159422-foto-1.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/949k/949795/949795-1778159422-foto-1.jpg",
-   "price_per_m2": 33,
-   "matched_area": "Vlašim",
-   "distance_km": 17.31,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 215000
-    }
-   ]
-  },
-  {
-   "id": "bezrealitky:1003146",
-   "source": "bezrealitky",
-   "category": "pozemek",
-   "title": "Prodej pozemku 11.254 m²",
-   "price": 389000,
-   "area_m2": 11254,
-   "land_area_m2": null,
-   "disposition": null,
-   "city": null,
-   "address": "Ostředek - Bělčice u Ostředka, Středočeský kraj",
-   "lat": 49.847375,
-   "lon": 14.813292,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1003146-nabidka-prodej-pozemku-ostredek",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1003k/1003146/1003146-1779115381-foto-1.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1003k/1003146/1003146-1779115381-foto-1.jpg",
-   "price_per_m2": 35,
-   "matched_area": "Vlašim",
-   "distance_km": 17.11,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 389000
-    }
-   ]
-  },
-  {
-   "id": "bezrealitky:1013262",
-   "source": "bezrealitky",
-   "category": "pozemek",
-   "title": "Prodej pozemku 1.527 m²",
-   "price": 2499000,
-   "area_m2": 1527,
-   "land_area_m2": null,
-   "disposition": null,
-   "city": null,
-   "address": "Zbizuby - Zbizuby, Středočeský kraj",
-   "lat": 49.822975,
-   "lon": 15.026266,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1013262-nabidka-prodej-pozemku",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1013k/1013262/1013262-1776323973-foto-1.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1013k/1013262/1013262-1776323973-foto-1.jpg",
-   "price_per_m2": 1637,
-   "matched_area": "Vlašim",
-   "distance_km": 15.97,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 2499000
-    }
-   ]
-  },
-  {
-   "id": "bezrealitky:1033466",
-   "source": "bezrealitky",
-   "category": "pozemek",
-   "title": "Prodej pozemku 6.639 m²",
-   "price": 230000,
-   "area_m2": 6639,
-   "land_area_m2": null,
-   "disposition": null,
-   "city": null,
-   "address": "Votice - Budenín, Středočeský kraj",
-   "lat": 49.643739,
-   "lon": 14.680898,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033466-nabidka-prodej-pozemku-votice",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1033k/1033466/1033466-1783427830-foto-1.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1033k/1033466/1033466-1783427830-foto-1.jpg",
-   "price_per_m2": 35,
-   "matched_area": "Vlašim",
-   "distance_km": 17.21,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 230000
-    }
-   ]
-  },
-  {
-   "id": "bezrealitky:836119",
-   "source": "bezrealitky",
-   "category": "pozemek",
-   "title": "Prodej pozemku 1.493 m²",
-   "price": 2750000,
-   "area_m2": 1493,
-   "land_area_m2": null,
-   "disposition": null,
-   "city": null,
-   "address": "Horka II - Horka nad Sázavou, Středočeský kraj",
-   "lat": 49.73655375341,
-   "lon": 15.127492016866,
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/836119-nabidka-prodej-pozemku-horka-ii",
-   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/836k/836119/1782287716-umxweycsbl-001-dron-ozna-c4-8den-c3-ad.jpg",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/836k/836119/1782287716-umxweycsbl-001-dron-ozna-c4-8den-c3-ad.jpg",
-   "price_per_m2": 1842,
-   "matched_area": "Vlašim",
-   "distance_km": 16.67,
-   "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
-   "removed_on": null,
-   "is_new": true,
-   "price_history": [
-    {
-     "date": "2026-07-28",
-     "price": 2750000
-    }
-   ]
-  },
   {
    "address": "Načeradec - Načeradec, Středočeský kraj",
    "area_m2": 77,
@@ -462,6 +13,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1007911",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1007k/1007911/1775041849-gtpiayjcay-od-vchodu-final-vodoznak.png",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1007k/1007911/1775041849-gtpiayjcay-od-vchodu-final-vodoznak.png",
    "is_new": false,
    "land_area_m2": 570,
    "last_seen": "2026-07-28",
@@ -479,8 +31,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej domu 77 m², pozemek 570 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1007911-nabidka-prodej-domu-roubickov-naceradec",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1007k/1007911/1775041849-gtpiayjcay-od-vchodu-final-vodoznak.png"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1007911-nabidka-prodej-domu-roubickov-naceradec"
   },
   {
    "address": "Čechtice - Nakvasovice, Středočeský kraj",
@@ -492,6 +43,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1015489",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1015k/1015489/1015489-1776862231-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1015k/1015489/1015489-1776862231-foto-1.jpg",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-28",
@@ -509,8 +61,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 4.244 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1015489-nabidka-prodej-pozemku",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1015k/1015489/1015489-1776862231-foto-1.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1015489-nabidka-prodej-pozemku"
   },
   {
    "address": "Vlašim - Nesperská Lhota, Středočeský kraj",
@@ -551,6 +102,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1025892",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1025k/1025892/1025892-1779353406-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1025k/1025892/1025892-1779353406-foto-1.jpg",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-28",
@@ -568,8 +120,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 12.039 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1025892-nabidka-prodej-pozemku-postupice",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1025k/1025892/1025892-1779353406-foto-1.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1025892-nabidka-prodej-pozemku-postupice"
   },
   {
    "address": "Vlašim - Domašín, Středočeský kraj",
@@ -581,6 +132,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1028193",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1028k/1028193/1779973473-llviaudncv-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1028k/1028193/1779973473-llviaudncv-1.jpg",
    "is_new": false,
    "land_area_m2": 476,
    "last_seen": "2026-07-28",
@@ -598,8 +150,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej domu 65 m², pozemek 476 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1028193-nabidka-prodej-domu-vlasim",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1028k/1028193/1779973473-llviaudncv-1.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1028193-nabidka-prodej-domu-vlasim"
   },
   {
    "address": "Šternberská, Divišov - Divišov u Benešova, Středočeský kraj",
@@ -611,6 +162,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1028589",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1028k/1028589/1780066297-oidhkjkbin-whatsapp-image-2026-05-26-at-13-02-351.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1028k/1028589/1780066297-oidhkjkbin-whatsapp-image-2026-05-26-at-13-02-351.jpg",
    "is_new": false,
    "land_area_m2": 172,
    "last_seen": "2026-07-28",
@@ -628,8 +180,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej domu 102 m², pozemek 172 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1028589-nabidka-prodej-domu-sternberska-divisov",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1028k/1028589/1780066297-oidhkjkbin-whatsapp-image-2026-05-26-at-13-02-351.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1028589-nabidka-prodej-domu-sternberska-divisov"
   },
   {
    "address": "Jankov - Čestín u Jankova, Středočeský kraj",
@@ -641,6 +192,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1037342",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1037k/1037342/1037342-1784870360-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1037k/1037342/1037342-1784870360-foto-1.jpg",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-28",
@@ -658,8 +210,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 8.633 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037342-nabidka-prodej-pozemku-jankov",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1037k/1037342/1037342-1784870360-foto-1.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037342-nabidka-prodej-pozemku-jankov"
   },
   {
    "address": "Divišov - Zdebuzeves, Středočeský kraj",
@@ -700,6 +251,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1040458",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1040k/1040458/1040458-1783055597-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1040k/1040458/1040458-1783055597-foto-1.jpg",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-28",
@@ -717,8 +269,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 2.128 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1040458-nabidka-prodej-pozemku-trhovy-stepanov",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1040k/1040458/1040458-1783055597-foto-1.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1040458-nabidka-prodej-pozemku-trhovy-stepanov"
   },
   {
    "address": "Kácov - Kácov, Středočeský kraj",
@@ -759,6 +310,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1043219",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1043k/1043219/1783544453-rjnrlmzjzm-20260415-172153.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1043k/1043219/1783544453-rjnrlmzjzm-20260415-172153.jpg",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-28",
@@ -776,8 +328,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 2.929 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1043219-nabidka-prodej-pozemku-tremosnice",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1043k/1043219/1783544453-rjnrlmzjzm-20260415-172153.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1043219-nabidka-prodej-pozemku-tremosnice"
   },
   {
    "address": "Blanická, Postupice - Postupice, Středočeský kraj",
@@ -789,6 +340,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1044480",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1044k/1044480/1783859926-tjipsuayux-7edaf52a-fffe-4b9c-a41f-1a39ee41543d.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1044k/1044480/1783859926-tjipsuayux-7edaf52a-fffe-4b9c-a41f-1a39ee41543d.jpg",
    "is_new": false,
    "land_area_m2": 3535,
    "last_seen": "2026-07-28",
@@ -806,8 +358,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej domu 160 m², pozemek 3.535 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044480-nabidka-prodej-domu-blanicka-lisek",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1044k/1044480/1783859926-tjipsuayux-7edaf52a-fffe-4b9c-a41f-1a39ee41543d.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044480-nabidka-prodej-domu-blanicka-lisek"
   },
   {
    "address": "Loket - Němčice u Dolních Kralovic, Středočeský kraj",
@@ -819,6 +370,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1044744",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1044k/1044744/1783934274-ftzqswjysm-foto-c4-8d-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1044k/1044744/1783934274-ftzqswjysm-foto-c4-8d-1.jpg",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-28",
@@ -836,8 +388,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 2.723 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044744-nabidka-prodej-pozemku-nemcice",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1044k/1044744/1783934274-ftzqswjysm-foto-c4-8d-1.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044744-nabidka-prodej-pozemku-nemcice"
   },
   {
    "address": "Libež - Libež, Středočeský kraj",
@@ -849,6 +400,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1045159",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1045k/1045159/1045159-1784019414-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1045k/1045159/1045159-1784019414-foto-1.jpg",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-28",
@@ -866,8 +418,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 8.010 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045159-nabidka-prodej-pozemku-libez",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1045k/1045159/1045159-1784019414-foto-1.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045159-nabidka-prodej-pozemku-libez"
   },
   {
    "address": "Libež - Libež, Středočeský kraj",
@@ -879,6 +430,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1045160",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1045k/1045160/1045160-1784019602-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1045k/1045160/1045160-1784019602-foto-1.jpg",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-28",
@@ -896,8 +448,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 10.185 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045160-nabidka-prodej-pozemku-libez",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1045k/1045160/1045160-1784019602-foto-1.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045160-nabidka-prodej-pozemku-libez"
   },
   {
    "address": "Libež - Libež, Středočeský kraj",
@@ -909,6 +460,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:1045162",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1045k/1045162/1045162-1784019917-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1045k/1045162/1045162-1784019917-foto-1.jpg",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-28",
@@ -926,8 +478,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 8.739 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045162-nabidka-prodej-pozemku-libez",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1045k/1045162/1045162-1784019917-foto-1.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045162-nabidka-prodej-pozemku-libez"
   },
   {
    "address": "Psáře - Psáře, Středočeský kraj",
@@ -968,6 +519,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:949774",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/949k/949774/949774-1784638444-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/949k/949774/949774-1784638444-foto-1.jpg",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-28",
@@ -985,8 +537,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 3.856 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949774-nabidka-prodej-pozemku-pravonin",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/949k/949774/949774-1784638444-foto-1.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949774-nabidka-prodej-pozemku-pravonin"
   },
   {
    "address": "Pravonín - Křížov pod Blaníkem, Středočeský kraj",
@@ -998,6 +549,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:949826",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/949k/949826/949826-1784638619-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/949k/949826/949826-1784638619-foto-1.jpg",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-28",
@@ -1015,8 +567,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 13.670 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949826-nabidka-prodej-pozemku-pravonin",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/949k/949826/949826-1784638619-foto-1.jpg"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949826-nabidka-prodej-pozemku-pravonin"
   },
   {
    "address": "Načeradec - Načeradec, Středočeský kraj",
@@ -1028,6 +579,7 @@
    "first_seen": "2026-07-21",
    "id": "bezrealitky:968533",
    "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/968k/968533/1764179060-jqclpvlxvq-pozemky-katastr-c3-a1ln-c3-ad-mapa.png",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/968k/968533/1764179060-jqclpvlxvq-pozemky-katastr-c3-a1ln-c3-ad-mapa.png",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-28",
@@ -1045,8 +597,7 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 820 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/968533-nabidka-prodej-pozemku",
-   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/968k/968533/1764179060-jqclpvlxvq-pozemky-katastr-c3-a1ln-c3-ad-mapa.png"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/968533-nabidka-prodej-pozemku"
   },
   {
    "address": "Milovanice",
@@ -1284,7 +835,7 @@
    "removed_on": "2026-07-28",
    "source": "sreality",
    "title": "Prodej louky 24034 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/kamberk/1070133324"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/kamberk/1070133324"
   },
   {
    "address": "Dolní Lhota",
@@ -1629,8 +1180,8 @@
    "distance_km": 5.94,
    "first_seen": "2026-07-21",
    "id": "sreality:1362595916",
-   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_E/kQMlcCt5zmD87zEhCzHQmwPX/4d2b.jpeg?fl=res,800,600,3|shr,,20|webp,60",
-   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_E/kQMlcCt5zmD87zEhCzHQmwPX/4d2b.jpeg?fl=res,100,100,1|jpg,80",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_F/nEwftpXyZBRWuKWZHVPvqz/aec6.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_F/nEwftpXyZBRWuKWZHVPvqz/aec6.jpeg?fl=res,100,100,1|jpg,80",
    "is_new": false,
    "land_area_m2": 429,
    "last_seen": "2026-07-28",
@@ -1836,7 +1387,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 36326 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/sebirov/1458771276"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/sebirov/1458771276"
   },
   {
    "address": "Dvořákova, Zruč nad Sázavou",
@@ -1985,7 +1536,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 4064 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/tehov/1500214092"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/tehov/1500214092"
   },
   {
    "address": "Milovanice",
@@ -2314,7 +1865,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 384 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni/psare/1659233100"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/psare/1659233100"
   },
   {
    "address": "Onšovice",
@@ -2373,7 +1924,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 6515 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni/pravonin/1688728396"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/pravonin/1688728396"
   },
   {
    "address": "Řendějov",
@@ -2736,7 +2287,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 3259 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrady/vsechlapy/1916837964"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/vsechlapy/1916837964"
   },
   {
    "address": "Zámecké náměstí, Načeradec",
@@ -2886,7 +2437,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 3892 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/tehov/1989341260"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/tehov/1989341260"
   },
   {
    "address": "Dobříčkov",
@@ -3066,7 +2617,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 1603 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrady/liberec/2184983116"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/2184983116"
   },
   {
    "address": "Pravonín",
@@ -3096,7 +2647,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 237 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/pravonin/2185658956"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin/2185658956"
   },
   {
    "address": "Všechlapy",
@@ -3156,7 +2707,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 720 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrady/liberec/221205324"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/221205324"
   },
   {
    "address": "Na Sídlišti, Divišov",
@@ -3276,7 +2827,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 123 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-kk/liberec/224038988"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/224038988"
   },
   {
    "address": "Strojetice",
@@ -3544,7 +3095,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 4244 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/cechtice/2372575308"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/cechtice/2372575308"
   },
   {
    "address": "Postupice",
@@ -3693,7 +3244,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 927 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni/vsechlapy/2441322572"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vsechlapy/2441322572"
   },
   {
    "address": "Struhařov",
@@ -3753,7 +3304,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 8999 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni/zvestov/2467733580"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/zvestov/2467733580"
   },
   {
    "address": "Slověnice",
@@ -3962,7 +3513,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 1000 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni/vlasim/2561905228"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vlasim/2561905228"
   },
   {
    "address": "Postupice",
@@ -4172,7 +3723,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 108 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-1/liberec/271679564"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/271679564"
   },
   {
    "address": "Sedlice",
@@ -4262,7 +3813,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 670 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrady/chaberice/2746581068"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/chaberice/2746581068"
   },
   {
    "address": "Pilátka, Dlouhé Pole",
@@ -4653,7 +4204,7 @@
    "removed_on": "2026-07-28",
    "source": "sreality",
    "title": "Prodej louky 56889 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/lounovice-pod-blanikem/298271564"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/lounovice-pod-blanikem/298271564"
   },
   {
    "address": "Vranice",
@@ -5047,7 +4598,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 3093 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/popovice/3181543500"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/popovice/3181543500"
   },
   {
    "address": "Ondříčkova, Liberec I-Staré Město",
@@ -5077,7 +4628,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 90 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-kk/liberec/3209265228"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/3209265228"
   },
   {
    "address": "Načeradec",
@@ -5261,7 +4812,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 1506 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni/zvestov/3275334220"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/zvestov/3275334220"
   },
   {
    "address": "Zdislavice",
@@ -5530,7 +5081,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 13670 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/pravonin/3393098572"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin/3393098572"
   },
   {
    "address": "Na Pískovně, Liberec XIV-Ruprechtice",
@@ -5560,7 +5111,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 90 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-1/liberec/3419922508"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/3419922508"
   },
   {
    "address": "náměstí Sv. Čecha, Postupice",
@@ -5680,7 +5231,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 2210 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni/chaberice/3528504140"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/chaberice/3528504140"
   },
   {
    "address": "Český Šternberk",
@@ -5860,7 +5411,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 6534 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni/vlasim/3595387724"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vlasim/3595387724"
   },
   {
    "address": "Dračí, Liberec XIV-Ruprechtice",
@@ -5980,7 +5531,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 1133 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/trhovy-stepanov/3671385164"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/trhovy-stepanov/3671385164"
   },
   {
    "address": "Nádražní, Trhový Štěpánov",
@@ -6763,7 +6314,7 @@
    "removed_on": "2026-07-28",
    "source": "sreality",
    "title": "Prodej lesa 893 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/postupice/4073964364"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/postupice/4073964364"
   },
   {
    "address": "Teplýšovice",
@@ -7097,7 +6648,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 45954 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/zvestov/4212597580"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zvestov/4212597580"
   },
   {
    "address": "Tehov",
@@ -7251,7 +6802,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 705 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrady/trhovy-stepanov/4270408524"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/trhovy-stepanov/4270408524"
   },
   {
    "address": "Strojetice",
@@ -7341,7 +6892,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 1137 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/vlasim/446730316"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/vlasim/446730316"
   },
   {
    "address": "Kácov",
@@ -7400,7 +6951,7 @@
    "removed_on": "2026-07-28",
    "source": "sreality",
    "title": "Prodej louky 3653 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/kamberk/482930764"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/kamberk/482930764"
   },
   {
    "address": "Kácov",
@@ -7430,7 +6981,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 804 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni/kacov/494682700"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/kacov/494682700"
   },
   {
    "address": "V Kopci, Načeradec",
@@ -7610,7 +7161,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 23891 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni/lounovice-pod-blanikem/740406092"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/lounovice-pod-blanikem/740406092"
   },
   {
    "address": "V Hůře, Postupice",
@@ -7670,7 +7221,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 5707 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/mnichovice/763851340"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/mnichovice/763851340"
   },
   {
    "address": "Býkovice",
@@ -7759,7 +7310,7 @@
    "removed_on": "2026-07-28",
    "source": "sreality",
    "title": "Prodej louky 36264 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/kamberk/835252300"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/kamberk/835252300"
   },
   {
    "address": "Mnichovice",
@@ -7912,7 +7463,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 8755 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/lounovice-pod-blanikem/957010764"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/lounovice-pod-blanikem/957010764"
   },
   {
    "address": "Daměnice",
@@ -8002,7 +7553,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 3856 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/pravonin/977179468"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin/977179468"
   },
   {
    "address": "Kamenná Lhota",
@@ -8122,6 +7673,396 @@
    "source": "sreality",
    "title": "Prodej stavebního pozemku 273 m²",
    "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/chaberice/999723084"
+  },
+  {
+   "address": "Ostředek - Bělčice u Ostředka, Středočeský kraj",
+   "area_m2": 11254,
+   "category": "pozemek",
+   "city": null,
+   "disposition": null,
+   "distance_km": 17.11,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:1003146",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1003k/1003146/1003146-1779115381-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1003k/1003146/1003146-1779115381-foto-1.jpg",
+   "is_new": false,
+   "land_area_m2": null,
+   "last_seen": "2026-07-28",
+   "lat": 49.847375,
+   "lon": 14.813292,
+   "matched_area": "Vlašim",
+   "price": 389000,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 389000
+    }
+   ],
+   "price_per_m2": 35,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej pozemku 11.254 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1003146-nabidka-prodej-pozemku-ostredek"
+  },
+  {
+   "address": "Zbizuby - Zbizuby, Středočeský kraj",
+   "area_m2": 1527,
+   "category": "pozemek",
+   "city": null,
+   "disposition": null,
+   "distance_km": 15.97,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:1013262",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1013k/1013262/1013262-1776323973-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1013k/1013262/1013262-1776323973-foto-1.jpg",
+   "is_new": false,
+   "land_area_m2": null,
+   "last_seen": "2026-07-28",
+   "lat": 49.822975,
+   "lon": 15.026266,
+   "matched_area": "Vlašim",
+   "price": 2499000,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 2499000
+    }
+   ],
+   "price_per_m2": 1637,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej pozemku 1.527 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1013262-nabidka-prodej-pozemku"
+  },
+  {
+   "address": "Šebířov - Vyšetice, Jihočeský kraj",
+   "area_m2": 2281,
+   "category": "pozemek",
+   "city": null,
+   "disposition": null,
+   "distance_km": 15.77,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:1015868",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1015k/1015868/1015868-1776935254-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1015k/1015868/1015868-1776935254-foto-1.jpg",
+   "is_new": false,
+   "land_area_m2": null,
+   "last_seen": "2026-07-28",
+   "lat": 49.59422,
+   "lon": 14.762954,
+   "matched_area": "Vlašim",
+   "price": 66000,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 66000
+    }
+   ],
+   "price_per_m2": 29,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej pozemku 2.281 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1015868-nabidka-prodej-pozemku"
+  },
+  {
+   "address": "Pod Vodárnou, Jablonec nad Nisou - Lukášov, Liberecký kraj",
+   "area_m2": 110,
+   "category": "dum",
+   "city": null,
+   "disposition": "4+1",
+   "distance_km": 2.48,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:1023789",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1023k/1023789/1778858537-xuauhtbjuk-a4481621-b3c2-4a25-b9ea-1457ec76e12c-1-105-c.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1023k/1023789/1778858537-xuauhtbjuk-a4481621-b3c2-4a25-b9ea-1457ec76e12c-1-105-c.jpg",
+   "is_new": false,
+   "land_area_m2": 896,
+   "last_seen": "2026-07-28",
+   "lat": 50.7530276,
+   "lon": 15.1306188,
+   "matched_area": "Vratislavice nad Nisou",
+   "price": 5450000,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 5450000
+    }
+   ],
+   "price_per_m2": 49545,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej domu 110 m², pozemek 896 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023789-nabidka-prodej-domu-pod-vodarnou-jablonec-nad-nisou"
+  },
+  {
+   "address": "Votice - Budenín, Středočeský kraj",
+   "area_m2": 6639,
+   "category": "pozemek",
+   "city": null,
+   "disposition": null,
+   "distance_km": 17.21,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:1033466",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1033k/1033466/1033466-1783427830-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1033k/1033466/1033466-1783427830-foto-1.jpg",
+   "is_new": false,
+   "land_area_m2": null,
+   "last_seen": "2026-07-28",
+   "lat": 49.643739,
+   "lon": 14.680898,
+   "matched_area": "Vlašim",
+   "price": 230000,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 230000
+    }
+   ],
+   "price_per_m2": 35,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej pozemku 6.639 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033466-nabidka-prodej-pozemku-votice"
+  },
+  {
+   "address": "Jablonec nad Nisou - Lukášov, Liberecký kraj",
+   "area_m2": 1070,
+   "category": "pozemek",
+   "city": null,
+   "disposition": null,
+   "distance_km": 2.77,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:1036886",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1036k/1036886/1784812794-ncjbkdytqx-1000052591.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1036k/1036886/1784812794-ncjbkdytqx-1000052591.jpg",
+   "is_new": false,
+   "land_area_m2": null,
+   "last_seen": "2026-07-28",
+   "lat": 50.7478267,
+   "lon": 15.135204,
+   "matched_area": "Vratislavice nad Nisou",
+   "price": 3390000,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 3390000
+    }
+   ],
+   "price_per_m2": 3168,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej pozemku 1.070 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1036886-nabidka-prodej-pozemku-jablonec-nad-nisou"
+  },
+  {
+   "address": "Frýdlantská, Liberec - Liberec, Liberecký kraj",
+   "area_m2": 109,
+   "category": "byt",
+   "city": null,
+   "disposition": "4+kk",
+   "distance_km": 0.91,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:1037820",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1037k/1037820/1782232558-nbhmynadsl-byt-c-cc-8c5-fry-cc-81dlantska-cc-81-1321-c3.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1037k/1037820/1782232558-nbhmynadsl-byt-c-cc-8c5-fry-cc-81dlantska-cc-81-1321-c3.jpg",
+   "is_new": false,
+   "land_area_m2": null,
+   "last_seen": "2026-07-28",
+   "lat": 50.7701773,
+   "lon": 15.0573749,
+   "matched_area": "Masarykova třída (Liberec)",
+   "price": 7590000,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 7590000
+    }
+   ],
+   "price_per_m2": 69633,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej bytu 4+kk 109 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037820-nabidka-prodej-bytu-frydlantska-liberec"
+  },
+  {
+   "address": "Slapsko - Slapsko, Jihočeský kraj",
+   "area_m2": 206,
+   "category": "dum",
+   "city": null,
+   "disposition": "4+1",
+   "distance_km": 16.64,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:1039477",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1039k/1039477/1782708978-mvepngsvrw-vitanovice-2.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1039k/1039477/1782708978-mvepngsvrw-vitanovice-2.jpg",
+   "is_new": false,
+   "land_area_m2": 885,
+   "last_seen": "2026-07-28",
+   "lat": 49.5837527,
+   "lon": 14.7640094,
+   "matched_area": "Vlašim",
+   "price": 3500000,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 3500000
+    }
+   ],
+   "price_per_m2": 16990,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej domu 206 m², pozemek 885 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1039477-nabidka-prodej-domu-slapsko"
+  },
+  {
+   "address": "Karla Nového, Bystřice - Bystřice u Benešova, Středočeský kraj",
+   "area_m2": 151,
+   "category": "dum",
+   "city": null,
+   "disposition": "5+1",
+   "distance_km": 17.12,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:1046330",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1046k/1046330/1784289584-hvcizpuwxd-nem-bystice432-58.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1046k/1046330/1784289584-hvcizpuwxd-nem-bystice432-58.jpg",
+   "is_new": false,
+   "land_area_m2": 866,
+   "last_seen": "2026-07-28",
+   "lat": 49.729055,
+   "lon": 14.6659263,
+   "matched_area": "Vlašim",
+   "price": 10700000,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 10700000
+    }
+   ],
+   "price_per_m2": 70861,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej domu 151 m², pozemek 866 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1046330-nabidka-prodej-domu-karla-noveho-bystrice"
+  },
+  {
+   "address": "Postupice - Jemniště, Středočeský kraj",
+   "area_m2": 8431,
+   "category": "pozemek",
+   "city": null,
+   "disposition": null,
+   "distance_km": 9.61,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:1048427",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1048k/1048427/1048427-1784809597-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1048k/1048427/1048427-1784809597-foto-1.jpg",
+   "is_new": false,
+   "land_area_m2": null,
+   "last_seen": "2026-07-28",
+   "lat": 49.754044,
+   "lon": 14.791643,
+   "matched_area": "Vlašim",
+   "price": 375950,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 375950
+    }
+   ],
+   "price_per_m2": 45,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej pozemku 8.431 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048427-nabidka-prodej-pozemku-postupice"
+  },
+  {
+   "address": "Horka II - Horka nad Sázavou, Středočeský kraj",
+   "area_m2": 1493,
+   "category": "pozemek",
+   "city": null,
+   "disposition": null,
+   "distance_km": 16.67,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:836119",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/836k/836119/1782287716-umxweycsbl-001-dron-ozna-c4-8den-c3-ad.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/836k/836119/1782287716-umxweycsbl-001-dron-ozna-c4-8den-c3-ad.jpg",
+   "is_new": false,
+   "land_area_m2": null,
+   "last_seen": "2026-07-28",
+   "lat": 49.73655375341,
+   "lon": 15.127492016866,
+   "matched_area": "Vlašim",
+   "price": 2750000,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 2750000
+    }
+   ],
+   "price_per_m2": 1842,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej pozemku 1.493 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/836119-nabidka-prodej-pozemku-horka-ii"
+  },
+  {
+   "address": "Louňovice pod Blaníkem - Louňovice pod Blaníkem, Středočeský kraj",
+   "area_m2": 248,
+   "category": "dum",
+   "city": null,
+   "disposition": "5+kk",
+   "distance_km": 8.42,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:942752",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/942k/942752/1757330669-vcrcfkppvi-dum1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/942k/942752/1757330669-vcrcfkppvi-dum1.jpg",
+   "is_new": false,
+   "land_area_m2": 1000,
+   "last_seen": "2026-07-28",
+   "lat": 49.6371536,
+   "lon": 14.8470198,
+   "matched_area": "Vlašim",
+   "price": 11990000,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 11990000
+    }
+   ],
+   "price_per_m2": 48347,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej domu 248 m², pozemek 1.000 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/942752-nabidka-prodej-domu-lounovice-pod-blanikem"
+  },
+  {
+   "address": "Slapsko - Slapsko, Jihočeský kraj",
+   "area_m2": 6571,
+   "category": "pozemek",
+   "city": null,
+   "disposition": null,
+   "distance_km": 17.31,
+   "first_seen": "2026-07-28",
+   "id": "bezrealitky:949795",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/949k/949795/949795-1778159422-foto-1.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/949k/949795/949795-1778159422-foto-1.jpg",
+   "is_new": false,
+   "land_area_m2": null,
+   "last_seen": "2026-07-28",
+   "lat": 49.583122,
+   "lon": 14.750015,
+   "matched_area": "Vlašim",
+   "price": 215000,
+   "price_history": [
+    {
+     "date": "2026-07-28",
+     "price": 215000
+    }
+   ],
+   "price_per_m2": 33,
+   "removed_on": null,
+   "source": "bezrealitky",
+   "title": "Prodej pozemku 6.571 m²",
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949795-nabidka-prodej-pozemku-slapsko"
   },
   {
    "address": "Pod Baštou, Zruč nad Sázavou",
@@ -8305,7 +8246,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 94 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-1/liberec/1150178124"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/1150178124"
   },
   {
    "address": "Rataje",
@@ -8579,7 +8520,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 2112 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/zbizuby/1280548940"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zbizuby/1280548940"
   },
   {
    "address": "Nad Potokem, Liberec XXV-Vesec",
@@ -8849,7 +8790,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 125 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-1/liberec/1536648012"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/1536648012"
   },
   {
    "address": "Křivsoudov",
@@ -8973,7 +8914,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 92 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-kk/liberec/1638621772"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/1638621772"
   },
   {
    "address": "Na Nivách, Liberec XV-Starý Harcov",
@@ -9063,7 +9004,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 14111 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/liberec/1722261580"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/liberec/1722261580"
   },
   {
    "address": "Rýmařovská, Liberec XXX-Vratislavice nad Nisou",
@@ -9123,7 +9064,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 1146 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni/neustupov/1781813836"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/neustupov/1781813836"
   },
   {
    "address": "Řendějov",
@@ -9153,7 +9094,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 1750 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni/rendejov/1840734796"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/rendejov/1840734796"
   },
   {
    "address": "Liberec",
@@ -9277,7 +9218,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 1019 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrady/liberec/1893851212"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/1893851212"
   },
   {
    "address": "Vyklantická, Lukavec",
@@ -9757,7 +9698,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 135 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-kk/liberec/2146598988"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2146598988"
   },
   {
    "address": "Kozmice",
@@ -9847,7 +9788,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 82 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-kk/liberec/2201522252"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2201522252"
   },
   {
    "address": "Šebířov",
@@ -10001,7 +9942,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 11254 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/ostredek/2301248332"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/ostredek/2301248332"
   },
   {
    "address": "Liberec",
@@ -10031,7 +9972,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 81 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-1/liberec/2320224332"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/2320224332"
   },
   {
    "address": "Pod Hřbitovem, Benešov",
@@ -10091,7 +10032,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 6492 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/liberec/235955020"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/liberec/235955020"
   },
   {
    "address": "Zbizuby",
@@ -10181,7 +10122,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 6639 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/votice/255098956"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/votice/255098956"
   },
   {
    "address": "Rataje nad Sázavou",
@@ -10271,7 +10212,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 6061 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/rendejov/2636357708"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/rendejov/2636357708"
   },
   {
    "address": "1. máje, Zruč nad Sázavou",
@@ -10451,7 +10392,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 124 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-kk/liberec/2856739916"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2856739916"
   },
   {
    "address": "Liberec XVII-Kateřinky",
@@ -10481,7 +10422,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 1730 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/liberec/2860925772"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/liberec/2860925772"
   },
   {
    "address": "Zruč nad Sázavou",
@@ -10511,7 +10452,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 7910 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrady/zruc-nad-sazavou/2875060300"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/zruc-nad-sazavou/2875060300"
   },
   {
    "address": "Karla Nového, Bystřice",
@@ -10571,7 +10512,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 82 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-1/liberec/2941469516"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/2941469516"
   },
   {
    "address": "Na Bohdalci, Liberec XV-Starý Harcov",
@@ -10931,7 +10872,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 10902 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/liberec/3237146700"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/liberec/3237146700"
   },
   {
    "address": "Na Skřivanech, Liberec XV-Starý Harcov",
@@ -11093,7 +11034,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 3945 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/liberec/3314828108"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/liberec/3314828108"
   },
   {
    "address": "Kozmice",
@@ -11303,7 +11244,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 80 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-kk/liberec/3441168972"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/3441168972"
   },
   {
    "address": "Dlouhá, Liberec XXV-Vesec",
@@ -11393,7 +11334,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 6015 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/zbizuby/3527320396"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zbizuby/3527320396"
   },
   {
    "address": "Mariánovice",
@@ -11783,7 +11724,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 115 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-kk/liberec/374424140"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/374424140"
   },
   {
    "address": "Křivsoudov",
@@ -11843,7 +11784,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 4719 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/zruc-nad-sazavou/3826487372"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zruc-nad-sazavou/3826487372"
   },
   {
    "address": "Leknínová, Liberec XXX-Vratislavice nad Nisou",
@@ -12023,7 +11964,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 1359 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrady/liberec/4034129996"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/4034129996"
   },
   {
    "address": "Vilice",
@@ -12053,7 +11994,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 1008 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrady/vilice/4058701900"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/vilice/4058701900"
   },
   {
    "address": "Bernartice",
@@ -12237,7 +12178,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 109 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-kk/liberec/41541708"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/41541708"
   },
   {
    "address": "Ječná, Liberec XV-Starý Harcov",
@@ -12267,7 +12208,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 81 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-1/liberec/4158648396"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/4158648396"
   },
   {
    "address": "Na Obci, Bystřice",
@@ -12357,7 +12298,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 82 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4-kk/liberec/4218871884"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/4218871884"
   },
   {
    "address": "Trhový Štěpánov",
@@ -12777,7 +12718,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 3606 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/kresin/890429516"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/kresin/890429516"
   }
  ]
 }

@@ -2,7 +2,6 @@
 """Společné schéma inzerátu a pomocné funkce pro normalizaci."""
 
 import re
-import unicodedata
 
 
 def make_listing(source, native_id, category, title, price, area_m2, land_area_m2,
@@ -67,13 +66,3 @@ def _to_int(s):
         return int(cleaned)
     except (ValueError, TypeError):
         return None
-
-
-def slugify(text):
-    """Zjednodušený slug pro sestavení URL (bez diakritiky, mezery -> pomlčky)."""
-    if not text:
-        return "x"
-    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
-    text = text.lower().strip()
-    text = re.sub(r"[^a-z0-9]+", "-", text).strip("-")
-    return text or "x"
