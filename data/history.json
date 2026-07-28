@@ -3988,5 +3988,266 @@
   "id": "sreality:986018636",
   "title": "Prodej rodinného domu 160 m², pozemek 2058 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/popovice/986018636"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:942752",
+  "title": "Prodej domu 248 m², pozemek 1.000 m²",
+  "price": 11990000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/942752-nabidka-prodej-domu-lounovice-pod-blanikem"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:1046330",
+  "title": "Prodej domu 151 m², pozemek 866 m²",
+  "price": 10700000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1046330-nabidka-prodej-domu-karla-noveho-bystrice"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:1039477",
+  "title": "Prodej domu 206 m², pozemek 885 m²",
+  "price": 3500000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1039477-nabidka-prodej-domu-slapsko"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:1023789",
+  "title": "Prodej domu 110 m², pozemek 896 m²",
+  "price": 5450000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023789-nabidka-prodej-domu-pod-vodarnou-jablonec-nad-nisou"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:1037820",
+  "title": "Prodej bytu 4+kk 109 m²",
+  "price": 7590000,
+  "area": "Masarykova třída (Liberec)",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037820-nabidka-prodej-bytu-frydlantska-liberec"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:3314828108",
+  "title": "Prodej louky 3945 m²",
+  "old_price": 98,
+  "new_price": 386610,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/louky/liberec/3314828108"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:3251487564",
+  "title": "Prodej stavebního pozemku 1163 m²",
+  "old_price": 2790,
+  "new_price": 3244770,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3251487564"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:1601270348",
+  "title": "Prodej stavebního pozemku 4467 m²",
+  "old_price": 810,
+  "new_price": 3618270,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1601270348"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:4073881676",
+  "title": "Prodej stavebního pozemku 870 m²",
+  "old_price": 2200,
+  "new_price": 1914000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bernartice/4073881676"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:3268575308",
+  "title": "Prodej stavebního pozemku 1087 m²",
+  "old_price": 2100,
+  "new_price": 2282700,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bernartice/3268575308"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:1813701196",
+  "title": "Prodej stavebního pozemku 967 m²",
+  "old_price": 4134,
+  "new_price": 3997578,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/tehov/1813701196"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:1353031756",
+  "title": "Prodej stavebního pozemku 890 m²",
+  "old_price": 3200,
+  "new_price": 2848000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ratmerice/1353031756"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:2207875148",
+  "title": "Prodej stavebního pozemku 1359 m²",
+  "old_price": 2400,
+  "new_price": 3261600,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sebirov/2207875148"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:1036116044",
+  "title": "Prodej pole 11842 m²",
+  "old_price": 250,
+  "new_price": 2960500,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/benesov/1036116044"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:1222606924",
+  "title": "Prodej stavebního pozemku 925 m²",
+  "old_price": 2900,
+  "new_price": 2682500,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/1222606924"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:4221165644",
+  "title": "Prodej pole 90581 m²",
+  "old_price": 49,
+  "new_price": 4438469,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/postupice/4221165644"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:2907378252",
+  "title": "Prodej stavebního pozemku 1000 m²",
+  "old_price": 2350,
+  "new_price": 2350000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/naceradec/2907378252"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:1430475596",
+  "title": "Prodej stavebního pozemku 1000 m²",
+  "old_price": 3300,
+  "new_price": 3300000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/1430475596"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:1885279052",
+  "title": "Prodej stavebního pozemku 800 m²",
+  "old_price": 3780,
+  "new_price": 3024000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/1885279052"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:957010764",
+  "title": "Prodej lesa 8755 m²",
+  "old_price": 20,
+  "new_price": 175100,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/lounovice-pod-blanikem/957010764"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "price_changed",
+  "id": "sreality:1458771276",
+  "title": "Prodej lesa 36326 m²",
+  "old_price": 20,
+  "new_price": 726520,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/lesy/sebirov/1458771276"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:1036886",
+  "title": "Prodej pozemku 1.070 m²",
+  "price": 3390000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1036886-nabidka-prodej-pozemku-jablonec-nad-nisou"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:1048427",
+  "title": "Prodej pozemku 8.431 m²",
+  "price": 375950,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048427-nabidka-prodej-pozemku-postupice"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:1015868",
+  "title": "Prodej pozemku 2.281 m²",
+  "price": 66000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1015868-nabidka-prodej-pozemku"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:949795",
+  "title": "Prodej pozemku 6.571 m²",
+  "price": 215000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949795-nabidka-prodej-pozemku-slapsko"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:1003146",
+  "title": "Prodej pozemku 11.254 m²",
+  "price": 389000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1003146-nabidka-prodej-pozemku-ostredek"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:1013262",
+  "title": "Prodej pozemku 1.527 m²",
+  "price": 2499000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1013262-nabidka-prodej-pozemku"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:1033466",
+  "title": "Prodej pozemku 6.639 m²",
+  "price": 230000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033466-nabidka-prodej-pozemku-votice"
+ },
+ {
+  "date": "2026-07-28",
+  "event": "appeared",
+  "id": "bezrealitky:836119",
+  "title": "Prodej pozemku 1.493 m²",
+  "price": 2750000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/836119-nabidka-prodej-pozemku-horka-ii"
  }
 ]

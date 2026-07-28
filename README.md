@@ -36,13 +36,18 @@ run.py  ──►  stáhne inzeráty (Sreality + Bezrealitky)
 - Historie: [`data/history.json`](data/history.json) – kdy co přibylo / zdražilo / zmizelo
 - Tabulka: [`docs/index.html`](docs/index.html) – interaktivní, řaditelná
 
-Skript používá **jen standardní knihovnu Pythonu** – nic se neinstaluje.
+Skript stojí na standardní knihovně Pythonu, jediná závislost je **`certifi`** –
+aktuální seznam certifikačních autorit (viz níže).
 
 ---
 
 ## A) Vyzkoušení na svém počítači
 
 Potřebuješ nainstalovaný Python 3.11+.
+
+```bash
+python -m pip install -r requirements.txt
+```
 
 ```bash
 python run.py
@@ -56,8 +61,18 @@ python -m http.server 8000
 # a v prohlížeči otevři http://localhost:8000
 ```
 
-> Pokud počítač hlásí chybu certifikátu u Bezrealitky, spusť jednorázově:
-> `set REALITY_INSECURE_SSL=1` (Windows) a pak `python run.py`. V cloudu to není potřeba.
+> **Chyba certifikátu u Bezrealitky?** Windows si drží jen ty certifikační autority,
+> na které kdy narazil, a Python pak hlásí `certificate has expired` i u serveru
+> s platným certifikátem. Řeší to balíček `certifi` z `requirements.txt`; když se
+> chyba objeví znovu, stačí ho aktualizovat:
+>
+> ```bash
+> python -m pip install --upgrade certifi
+> ```
+>
+> Úplně nouzově jde ověřování vypnout přes `set REALITY_INSECURE_SSL=1` (Windows),
+> ale pak se s protistranou komunikuje bez kontroly totožnosti – ber to jako
+> poslední možnost, ne jako běžné řešení.
 
 E-mail se lokálně neposílá, dokud nenastavíš přihlašovací údaje (viz níže) –
 novinky ale uvidíš v tabulce.
@@ -100,9 +115,13 @@ každý den ráno. Ručně ho vyzkoušíš v záložce **Actions → Hlídač ne
 ---
 
 ## Tabulka – co umí
+- **Panel „Podle čeho se hledá“** nad tabulkou – rozbalí přehled lokalit
+  (oblast + okruh + celkový dosah), cenových stropů a minimálních ploch,
+  takže je vidět, proč se nemovitost zobrazí nebo nezobrazí
 - **Řazení** kliknutím na hlavičku sloupce (cena, plocha, Kč/m², vzdálenost, datum…)
 - **Filtry**: lokalita, typ, portál, „jen nové“, „skrýt zmizelé“
 - **Hledání** v názvu a adrese
+- **Kč/m²** – když ho portál neuvádí, dopočítá se z ceny a plochy
 - **Zvýraznění nových** (žlutý štítek *NOVÉ*), zmizelé jsou přeškrtnuté
 - Náhledový obrázek a klikací odkaz přímo na inzerát
 
