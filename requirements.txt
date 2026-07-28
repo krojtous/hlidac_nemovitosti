@@ -1,0 +1,8 @@
+# Skript jinak vystačí se standardní knihovnou Pythonu.
+#
+# certifi = aktuální seznam certifikačních autorit od Mozilly.
+# Bez něj hlásí Python na Windows u api.bezrealitky.cz "certificate has expired",
+# protože systémové úložiště certifikátů bývá zastaralé.
+# Instalace:  python -m pip install -r requirements.txt
+# Aktualizace certifikátů později:  python -m pip install --upgrade certifi
+certifi>=2026.7.22

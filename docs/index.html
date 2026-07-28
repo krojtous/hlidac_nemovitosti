@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hlídač nemovitostí</title>
+<style>
+  :root{
+    --bg:#f5f6f8; --card:#fff; --text:#1a1d21; --muted:#6b7280; --line:#e5e7eb;
+    --accent:#0b5cad; --new:#fff7e6; --new-border:#f0b429; --removed:#9aa0a6;
+    --hover:#f0f4fa;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{--bg:#15171b; --card:#1e2126; --text:#e8eaed; --muted:#9aa0a6; --line:#2c3036;
+      --accent:#5aa9f0; --new:#3a2f12; --new-border:#f0b429; --removed:#6b7280; --hover:#262a30;}
+  }
+  *{box-sizing:border-box}
+  /* Stránka se nescrolluje jako celek – posouvá se jen tabulka (.wrap).
+     Díky tomu hlavička sedí vždy pod ovládáním, i když se filtry zalomí do více řádků. */
+  html{height:100%}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+    background:var(--bg);color:var(--text);font-size:14px;
+    height:100vh;height:100dvh;display:flex;flex-direction:column}
+  header{flex:none;padding:16px 20px;border-bottom:1px solid var(--line);background:var(--card)}
+  h1{margin:0;font-size:18px}
+  .sub{color:var(--muted);font-size:12px;margin-top:3px}
+  .controls{flex:none;display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:12px 20px;
+    background:var(--card);border-bottom:1px solid var(--line)}
+  select,input[type=search]{padding:6px 9px;border:1px solid var(--line);border-radius:7px;
+    background:var(--bg);color:var(--text);font-size:13px}
+  label.chk{display:inline-flex;align-items:center;gap:5px;color:var(--muted);cursor:pointer;user-select:none}
+  .wrap{flex:1 1 auto;min-height:0;overflow:auto;padding:0 12px 40px}
+  table{border-collapse:collapse;width:100%;min-width:900px;background:var(--card)}
+  th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:middle}
+  /* Sticky hlavička: linka se kreslí stínem, protože border-collapse ji při posunu „ztrácí“. */
+  th{position:sticky;top:0;z-index:3;background:var(--card);cursor:pointer;white-space:nowrap;
+    font-size:12px;color:var(--muted);user-select:none;border-bottom:none;
+    box-shadow:inset 0 -1px 0 var(--line)}
+  th:hover{color:var(--text)}
+  th .arw{opacity:.4;font-size:10px}
+  th.sorted .arw{opacity:1;color:var(--accent)}
+  tr.new td{background:var(--new)}
+  tr.new td:first-child{border-left:3px solid var(--new-border)}
+  tr.removed td{color:var(--removed);text-decoration:line-through}
+  tr:hover td{background:var(--hover)}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  a.title{color:var(--accent);text-decoration:none;font-weight:600}
+  a.title:hover{text-decoration:underline}
+  img.thumb{width:64px;height:48px;object-fit:cover;border-radius:5px;background:var(--line)}
+  .badge{display:inline-block;font-size:10px;font-weight:700;padding:1px 6px;border-radius:20px;
+    background:var(--new-border);color:#1a1d21;margin-left:6px;vertical-align:middle}
+  .pill{display:inline-block;font-size:11px;padding:1px 7px;border-radius:20px;border:1px solid var(--line);color:var(--muted)}
+  .addr{color:var(--muted);font-size:12px}
+  .empty{padding:40px;text-align:center;color:var(--muted)}
+  .src{font-size:11px;color:var(--muted)}
+  /* Panel s kritérii hledání – rozbaluje se, aby normálně nezabíral místo. */
+  details.crit{flex:none;background:var(--card);border-bottom:1px solid var(--line)}
+  details.crit summary{padding:9px 20px;cursor:pointer;color:var(--muted);font-size:12px;
+    user-select:none;list-style:none}
+  details.crit summary::-webkit-details-marker{display:none}
+  details.crit summary::before{content:"▸ ";display:inline-block;transition:transform .15s}
+  details.crit[open] summary::before{transform:rotate(90deg)}
+  details.crit summary:hover{color:var(--text)}
+  .crit-body{padding:2px 20px 16px;display:flex;flex-wrap:wrap;gap:26px;align-items:flex-start}
+  .crit-body h4{margin:0 0 6px;font-size:12px;color:var(--muted);font-weight:600;
+    text-transform:uppercase;letter-spacing:.4px}
+  .crit-body table{width:auto;min-width:0;background:none;font-size:12.5px}
+  .crit-body th,.crit-body td{padding:3px 12px 3px 0;border-bottom:none;white-space:nowrap;
+    position:static;box-shadow:none;cursor:default;font-size:12.5px}
+  .crit-body th{color:var(--muted);font-weight:600;text-transform:none;letter-spacing:0}
+  .crit-body td.n{text-align:right;font-variant-numeric:tabular-nums}
+  .crit-note{color:var(--muted);font-size:11.5px;max-width:34ch;line-height:1.5}
+</style>
+</head>
+<body>
+<header>
+  <h1>🏠 Hlídač nemovitostí</h1>
+  <div class="sub" id="meta">Načítám…</div>
+</header>
+
+<div class="controls">
+  <input type="search" id="q" placeholder="Hledat v názvu / adrese…">
+  <select id="fArea"><option value="">Všechny lokality</option></select>
+  <select id="fCat">
+    <option value="">Všechny typy</option>
+    <option value="dum">Dům</option>
+    <option value="byt">Byt</option>
+    <option value="pozemek">Pozemek</option>
+  </select>
+  <select id="fSrc">
+    <option value="">Oba portály</option>
+    <option value="sreality">Sreality</option>
+    <option value="bezrealitky">Bezrealitky</option>
+  </select>
+  <label class="chk"><input type="checkbox" id="fNew"> jen nové</label>
+  <label class="chk"><input type="checkbox" id="fHide" checked> skrýt zmizelé</label>
+</div>
+
+<details class="crit" id="crit">
+  <summary>Podle čeho se hledá</summary>
+  <div class="crit-body" id="critBody"></div>
+</details>
+
+<div class="wrap">
+  <table id="tbl">
+    <thead><tr id="head"></tr></thead>
+    <tbody id="body"></tbody>
+  </table>
+  <div class="empty" id="empty" style="display:none">Nic neodpovídá filtru.</div>
+</div>
+
+<script>
+const COLS = [
+  {key:"image",     label:"",          sort:false},
+  {key:"title",     label:"Nemovitost",sort:true,  type:"str"},
+  {key:"price",     label:"Cena",      sort:true,  type:"num", fmt:fmtPrice},
+  {key:"area_m2",   label:"Plocha",    sort:true,  type:"num", fmt:v=>v?v+" m²":"—"},
+  {key:"price_per_m2",label:"Kč/m²",   sort:true,  type:"num", fmt:v=>v?fmtNum(v):"—"},
+  {key:"disposition",label:"Disp.",    sort:true,  type:"str", fmt:v=>v||"—"},
+  {key:"matched_area",label:"Lokalita",sort:true,  type:"str"},
+  {key:"distance_km",label:"Vzdál.",   sort:true,  type:"num", fmt:v=>v!=null?v.toFixed(1)+" km":"—"},
+  {key:"first_seen",label:"Přidáno",   sort:true,  type:"str"},
+  {key:"source",    label:"Portál",    sort:true,  type:"str"},
+];
+let DATA=[], sortKey="first_seen", sortDir=-1;
+
+function fmtNum(n){return (n||0).toLocaleString("cs-CZ").replace(/ /g," ");}
+function fmtPrice(n){return n? fmtNum(n)+" Kč":"—";}
+
+function buildHead(){
+  const tr=document.getElementById("head");
+  tr.innerHTML="";
+  COLS.forEach(c=>{
+    const th=document.createElement("th");
+    th.textContent=c.label;
+    if(c.sort){
+      const s=document.createElement("span"); s.className="arw"; s.textContent=" ↕";
+      th.appendChild(s);
+      if(c.key===sortKey){th.classList.add("sorted"); s.textContent=sortDir<0?" ↓":" ↑";}
+      th.onclick=()=>{ if(sortKey===c.key) sortDir*=-1; else {sortKey=c.key; sortDir=1;} render(); };
+    }
+    tr.appendChild(th);
+  });
+}
+
+function fmtKm(v){return (Math.round(v*10)/10).toLocaleString("cs-CZ")+" km";}
+function fmtMio(n){
+  if(n==null) return "—";
+  return n>=1e6 ? (n/1e6).toLocaleString("cs-CZ",{maximumFractionDigits:1})+" mil." : fmtNum(n);
+}
+
+// Malý pomocník: tabulka z hlavičky a řádků, ať se to níž nemusí psát pořád dokola.
+function critTable(head, rows){
+  const t=document.createElement("table");
+  const thead=document.createElement("thead"), htr=document.createElement("tr");
+  head.forEach(h=>{const th=document.createElement("th"); th.textContent=h; htr.appendChild(th);});
+  thead.appendChild(htr); t.appendChild(thead);
+  const tb=document.createElement("tbody");
+  rows.forEach(cells=>{
+    const tr=document.createElement("tr");
+    cells.forEach((c,i)=>{
+      const td=document.createElement("td");
+      td.textContent=c;
+      if(i>0) td.className="n";
+      tr.appendChild(td);
+    });
+    tb.appendChild(tr);
+  });
+  t.appendChild(tb); return t;
+}
+
+function block(title, node){
+  const d=document.createElement("div");
+  const h=document.createElement("h4"); h.textContent=title;
+  d.appendChild(h); d.appendChild(node); return d;
+}
+
+function renderCriteria(c){
+  const box=document.getElementById("critBody");
+  box.innerHTML="";
+  if(!c || !c.areas){
+    document.getElementById("crit").style.display="none";
+    return;
+  }
+  box.appendChild(block("Lokality", critTable(
+    ["Lokalita","Oblast","Okruh navíc","Hledá se do"],
+    c.areas.map(a=>[a.name, fmtKm(a.area_radius_km), fmtKm(a.radius_km), fmtKm(a.reach_km)])
+  )));
+  box.appendChild(block("Co se hledá", critTable(
+    ["Kategorie","Cena od","Cena do","Min. plocha"],
+    (c.searches||[]).map(s=>[s.label, fmtMio(s.price_from)+" Kč", fmtMio(s.price_to)+" Kč",
+      s.min_area_m2 ? s.min_area_m2+" m²" : "—"])
+  )));
+  const note=document.createElement("div");
+  note.className="crit-note";
+  note.textContent="Okruh se počítá nad rámec oblasti, ne od jejího středu: "
+    + "„oblast + okruh“ je vzdálenost, do které se ještě hledá. "
+    + "Portály: " + ((c.sources||[]).join(", ") || "—")
+    + ". Nastavení se mění v souboru config.py.";
+  box.appendChild(block("Poznámka", note));
+}
+
+function passFilters(r){
+  const q=document.getElementById("q").value.trim().toLowerCase();
+  if(document.getElementById("fHide").checked && r.removed_on) return false;
+  if(document.getElementById("fNew").checked && !r.is_new) return false;
+  const a=document.getElementById("fArea").value; if(a && r.matched_area!==a) return false;
+  const c=document.getElementById("fCat").value; if(c && r.category!==c) return false;
+  const s=document.getElementById("fSrc").value; if(s && r.source!==s) return false;
+  if(q){ const hay=((r.title||"")+" "+(r.address||"")).toLowerCase(); if(!hay.includes(q)) return false; }
+  return true;
+}
+
+function render(){
+  buildHead();
+  const rows=DATA.filter(passFilters);
+  const col=COLS.find(c=>c.key===sortKey);
+  rows.sort((x,y)=>{
+    let a=x[sortKey], b=y[sortKey];
+    if(col && col.type==="num"){a=a==null?-Infinity:a; b=b==null?-Infinity:b; return (a-b)*sortDir;}
+    a=(a==null?"":(""+a)).toLowerCase(); b=(b==null?"":(""+b)).toLowerCase();
+    return a<b?-sortDir:a>b?sortDir:0;
+  });
+  const body=document.getElementById("body"); body.innerHTML="";
+  rows.forEach(r=>{
+    const tr=document.createElement("tr");
+    if(r.is_new) tr.classList.add("new");
+    if(r.removed_on) tr.classList.add("removed");
+    COLS.forEach(c=>{
+      const td=document.createElement("td");
+      if(c.key==="image"){
+        const src=r.image_thumb||r.image;
+        if(src){
+          const im=document.createElement("img"); im.className="thumb"; im.loading="lazy";
+          im.src=src; im.alt="";
+          im.onerror=()=>{im.style.visibility="hidden";};  // ať tam nesvítí ikona rozbitého obrázku
+          td.appendChild(im);
+        }
+      } else if(c.key==="title"){
+        const a=document.createElement("a"); a.className="title"; a.href=r.url||"#"; a.target="_blank"; a.rel="noopener";
+        a.textContent=r.title||"Inzerát"; td.appendChild(a);
+        if(r.is_new){const b=document.createElement("span"); b.className="badge"; b.textContent="NOVÉ"; td.appendChild(b);}
+        if(r.removed_on){const b=document.createElement("span"); b.className="pill"; b.textContent="staženo "+r.removed_on; td.appendChild(document.createTextNode(" ")); td.appendChild(b);}
+        if(r.address){const d=document.createElement("div"); d.className="addr"; d.textContent=r.address; td.appendChild(d);}
+      } else {
+        const v=r[c.key];
+        td.textContent=c.fmt?c.fmt(v):(v==null?"—":v);
+        if(c.type==="num") td.className="num";
+        if(c.key==="source") td.className="src";
+      }
+      tr.appendChild(td);
+    });
+    body.appendChild(tr);
+  });
+  document.getElementById("empty").style.display=rows.length?"none":"block";
+}
+
+function initFilters(){
+  const areas=[...new Set(DATA.map(r=>r.matched_area).filter(Boolean))].sort();
+  const sel=document.getElementById("fArea");
+  areas.forEach(a=>{const o=document.createElement("option"); o.value=a; o.textContent=a; sel.appendChild(o);});
+  ["q","fArea","fCat","fSrc","fNew","fHide"].forEach(id=>{
+    const el=document.getElementById(id);
+    el.addEventListener(id==="q"?"input":"change", render);
+  });
+}
+
+fetch("data.json?_="+Date.now()).then(r=>r.json()).then(d=>{
+  DATA=d.listings||[];
+  const nNew=DATA.filter(r=>r.is_new).length;
+  document.getElementById("meta").textContent=
+    `${d.count} nemovitostí · ${nNew} nových · aktualizováno ${d.generated_at||""}`;
+  renderCriteria(d.criteria);
+  initFilters();
+  render();
+}).catch(e=>{
+  document.getElementById("meta").textContent="Nepodařilo se načíst data.json";
+  console.error(e);
+});
+</script>
+</body>
+</html>
