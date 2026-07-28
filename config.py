@@ -59,6 +59,16 @@ SEARCHES = [
         "bezrealitky": {"estate_type": "BYT", "dispositions": ["DISP_4_KK", "DISP_4_1"]},
     },
     {
+        "key": "byt31",
+        "label": "Byt 3+1 (min. 90 m²)",
+        "price_from": 100_000,
+        "price_to": 12_000_000,
+        "min_area_m2": 90,
+        # Sreality: 1 = Byty, sub 7 = 3+1
+        "sreality": {"category_main_cb": 1, "category_sub_cb": [7]},
+        "bezrealitky": {"estate_type": "BYT", "dispositions": ["DISP_3_1"]},
+    },
+    {
         "key": "pozemek",
         "label": "Pozemek",
         "price_from": 50_000,

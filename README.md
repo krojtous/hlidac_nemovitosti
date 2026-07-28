@@ -10,6 +10,7 @@ pošle **e-mail** s novinkami a udržuje **přehlednou tabulku** s historií.
 |---|---|
 | Dům se zahradou | cena do 12 mil. Kč |
 | Byt 4+1 / 4+kk | plocha od 80 m², cena do 12 mil. Kč |
+| Byt 3+1 | plocha od 90 m², cena do 12 mil. Kč |
 | Pozemek | cena do 5 mil. Kč |
 
 **Lokality** – vždy *celá oblast + okruh navíc* kolem ní:

@@ -35,7 +35,10 @@ def make_listing(source, native_id, category, title, price, area_m2, land_area_m
 # V českých názvech bývá tisícový oddělovač tečka nebo mezera: "4.244 m²", "1 949 m²".
 # Do čísla proto pouštíme i tečku, obyčejnou i pevnou mezeru.
 _NUM = "\\d[\\d\\s. ]*"
-_M2_RE = re.compile("(" + _NUM + ")\\s*m(?:²|2)", re.IGNORECASE)
+# Číslo nesmí začínat uvnitř dispozice: v názvu "Prodej bytu 4+1 94 m²" by se
+# jinak četlo od jedničky v "4+1" a vyšlo by "1 94", tedy 194 m² místo 94 m².
+_NEZACINA_V_DISPOZICI = "(?<![\\d+])"
+_M2_RE = re.compile(_NEZACINA_V_DISPOZICI + "(" + _NUM + ")\\s*m(?:²|2)", re.IGNORECASE)
 _LAND_RE = re.compile("pozemek\\s+(" + _NUM + ")\\s*m", re.IGNORECASE)
 
 

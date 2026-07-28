@@ -4249,5 +4249,32 @@
   "price": 2750000,
   "area": "Vlašim",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/836119-nabidka-prodej-pozemku-horka-ii"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:49602636",
+  "title": "Prodej bytu 3+1 110 m²",
+  "price": 9449000,
+  "area": "Masarykova třída (Liberec)",
+  "url": "https://www.sreality.cz/detail/prodej/byt/3+1/liberec/49602636"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:598692428",
+  "title": "Prodej bytu 3+1 102 m²",
+  "price": 7490000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/prodej/byt/3+1/liberec/598692428"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:2536608588",
+  "title": "Prodej bytu 3+1 98 m²",
+  "price": 6900000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/prodej/byt/3+1/liberec/2536608588"
  }
 ]
