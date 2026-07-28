@@ -1,0 +1,28 @@
+name: Test e-mailu
+
+# Jen ruční spuštění: Actions → Test e-mailu → Run workflow.
+# Pošle jeden zkušební e-mail, aby se ověřilo, že secrets fungují.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stažení repozitáře
+        uses: actions/checkout@v4
+
+      - name: Nastavení Pythonu
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Odeslání zkušebního e-mailu
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python test_email.py
