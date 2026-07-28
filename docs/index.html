@@ -270,11 +270,14 @@ const CHIP_COLS=["area_m2","price_per_m2","disposition","matched_area",
 const FAV_KEY="hlidac-nemovitosti-oblibene";
 let FAV=new Set(), REPO_FAV=new Set();
 
+let melUlozeneOblibene=false;   // bylo na tomhle zařízení už něco označeno?
+
 function loadFav(){
   let ulozene=null;
   try{ ulozene=JSON.parse(localStorage.getItem(FAV_KEY)); }catch(e){}
+  melUlozeneOblibene=Array.isArray(ulozene);
   // První návštěva na tomhle zařízení: převezmi, co je v repozitáři.
-  FAV=new Set(Array.isArray(ulozene)?ulozene:[...REPO_FAV]);
+  FAV=new Set(melUlozeneOblibene?ulozene:[...REPO_FAV]);
 }
 function saveFav(){
   try{ localStorage.setItem(FAV_KEY, JSON.stringify([...FAV])); }
@@ -282,7 +285,7 @@ function saveFav(){
 }
 function toggleFav(id, el){
   FAV.has(id)?FAV.delete(id):FAV.add(id);
-  saveFav(); renderFavPanel();
+  saveFav(); renderFavPanel(); naplanujUlozeni();
   // Když se podle oblíbených filtruje nebo řadí, musí se tabulka přepočítat;
   // jinak stačí přebarvit hvězdičku a nehýbat scrollem.
   if(document.getElementById("fFav").checked || sortKey==="fav"){ render(); return; }
@@ -291,11 +294,15 @@ function toggleFav(id, el){
   el.closest("tr").classList.toggle("fav", FAV.has(id));
 }
 
-function favJson(){
+function favJson(ids){
   return JSON.stringify({
     _napoveda:"Oblíbené nemovitosti. U těchto id posílá hlídač e-mail i při změně ceny.",
-    ids:[...FAV].sort()
+    ids:[...(ids||FAV)].sort()
   }, null, 1)+"\n";
+}
+
+function jeRozdil(){
+  return [...FAV].some(id=>!REPO_FAV.has(id)) || [...REPO_FAV].some(id=>!FAV.has(id));
 }
 
 // --- Zápis do repozitáře přes GitHub API ------------------------------------
@@ -354,7 +361,7 @@ async function stavVRepozitari(){
   return {ids:Array.isArray(data.ids)?data.ids:[], sha:j.sha};
 }
 
-async function zapisDoRepozitare(){
+async function zapisDoRepozitare(ids){
   // sha původního souboru je pojistka: když mezitím zapsal robot, GitHub zápis
   // odmítne (409) a my si načteme aktuální verzi a zkusíme to ještě jednou.
   for(let pokus=0; pokus<2; pokus++){
@@ -363,8 +370,8 @@ async function zapisDoRepozitare(){
       method:"PUT",
       headers:Object.assign({"Content-Type":"application/json"}, hlavicky()),
       body:JSON.stringify({
-        message:"Oblíbené: "+FAV.size+" nemovitostí",
-        content:doBase64(favJson()),
+        message:"Oblíbené: "+ids.length+" nemovitostí",
+        content:doBase64(favJson(ids)),
         sha:sha, branch:"main"
       })
     });
@@ -376,6 +383,54 @@ async function zapisDoRepozitare(){
     throw e;
   }
   throw new Error("Soubor se mezitím dvakrát změnil, zkus to prosím znovu.");
+}
+
+// --- Automatické ukládání ---------------------------------------------------
+// S tokenem se změna posílá sama, ať se na uložení nedá zapomenout. Krátká
+// prodleva slouží k tomu, aby označení několika nemovitostí za sebou znamenalo
+// jeden commit, ne pět.
+const PRODLEVA_MS=1500;
+let ukladaciCasovac=null, ukladaniBezi=false, ukladatZnovu=false;
+
+// Pojistka proti přepsání výběru z jiného zařízení: když se hned po načtení
+// liší seznam v prohlížeči od toho v repozitáři, samo se nic neodešle. Jinak by
+// jedno cvaknutí na mobilu se starším seznamem smazalo, co jsi označil na
+// počítači. Automatika se zapne, jakmile jednou rozhodneš tlačítkem.
+let automatikaPovolena=true;
+
+function naplanujUlozeni(){
+  if(!token() || !automatikaPovolena) return;   // bez tokenu se ukládá ručně
+  clearTimeout(ukladaciCasovac);
+  ukladaciCasovac=setTimeout(ulozOblibene, PRODLEVA_MS);
+}
+
+function popisChyby(e){
+  if(e.status===401) return "Token neplatí nebo vypršel – vyrob si nový.";
+  if(e.status===403 || e.status===404)
+    return "Token nemá právo zápisu do tohohle repozitáře (Contents: Read and write).";
+  return "Uložení selhalo: "+e.message+" – zkus to tlačítkem znovu.";
+}
+
+async function ulozOblibene(){
+  clearTimeout(ukladaciCasovac);
+  automatikaPovolena=true;   // rozhodl jsi tlačítkem, dál už se ukládá samo
+  if(!token() || !jeRozdil()) return;
+  if(ukladaniBezi){ ukladatZnovu=true; return; }   // doběhne a pošle se znovu
+  ukladaniBezi=true;
+  document.getElementById("favPush").disabled=true;
+  zprava("Ukládám…");
+  const posilane=[...FAV];               // co se opravdu zapisuje
+  try{
+    await zapisDoRepozitare(posilane);
+    REPO_FAV=new Set(posilane);
+    zprava("Uloženo do repozitáře.","ok");
+  }catch(e){
+    zprava(popisChyby(e),"err");
+  }
+  ukladaniBezi=false;
+  renderFavPanel();
+  // Mezitím jsi mohl cvaknout na další hvězdičku – pošleme i tu změnu.
+  if(ukladatZnovu){ ukladatZnovu=false; naplanujUlozeni(); }
 }
 
 function zprava(text, druh){
@@ -395,14 +450,20 @@ function renderFavPanel(){
       : " · uložené v repozitáři");
   document.getElementById("favIntro").textContent = rozdil
     ? (maToken
-        ? "Hlídač sleduje cenu podle seznamu v repozitáři. Tlačítkem níž tam "
-          + "označení přeneseš; do příštího běhu se to promítne do e-mailů."
+        ? (automatikaPovolena
+            ? "Ukládá se samo – každé cvaknutí hvězdičky se během chvilky přenese "
+              + "do repozitáře. Kdyby se to nepovedlo (třeba bez signálu), zůstane "
+              + "označení v prohlížeči a pošleš ho tlačítkem."
+            : "Tenhle prohlížeč má jiný seznam než repozitář – nejspíš jsi mezitím "
+              + "něco označil na jiném zařízení. Rozhodni tlačítkem, co platí: "
+              + "Uložit přepíše repozitář, Načíst přepíše prohlížeč. Do té doby "
+              + "se samo nic neukládá.")
         : "Hlídač sleduje cenu podle seznamu v repozitáři. Ulož si token (viz níž) "
-          + "a půjde to jedním tlačítkem, jinak použij ruční cestu.")
+          + "a bude se to ukládat samo, jinak použij ruční cestu.")
     : "Seznam v tomhle prohlížeči odpovídá tomu v repozitáři – hlídač hlídá cenu "
       + "a zmizení přesně u těchto nemovitostí.";
   const push=document.getElementById("favPush");
-  push.disabled=!rozdil || !maToken;
+  push.disabled=!rozdil || !maToken || ukladaniBezi;
   push.title=maToken ? "" : "Nejdřív ulož přístupový token";
   document.getElementById("favTokenSummary").textContent =
     maToken ? "Přístupový token · uložený" : "Přístupový token · nenastavený";
@@ -423,21 +484,8 @@ function initFavPanel(){
     }
   };
 
-  document.getElementById("favPush").onclick=async ()=>{
-    const b=document.getElementById("favPush");
-    b.disabled=true; zprava("Ukládám…");
-    try{
-      await zapisDoRepozitare();
-      REPO_FAV=new Set(FAV);
-      zprava("Uloženo do repozitáře.","ok");
-    }catch(e){
-      if(e.status===401) zprava("Token neplatí nebo vypršel – vyrob si nový.","err");
-      else if(e.status===403 || e.status===404)
-        zprava("Token nemá právo zápisu do tohohle repozitáře (Contents: Read and write).","err");
-      else zprava("Uložení selhalo: "+e.message,"err");
-    }
-    renderFavPanel();
-  };
+  // Tlačítko je pojistka pro opakování, když automatické uložení selže.
+  document.getElementById("favPush").onclick=ulozOblibene;
 
   document.getElementById("favPull").onclick=async ()=>{
     zprava("Načítám…");
@@ -445,6 +493,7 @@ function initFavPanel(){
       const {ids}=await stavVRepozitari();
       REPO_FAV=new Set(ids);
       FAV=new Set(ids); saveFav();
+      automatikaPovolena=true;   // stavy se srovnaly, dál se ukládá samo
       zprava("Načteno z repozitáře.","ok");
     }catch(e){
       // Když GitHub nedosáhneme, aspoň se vrátíme ke stavu z data.json.
@@ -462,6 +511,7 @@ function initFavPanel(){
     pole.value="";
     zprava("Token uložen v tomhle prohlížeči.","ok");
     renderFavPanel();
+    naplanujUlozeni();   // co je označené a neuložené, se rovnou pošle
   };
   document.getElementById("favTokenForget").onclick=()=>{
     try{ localStorage.removeItem(TOKEN_KEY); }catch(e){}
@@ -477,6 +527,13 @@ async function overStavVRepozitari(){
   try{
     const {ids}=await stavVRepozitari();
     REPO_FAV=new Set(ids);
+    if(!melUlozeneOblibene){
+      // Nové zařízení: nemá co ztratit, tak rovnou převezme seznam z repozitáře.
+      FAV=new Set(ids); saveFav(); render();
+    }
+    // Liší-li se stav hned po načtení, jde nejspíš o výběr z jiného zařízení –
+    // automatika počká, až rozhodneš tlačítkem (viz automatikaPovolena).
+    automatikaPovolena=!jeRozdil();
     renderFavPanel();
   }catch(e){ console.warn("Stav oblíbených z GitHubu se nepodařilo ověřit:", e); }
 }

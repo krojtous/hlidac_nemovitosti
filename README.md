@@ -138,10 +138,12 @@ Aby o něm ale věděl i hlídač v cloudu (ten e-maily posílá), musí se sezn
 dostat do [`data/favorites.json`](data/favorites.json) v repozitáři. Panel
 **Oblíbené** nad tabulkou ukazuje, kolik označených tam ještě není.
 
-### Ukládání jedním tlačítkem (doporučeno)
+### Automatické ukládání (doporučeno)
 
-Jednorázově si vyrob přístupový token a vlož ho do panelu; pak stačí
-**Uložit do repozitáře**.
+Jednorázově si vyrob přístupový token a vlož ho do panelu; pak se **každé
+cvaknutí hvězdičky uloží samo** – nedá se na to zapomenout. Několik označení
+rychle za sebou se spojí do jednoho commitu. Tlačítko **Uložit do repozitáře**
+zůstává pro případ, že uložení selže (třeba bez signálu).
 
 1. [github.com/settings/personal-access-tokens](https://github.com/settings/personal-access-tokens/new)
    → *Repository access* → **Only select repositories** → tenhle repozitář
@@ -165,9 +167,13 @@ na GitHubu, přepíšeš (Ctrl+A, Ctrl+V) a dáš *Commit changes*.
 
 ### Na dalším zařízení
 
-**Načíst z repozitáře** stáhne aktuální seznam z GitHubu a přepíše jím označení
-v prohlížeči – hodí se na mobilu nebo druhém počítači. Soubor je obyčejný
-seznam id, takže se dá upravit i ručně přímo na GitHubu.
+Nový prohlížeč si seznam převezme z repozitáře sám. Když už v něm nějaké
+označení bylo a mezitím jsi něco změnil jinde, tabulka to pozná a **než
+rozhodneš, samo se nic neuloží** – jinak by jedno cvaknutí na mobilu přepsalo
+výběr z počítače. Vybereš tlačítkem: **Uložit** prosadí prohlížeč, **Načíst
+z repozitáře** prosadí GitHub. Pak už automatika běží dál.
+
+Soubor je obyčejný seznam id, takže se dá upravit i ručně přímo na GitHubu.
 
 ## Úpravy hledání
 Otevři [`config.py`](config.py) a uprav:
