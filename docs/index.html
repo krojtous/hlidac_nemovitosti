@@ -89,6 +89,63 @@
   .fav-actions a{color:var(--accent);font-size:13px}
   .fav-msg{color:var(--muted);font-size:12px}
   .warn{color:var(--fav);font-weight:600}
+  /* Řazení pro mobil – na širokém displeji se řadí klikáním do hlavičky. */
+  .m-sort{display:none;gap:6px;align-items:center}
+  .m-sort button{padding:6px 10px;border:1px solid var(--line);border-radius:7px;
+    background:var(--bg);color:var(--text);font-size:13px;cursor:pointer}
+
+  /* --- Mobil: z tabulky se stanou karty ---------------------------------
+     Na úzkém displeji se do řádku deset sloupců nevejde a vodorovné
+     posouvání je otrava. Každý inzerát je proto samostatná karta:
+     obrázek + název nahoře, cena velkým písmem a zbytek jako štítky. */
+  /* Mez je 900 px, protože pod ní se tabulka (min-width 900) stejně nevejde
+     a musela by se posouvat do stran – karty jsou v tu chvíli lepší. */
+  @media (max-width:900px){
+    /* Stránka se na mobilu roluje jako celek – ovládání se odsune nahoru
+       a nezabírá polovinu displeje (na širokém displeji se posouvá jen tabulka). */
+    html,body{height:auto}
+    body{min-height:100vh}
+    .wrap{overflow:visible}
+    header{padding:12px 14px}
+    .controls{padding:10px 14px;gap:8px}
+    .controls input[type=search]{flex:1 1 100%}
+    .controls select{flex:1 1 calc(50% - 4px);min-width:0}
+    label.chk{flex:0 1 auto}
+    details.crit summary,.crit-body,.fav-body{padding-left:14px;padding-right:14px}
+    .crit-body{gap:16px;overflow-x:auto}
+    .m-sort{display:flex}
+    .m-sort select{flex:1 1 auto}
+
+    .wrap{padding:0 10px 30px}
+    table{min-width:0;background:none}
+    thead{display:none}
+    tbody{display:block}
+    tr{display:flex;flex-wrap:wrap;align-items:flex-start;gap:6px 10px;
+      background:var(--card);border:1px solid var(--line);border-radius:12px;
+      margin:10px 0;padding:10px}
+    tr:hover td,tr.new td{background:none}
+    tr.new{background:var(--new);border-color:var(--new-border)}
+    tr.fav{border-left:3px solid var(--fav)}
+    tr.new td:first-child,tr.fav td:first-child{border-left:none}
+    td{display:block;border:none;padding:0;text-align:left}
+    td.num{text-align:left}
+    /* obrázek | název s adresou | hvězdička */
+    td.col-image{order:1;flex:0 0 92px}
+    img.thumb{width:92px;height:70px}
+    td.col-title{order:2;flex:1 1 0;min-width:0}
+    td.col-fav{order:3;flex:0 0 auto}
+    .star{font-size:24px;padding:0 4px}
+    /* cena přes celou šířku, ať je hned vidět */
+    td.col-price{order:4;flex:0 0 100%;font-size:17px;font-weight:700}
+    /* ostatní údaje jako štítky pod cenou */
+    td.chip{order:5;flex:0 0 auto;font-size:12px;color:var(--muted);
+      background:var(--bg);border-radius:20px;padding:2px 9px}
+    td.chip::before{content:attr(data-label);opacity:.7;margin-right:4px}
+    td.chip.empty{display:none}   /* co portál neuvádí, se nezobrazuje */
+    /* U staženého inzerátu stačí přeškrtnout název a cenu; štítky jen zešednou,
+       přeškrtnutá karta jako celek se špatně čte. */
+    tr.removed td.chip{text-decoration:none;opacity:.65}
+  }
 </style>
 </head>
 <body>
@@ -114,6 +171,10 @@
   <label class="chk"><input type="checkbox" id="fNew"> jen nové</label>
   <label class="chk"><input type="checkbox" id="fFav"> jen oblíbené</label>
   <label class="chk"><input type="checkbox" id="fHide" checked> skrýt zmizelé</label>
+  <span class="m-sort">
+    <select id="mSortKey" aria-label="Řadit podle"></select>
+    <button id="mSortDir" type="button" title="Obrátit pořadí"></button>
+  </span>
 </div>
 
 <details class="crit" id="favPanel">
@@ -152,7 +213,7 @@ const COLS = [
   {key:"image",     label:"",          sort:false},
   {key:"title",     label:"Nemovitost",sort:true,  type:"str"},
   {key:"price",     label:"Cena",      sort:true,  type:"num", fmt:fmtPrice},
-  {key:"area_m2",   label:"Plocha",    sort:true,  type:"num", fmt:v=>v?v+" m²":"—"},
+  {key:"area_m2",   label:"Plocha",    sort:true,  type:"num", fmt:v=>v?fmtNum(v)+" m²":"—"},
   {key:"price_per_m2",label:"Kč/m²",   sort:true,  type:"num", fmt:v=>v?fmtNum(v):"—"},
   {key:"disposition",label:"Disp.",    sort:true,  type:"str", fmt:v=>v||"—"},
   {key:"matched_area",label:"Lokalita",sort:true,  type:"str"},
@@ -161,6 +222,10 @@ const COLS = [
   {key:"source",    label:"Portál",    sort:true,  type:"str"},
 ];
 let DATA=[], sortKey="first_seen", sortDir=-1;
+
+// Sloupce, ze kterých se na mobilu stanou štítky pod cenou.
+const CHIP_COLS=["area_m2","price_per_m2","disposition","matched_area",
+                 "distance_km","first_seen","source"];
 
 // --- Oblíbené ---------------------------------------------------------------
 // Označení se drží v prohlížeči (localStorage), takže je hned a funguje i offline.
@@ -332,6 +397,7 @@ function passFilters(r){
 
 function render(){
   buildHead();
+  syncMobileSort();
   const rows=DATA.filter(passFilters);
   const col=COLS.find(c=>c.key===sortKey);
   rows.sort((x,y)=>{
@@ -371,15 +437,43 @@ function render(){
         if(r.address){const d=document.createElement("div"); d.className="addr"; d.textContent=r.address; td.appendChild(d);}
       } else {
         const v=r[c.key];
-        td.textContent=c.fmt?c.fmt(v):(v==null?"—":v);
-        if(c.type==="num") td.className="num";
-        if(c.key==="source") td.className="src";
+        const text=c.fmt?c.fmt(v):(v==null?"—":v);
+        td.textContent=text;
+        if(c.type==="num") td.classList.add("num");
+        if(c.key==="source") td.classList.add("src");
+        // Na mobilu se z těchhle sloupců stanou štítky s popiskem; prázdné
+        // (portál je neuvádí) se schovají, ať karta nezaplevelí pomlčkami.
+        if(CHIP_COLS.includes(c.key)){
+          td.classList.add("chip");
+          td.dataset.label=c.label;
+          if(text==="—") td.classList.add("empty");
+        }
       }
+      td.classList.add("col-"+c.key);
       tr.appendChild(td);
     });
     body.appendChild(tr);
   });
   document.getElementById("empty").style.display=rows.length?"none":"block";
+}
+
+// Na mobilu je hlavička tabulky schovaná, řadí se tímhle výběrem.
+function initMobileSort(){
+  const sel=document.getElementById("mSortKey");
+  COLS.filter(c=>c.sort).forEach(c=>{
+    const o=document.createElement("option");
+    o.value=c.key; o.textContent=c.key==="fav"?"Oblíbené":c.label;
+    sel.appendChild(o);
+  });
+  sel.onchange=()=>{ sortKey=sel.value; render(); };
+  document.getElementById("mSortDir").onclick=()=>{ sortDir*=-1; render(); };
+}
+
+function syncMobileSort(){
+  document.getElementById("mSortKey").value=sortKey;
+  const b=document.getElementById("mSortDir");
+  b.textContent=sortDir<0?"↓":"↑";
+  b.setAttribute("aria-label", sortDir<0?"Sestupně":"Vzestupně");
 }
 
 function initFilters(){
@@ -401,6 +495,7 @@ fetch("data.json?_="+Date.now()).then(r=>r.json()).then(d=>{
     `${d.count} nemovitostí · ${nNew} nových · aktualizováno ${d.generated_at||""}`;
   renderCriteria(d.criteria);
   initFilters();
+  initMobileSort();
   initFavPanel();
   renderFavPanel();
   render();
