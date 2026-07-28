@@ -106,16 +106,22 @@ def main():
 
     listings, new_list, price_changes, history, first_run = store.reconcile(
         list(fresh.values()), log)
+    favorites = store.load_favorites()
     store.save(listings, history)
-    store.export_dashboard(listings, DOCS_DIR, build_criteria())
+    store.export_dashboard(listings, DOCS_DIR, build_criteria(), favorites)
     log(f"\nUloženo. Data pro tabulku: docs/data.json")
+
+    # Na změnu ceny upozorňujeme jen u označených nemovitostí – u všech by to
+    # byl každodenní spam. Seznam je v data/favorites.json, plní ho tabulka.
+    fav_changes = [ch for ch in price_changes if ch["listing"]["id"] in set(favorites)]
+    log(f"  Oblíbených: {len(favorites)}, z toho dnes změnilo cenu: {len(fav_changes)}")
 
     if first_run:
         log("  První běh – jen se naplní evidence, e-mail se neposílá "
             "(jinak by přišly stovky položek).")
     else:
         try:
-            notify.send_email(new_list, config.SETTINGS, log)
+            notify.send_email(new_list, fav_changes, config.SETTINGS, log)
         except Exception as e:  # noqa: BLE001
             log(f"  E-mail se nepodařilo odeslat: {e}")
 

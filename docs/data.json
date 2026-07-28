@@ -1,7 +1,67 @@
 {
- "generated_at": "2026-07-28T17:14",
+ "generated_at": "2026-07-28T19:00",
  "count": 422,
- "criteria": {},
+ "criteria": {
+  "areas": [
+   {
+    "name": "Vratislavice nad Nisou",
+    "lat": 50.749,
+    "lon": 15.0959,
+    "area_radius_km": 2.0,
+    "radius_km": 1.0,
+    "reach_km": 3.0
+   },
+   {
+    "name": "Vlašim",
+    "lat": 49.7043,
+    "lon": 14.901,
+    "area_radius_km": 2.5,
+    "radius_km": 15.0,
+    "reach_km": 17.5
+   },
+   {
+    "name": "Ruprechtice (Liberec)",
+    "lat": 50.788,
+    "lon": 15.068,
+    "area_radius_km": 1.5,
+    "radius_km": 1.2,
+    "reach_km": 2.7
+   },
+   {
+    "name": "Masarykova třída (Liberec)",
+    "lat": 50.772,
+    "lon": 15.07,
+    "area_radius_km": 0.5,
+    "radius_km": 0.5,
+    "reach_km": 1.0
+   }
+  ],
+  "searches": [
+   {
+    "label": "Dům se zahradou",
+    "price_from": 100000,
+    "price_to": 12000000,
+    "min_area_m2": null
+   },
+   {
+    "label": "Byt 4+1 / 4+kk (min. 80 m²)",
+    "price_from": 100000,
+    "price_to": 12000000,
+    "min_area_m2": 80
+   },
+   {
+    "label": "Pozemek",
+    "price_from": 50000,
+    "price_to": 5000000,
+    "min_area_m2": null
+   }
+  ],
+  "sources": [
+   "Sreality.cz",
+   "Bezrealitky.cz"
+  ]
+ },
+ "favorites": [],
  "listings": [
   {
    "address": "Načeradec - Načeradec, Středočeský kraj",

@@ -119,11 +119,33 @@ každý den ráno. Ručně ho vyzkoušíš v záložce **Actions → Hlídač ne
   (oblast + okruh + celkový dosah), cenových stropů a minimálních ploch,
   takže je vidět, proč se nemovitost zobrazí nebo nezobrazí
 - **Řazení** kliknutím na hlavičku sloupce (cena, plocha, Kč/m², vzdálenost, datum…)
-- **Filtry**: lokalita, typ, portál, „jen nové“, „skrýt zmizelé“
+- **Filtry**: lokalita, typ, portál, „jen nové“, „jen oblíbené“, „skrýt zmizelé“
 - **Hledání** v názvu a adrese
 - **Kč/m²** – když ho portál neuvádí, dopočítá se z ceny a plochy
 - **Zvýraznění nových** (žlutý štítek *NOVÉ*), zmizelé jsou přeškrtnuté
+- **Označování hvězdičkou** (viz níže) – dá se podle ní i řadit a filtrovat
 - Náhledový obrázek a klikací odkaz přímo na inzerát
+
+## Oblíbené nemovitosti a hlídání ceny
+
+Hvězdičkou v prvním sloupci si označíš nemovitosti, které tě zaujaly.
+**U označených chodí e-mail i při změně ceny** – u ostatních ne, jinak by
+upozornění chodila každý den.
+
+Označení se ukládá do prohlížeče, takže je okamžité a funguje i offline.
+Aby o něm ale věděl i hlídač v cloudu (ten e-maily posílá), musí se seznam
+dostat do repozitáře:
+
+1. V tabulce rozbal panel **Oblíbené** – ukazuje, kolik označených ještě není uloženo.
+2. **Zkopírovat** → **Otevřít favorites.json na GitHubu** → přepsat obsah
+   (Ctrl+A, Ctrl+V) → **Commit changes**.
+3. Od dalšího běhu hlídač sleduje cenu přesně u těchto nemovitostí.
+
+Tlačítko **Načíst seznam z repozitáře** jde opačným směrem – hodí se na dalším
+zařízení (mobil, druhý počítač), aby mělo stejný výběr.
+
+Seznam je v [`data/favorites.json`](data/favorites.json) a je to obyčejný
+seznam id, takže se dá upravit i ručně.
 
 ## Úpravy hledání
 Otevři [`config.py`](config.py) a uprav:
@@ -140,7 +162,8 @@ Otevři [`config.py`](config.py) a uprav:
 > nových / zmizelých položek).
 
 ## Časté otázky
-- **Přijde e-mail každý den?** Ne. Jen když opravdu přibyla nová nemovitost.
+- **Přijde e-mail každý den?** Ne. Jen když přibyla nová nemovitost nebo se
+  změnila cena u některé z oblíbených.
 - **První běh** naplní evidenci a e-mail schválně nepošle (bylo by tam stovky položek).
 - **Portály změní API?** Pak stačí upravit soubory v `reality/`. Endpointy byly ověřeny
   v červenci 2026 (Sreality: `api/v1/estates/search`, Bezrealitky: GraphQL `listAdverts`).

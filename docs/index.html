@@ -8,11 +8,12 @@
   :root{
     --bg:#f5f6f8; --card:#fff; --text:#1a1d21; --muted:#6b7280; --line:#e5e7eb;
     --accent:#0b5cad; --new:#fff7e6; --new-border:#f0b429; --removed:#9aa0a6;
-    --hover:#f0f4fa;
+    --hover:#f0f4fa; --fav:#e08600;
   }
   @media (prefers-color-scheme: dark){
     :root{--bg:#15171b; --card:#1e2126; --text:#e8eaed; --muted:#9aa0a6; --line:#2c3036;
-      --accent:#5aa9f0; --new:#3a2f12; --new-border:#f0b429; --removed:#6b7280; --hover:#262a30;}
+      --accent:#5aa9f0; --new:#3a2f12; --new-border:#f0b429; --removed:#6b7280; --hover:#262a30;
+      --fav:#f0b429;}
   }
   *{box-sizing:border-box}
   /* Stránka se nescrolluje jako celek – posouvá se jen tabulka (.wrap).
@@ -70,6 +71,24 @@
   .crit-body th{color:var(--muted);font-weight:600;text-transform:none;letter-spacing:0}
   .crit-body td.n{text-align:right;font-variant-numeric:tabular-nums}
   .crit-note{color:var(--muted);font-size:11.5px;max-width:34ch;line-height:1.5}
+  /* Oblíbené: hvězdička v řádku + panel pro přenos seznamu do repozitáře. */
+  .star{cursor:pointer;font-size:17px;line-height:1;color:var(--muted);
+    user-select:none;padding:0 2px}
+  .star:hover{color:var(--fav)}
+  .star.on{color:var(--fav)}
+  tr.fav td:first-child{border-left:3px solid var(--fav)}
+  .fav-body{padding:2px 20px 16px;max-width:70ch}
+  .fav-body p{margin:0 0 8px;color:var(--muted);font-size:12.5px;line-height:1.55}
+  .fav-body textarea{width:100%;height:80px;font-family:ui-monospace,Consolas,monospace;
+    font-size:12px;padding:8px;border:1px solid var(--line);border-radius:7px;
+    background:var(--bg);color:var(--text);resize:vertical}
+  .fav-actions{display:flex;gap:10px;align-items:center;margin-top:8px;flex-wrap:wrap}
+  .fav-actions button{padding:6px 12px;border:1px solid var(--line);border-radius:7px;
+    background:var(--bg);color:var(--text);font-size:13px;cursor:pointer}
+  .fav-actions button:hover{background:var(--hover)}
+  .fav-actions a{color:var(--accent);font-size:13px}
+  .fav-msg{color:var(--muted);font-size:12px}
+  .warn{color:var(--fav);font-weight:600}
 </style>
 </head>
 <body>
@@ -93,8 +112,26 @@
     <option value="bezrealitky">Bezrealitky</option>
   </select>
   <label class="chk"><input type="checkbox" id="fNew"> jen nové</label>
+  <label class="chk"><input type="checkbox" id="fFav"> jen oblíbené</label>
   <label class="chk"><input type="checkbox" id="fHide" checked> skrýt zmizelé</label>
 </div>
+
+<details class="crit" id="favPanel">
+  <summary id="favSummary">Oblíbené</summary>
+  <div class="fav-body">
+    <p id="favIntro"></p>
+    <textarea id="favJson" readonly spellcheck="false"></textarea>
+    <div class="fav-actions">
+      <button id="favCopy">Zkopírovat</button>
+      <a id="favEdit" href="#" target="_blank" rel="noopener">Otevřít favorites.json na GitHubu →</a>
+      <span class="fav-msg" id="favMsg"></span>
+    </div>
+    <div class="fav-actions">
+      <button id="favPull">Načíst seznam z repozitáře</button>
+      <span class="fav-msg">Přepíše označení v tomhle prohlížeči tím, co je uložené na GitHubu.</span>
+    </div>
+  </div>
+</details>
 
 <details class="crit" id="crit">
   <summary>Podle čeho se hledá</summary>
@@ -111,6 +148,7 @@
 
 <script>
 const COLS = [
+  {key:"fav",       label:"★",         sort:true,  type:"num", val:r=>FAV.has(r.id)?1:0},
   {key:"image",     label:"",          sort:false},
   {key:"title",     label:"Nemovitost",sort:true,  type:"str"},
   {key:"price",     label:"Cena",      sort:true,  type:"num", fmt:fmtPrice},
@@ -123,6 +161,86 @@ const COLS = [
   {key:"source",    label:"Portál",    sort:true,  type:"str"},
 ];
 let DATA=[], sortKey="first_seen", sortDir=-1;
+
+// --- Oblíbené ---------------------------------------------------------------
+// Označení se drží v prohlížeči (localStorage), takže je hned a funguje i offline.
+// REPO_FAV je stav ze souboru data/favorites.json – podle něj posílá hlídač
+// e-maily o změně ceny. Co je označené jen tady, do e-mailů zatím nepatří,
+// dokud se seznam nepřenese do repozitáře (panel „Oblíbené“ nahoře).
+const FAV_KEY="hlidac-nemovitosti-oblibene";
+let FAV=new Set(), REPO_FAV=new Set();
+
+function loadFav(){
+  let ulozene=null;
+  try{ ulozene=JSON.parse(localStorage.getItem(FAV_KEY)); }catch(e){}
+  // První návštěva na tomhle zařízení: převezmi, co je v repozitáři.
+  FAV=new Set(Array.isArray(ulozene)?ulozene:[...REPO_FAV]);
+}
+function saveFav(){
+  try{ localStorage.setItem(FAV_KEY, JSON.stringify([...FAV])); }
+  catch(e){ console.warn("Oblíbené se nepodařilo uložit:", e); }
+}
+function toggleFav(id, el){
+  FAV.has(id)?FAV.delete(id):FAV.add(id);
+  saveFav(); renderFavPanel();
+  // Když se podle oblíbených filtruje nebo řadí, musí se tabulka přepočítat;
+  // jinak stačí přebarvit hvězdičku a nehýbat scrollem.
+  if(document.getElementById("fFav").checked || sortKey==="fav"){ render(); return; }
+  el.className="star"+(FAV.has(id)?" on":"");
+  el.textContent=FAV.has(id)?"★":"☆";
+  el.closest("tr").classList.toggle("fav", FAV.has(id));
+}
+
+function favJson(){
+  return JSON.stringify({
+    _napoveda:"Oblíbené nemovitosti. U těchto id posílá hlídač e-mail i při změně ceny.",
+    ids:[...FAV].sort()
+  }, null, 1)+"\n";
+}
+
+function editUrl(){
+  // Na GitHub Pages se adresa repozitáře dá odvodit z adresy stránky.
+  const h=location.hostname, seg=location.pathname.split("/").filter(Boolean);
+  if(h.endsWith("github.io"))
+    return "https://github.com/"+h.split(".")[0]+"/"+(seg[0]||"")+"/edit/main/data/favorites.json";
+  return "https://github.com/krojtous/hlidac_nemovitosti/edit/main/data/favorites.json";
+}
+
+function renderFavPanel(){
+  const navic=[...FAV].filter(id=>!REPO_FAV.has(id)).length;
+  const chybi=[...REPO_FAV].filter(id=>!FAV.has(id)).length;
+  const rozdil=navic+chybi;
+  document.getElementById("favSummary").innerHTML =
+    "Oblíbené ("+FAV.size+")" + (rozdil
+      ? " <span class=\"warn\">· "+rozdil+" zatím jen v tomhle prohlížeči</span>"
+      : " · uložené v repozitáři");
+  document.getElementById("favIntro").textContent = rozdil
+    ? "Hlídač posílá e-mail o změně ceny podle seznamu v repozitáři. Zkopíruj obsah "
+      + "níž, otevři favorites.json na GitHubu, přepiš ho (Ctrl+A, Ctrl+V) a ulož "
+      + "tlačítkem Commit changes. Do příštího běhu se to promítne do e-mailů."
+    : "Seznam v tomhle prohlížeči odpovídá tomu v repozitáři – hlídač hlídá cenu "
+      + "přesně u těchto nemovitostí.";
+  document.getElementById("favJson").value=favJson();
+  document.getElementById("favEdit").href=editUrl();
+}
+
+function initFavPanel(){
+  document.getElementById("favCopy").onclick=()=>{
+    const ta=document.getElementById("favJson"), msg=document.getElementById("favMsg");
+    ta.select();
+    if(navigator.clipboard){
+      navigator.clipboard.writeText(ta.value).then(
+        ()=>{msg.textContent="Zkopírováno.";},
+        ()=>{msg.textContent="Zkopíruj ručně (Ctrl+C).";});
+    } else {
+      msg.textContent="Zkopíruj ručně (Ctrl+C).";
+    }
+  };
+  document.getElementById("favPull").onclick=()=>{
+    FAV=new Set(REPO_FAV); saveFav(); renderFavPanel(); render();
+    document.getElementById("favMsg").textContent="Načteno z repozitáře.";
+  };
+}
 
 function fmtNum(n){return (n||0).toLocaleString("cs-CZ").replace(/ /g," ");}
 function fmtPrice(n){return n? fmtNum(n)+" Kč":"—";}
@@ -204,6 +322,7 @@ function passFilters(r){
   const q=document.getElementById("q").value.trim().toLowerCase();
   if(document.getElementById("fHide").checked && r.removed_on) return false;
   if(document.getElementById("fNew").checked && !r.is_new) return false;
+  if(document.getElementById("fFav").checked && !FAV.has(r.id)) return false;
   const a=document.getElementById("fArea").value; if(a && r.matched_area!==a) return false;
   const c=document.getElementById("fCat").value; if(c && r.category!==c) return false;
   const s=document.getElementById("fSrc").value; if(s && r.source!==s) return false;
@@ -216,7 +335,7 @@ function render(){
   const rows=DATA.filter(passFilters);
   const col=COLS.find(c=>c.key===sortKey);
   rows.sort((x,y)=>{
-    let a=x[sortKey], b=y[sortKey];
+    let a=col&&col.val?col.val(x):x[sortKey], b=col&&col.val?col.val(y):y[sortKey];
     if(col && col.type==="num"){a=a==null?-Infinity:a; b=b==null?-Infinity:b; return (a-b)*sortDir;}
     a=(a==null?"":(""+a)).toLowerCase(); b=(b==null?"":(""+b)).toLowerCase();
     return a<b?-sortDir:a>b?sortDir:0;
@@ -226,9 +345,17 @@ function render(){
     const tr=document.createElement("tr");
     if(r.is_new) tr.classList.add("new");
     if(r.removed_on) tr.classList.add("removed");
+    if(FAV.has(r.id)) tr.classList.add("fav");
     COLS.forEach(c=>{
       const td=document.createElement("td");
-      if(c.key==="image"){
+      if(c.key==="fav"){
+        const s=document.createElement("span");
+        s.className="star"+(FAV.has(r.id)?" on":"");
+        s.textContent=FAV.has(r.id)?"★":"☆";
+        s.title="Označit jako zajímavé – u oblíbených chodí e-mail i při změně ceny";
+        s.onclick=()=>toggleFav(r.id, s);
+        td.appendChild(s);
+      } else if(c.key==="image"){
         const src=r.image_thumb||r.image;
         if(src){
           const im=document.createElement("img"); im.className="thumb"; im.loading="lazy";
@@ -259,7 +386,7 @@ function initFilters(){
   const areas=[...new Set(DATA.map(r=>r.matched_area).filter(Boolean))].sort();
   const sel=document.getElementById("fArea");
   areas.forEach(a=>{const o=document.createElement("option"); o.value=a; o.textContent=a; sel.appendChild(o);});
-  ["q","fArea","fCat","fSrc","fNew","fHide"].forEach(id=>{
+  ["q","fArea","fCat","fSrc","fNew","fFav","fHide"].forEach(id=>{
     const el=document.getElementById(id);
     el.addEventListener(id==="q"?"input":"change", render);
   });
@@ -267,11 +394,15 @@ function initFilters(){
 
 fetch("data.json?_="+Date.now()).then(r=>r.json()).then(d=>{
   DATA=d.listings||[];
+  REPO_FAV=new Set(d.favorites||[]);
+  loadFav();
   const nNew=DATA.filter(r=>r.is_new).length;
   document.getElementById("meta").textContent=
     `${d.count} nemovitostí · ${nNew} nových · aktualizováno ${d.generated_at||""}`;
   renderCriteria(d.criteria);
   initFilters();
+  initFavPanel();
+  renderFavPanel();
   render();
 }).catch(e=>{
   document.getElementById("meta").textContent="Nepodařilo se načíst data.json";

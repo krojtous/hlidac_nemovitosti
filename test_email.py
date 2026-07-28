@@ -57,8 +57,13 @@ def main():
     nastaveni = dict(config.SETTINGS)
     nastaveni["email_subject_prefix"] = "🏠 ZKUŠEBNÍ e-mail hlídače"
 
+    # Ukázková změna ceny, ať je v testu vidět i sekce pro oblíbené nemovitosti.
+    vzor = vzorek()
+    zmena = [{"listing": vzor, "old_price": (vzor.get("price") or 4_000_000),
+              "new_price": int((vzor.get("price") or 4_000_000) * 0.95)}]
+
     try:
-        notify.send_email([vzorek()], nastaveni, log)
+        notify.send_email([vzor], zmena, nastaveni, log)
     except smtplib.SMTPAuthenticationError as e:
         log(f"CHYBA přihlášení k SMTP: {e}")
         log("Skoro jistě je v SMTP_PASS běžné heslo k účtu místo hesla aplikace,")

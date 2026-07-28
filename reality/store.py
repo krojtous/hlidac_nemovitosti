@@ -8,6 +8,7 @@ from datetime import date, datetime
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 LISTINGS_FILE = os.path.join(DATA_DIR, "listings.json")
 HISTORY_FILE = os.path.join(DATA_DIR, "history.json")
+FAVORITES_FILE = os.path.join(DATA_DIR, "favorites.json")
 
 
 def _today():
@@ -31,6 +32,21 @@ def load_listings():
 
 def load_history():
     return _load(HISTORY_FILE, [])
+
+
+def load_favorites():
+    """
+    Vrátí seznam id oblíbených nemovitostí z data/favorites.json.
+
+    Soubor plní tabulka (tlačítkem „Uložit do repozitáře“), dá se ale klidně
+    upravit i ručně. Očekává se tvar {"ids": ["sreality:123", ...]}; kvůli
+    ručním úpravám bereme i holý seznam id.
+    """
+    data = _load(FAVORITES_FILE, {})
+    ids = data.get("ids") if isinstance(data, dict) else data
+    if not isinstance(ids, list):
+        return []
+    return [i for i in ids if isinstance(i, str)]
 
 
 def reconcile(fresh_items, log):
@@ -63,7 +79,9 @@ def reconcile(fresh_items, log):
             if old_price != it.get("price") and it.get("price"):
                 rec.setdefault("price_history", []).append(
                     {"date": today, "price": it.get("price")})
-                price_changes.append(rec)
+                # starou cenu si neseme zvlášť – v záznamu už je přepsaná novou
+                price_changes.append({"listing": rec, "old_price": old_price,
+                                      "new_price": it.get("price")})
                 history.append({"date": today, "event": "price_changed", "id": lid,
                                 "title": rec.get("title"), "old_price": old_price,
                                 "new_price": it.get("price"), "url": rec.get("url")})
@@ -100,12 +118,14 @@ def save(listings, history):
         json.dump(history, f, ensure_ascii=False, indent=1)
 
 
-def export_dashboard(listings, docs_dir, criteria=None):
+def export_dashboard(listings, docs_dir, criteria=None, favorites=None):
     """
     Uloží data pro webovou tabulku do docs/data.json.
 
     `criteria` je popis toho, podle čeho se hledalo (viz run.py) – tabulka ho
     ukazuje v rozbalovacím panelu, aby bylo vidět, proč se co zobrazuje.
+    `favorites` je seznam oblíbených z repozitáře; tabulka podle něj pozná,
+    které označené nemovitosti už hlídá i e-mail.
     """
     os.makedirs(docs_dir, exist_ok=True)
     # seřaď: nejdřív nové, pak podle data (nejnovější nahoře)
@@ -116,6 +136,7 @@ def export_dashboard(listings, docs_dir, criteria=None):
         "generated_at": datetime.now().isoformat(timespec="minutes"),
         "count": len(rows),
         "criteria": criteria or {},
+        "favorites": sorted(favorites or []),
         "listings": rows,
     }
     with open(os.path.join(docs_dir, "data.json"), "w", encoding="utf-8") as f:
