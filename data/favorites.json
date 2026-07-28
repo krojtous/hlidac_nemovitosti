@@ -1,4 +1,7 @@
 {
- "_napoveda": "Oblíbené nemovitosti. U těchto id posílá hlídač e-mail i při změně ceny. Seznam plní tabulka tlačítkem 'Zkopírovat' v panelu Oblíbené, dá se ale upravit i ručně - stačí smazat nebo přidat řádek s id.",
- "ids": []
+ "_napoveda": "Oblíbené nemovitosti. U těchto id posílá hlídač e-mail i při změně ceny.",
+ "ids": [
+  "bezrealitky:1037820",
+  "sreality:1150178124"
+ ]
 }
