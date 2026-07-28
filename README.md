@@ -12,6 +12,12 @@ pošle **e-mail** s novinkami a udržuje **přehlednou tabulku** s historií.
 | Byt 4+1 / 4+kk | plocha od 80 m², cena do 12 mil. Kč |
 | Byt 3+1 | plocha od 90 m², cena do 12 mil. Kč |
 | Pozemek | cena do 5 mil. Kč |
+| **Pronájem** domu | do 35 000 Kč/měsíc |
+| **Pronájem** bytu 4+1 / 4+kk | plocha od 80 m², do 35 000 Kč/měsíc |
+| **Pronájem** bytu 3+1 | plocha od 90 m², do 35 000 Kč/měsíc |
+
+V tabulce se prodej a pronájem dají oddělit filtrem; nájem je vždy značený
+`Kč/měs`, ať se neplete s kupní cenou.
 
 **Lokality** – vždy *celá oblast + okruh navíc* kolem ní:
 
@@ -183,7 +189,16 @@ Otevři [`config.py`](config.py) a uprav:
 
   Hledá se v jejich součtu. „Vratislavice + 1 km“ tedy znamená celé Vratislavice
   a k tomu ještě kilometr okolo, ne jen kilometr od návsi.
-- `SEARCHES` – ceny, minimální plochu, typy.
+- `SEARCHES` – ceny, minimální plochu, typy. Položka `deal` říká, jestli jde
+  o `prodej`, nebo `pronajem` (tam je cena měsíční).
+
+### Inzeráty bez adresy
+
+Když portál zná jen obec, posadí inzerát doprostřed města – pozemek „na náměstí“
+v Liberci pak spadne do lokality, se kterou nemá nic společného. Takové inzeráty
+se berou jen u lokalit s dosahem aspoň `city_only_min_reach_km` kilometrů
+(výchozí 10): u Vlašimi s okruhem 17,5 km je střed vesnice dost přesný, u okolí
+Masarykovy třídy ne. Nastavíš 0, když je chceš vždy, nebo 999, když nikdy.
 
 > Po větší změně lokalit doporučuji smazat soubory v `data/`, aby se evidence
 > „srovnala“ znovu podle nových kritérií (jinak se posun může projevit jako spousta

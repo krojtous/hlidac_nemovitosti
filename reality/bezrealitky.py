@@ -25,10 +25,12 @@ _DISP = {
 }
 _ESTATE_TO_CATEGORY = {"BYT": "byt", "DUM": "dum", "POZEMEK": "pozemek"}
 
+# Typ nabídky (PRODEJ / PRONAJEM) se do dotazu doplňuje za %OFFER% – je to naše
+# konstanta z config.py, ne uživatelský vstup.
 _QUERY = """
 query List($estateType: [EstateType], $disposition: [Disposition], $priceFrom: Int,
            $priceTo: Int, $surfaceFrom: Int, $limit: Int, $offset: Int) {
-  listAdverts(offerType: [PRODEJ], estateType: $estateType, disposition: $disposition,
+  listAdverts(offerType: [%OFFER%], estateType: $estateType, disposition: $disposition,
               priceFrom: $priceFrom, priceTo: $priceTo, surfaceFrom: $surfaceFrom,
               limit: $limit, offset: $offset, order: TIMEORDER_DESC) {
     totalCount
@@ -44,6 +46,8 @@ query List($estateType: [EstateType], $disposition: [Disposition], $priceFrom: I
 def search(search_cfg, settings, log):
     """Vrátí seznam normalizovaných inzerátů dané kategorie (celostátně)."""
     b = search_cfg["bezrealitky"]
+    pronajem = search_cfg.get("deal") == "pronajem"
+    dotaz = _QUERY.replace("%OFFER%", "PRONAJEM" if pronajem else "PRODEJ")
     variables = {
         "estateType": [b["estate_type"]],
         "disposition": b["dispositions"] or None,
@@ -60,7 +64,7 @@ def search(search_cfg, settings, log):
     while True:
         variables["offset"] = offset
         try:
-            data = http.post_json(API, {"query": _QUERY, "variables": variables})
+            data = http.post_json(API, {"query": dotaz, "variables": variables})
         except RuntimeError as e:
             log(f"    [bezrealitky] chyba: {e}")
             break
@@ -74,7 +78,7 @@ def search(search_cfg, settings, log):
         if not rows:
             break
         for r in rows:
-            item = _normalize(r)
+            item = _normalize(r, pronajem)
             if item:
                 out.append(item)
         offset += LIMIT
@@ -84,7 +88,7 @@ def search(search_cfg, settings, log):
     return out
 
 
-def _normalize(r):
+def _normalize(r, pronajem=False):
     gps = r.get("gps") or {}
     lat = gps.get("lat")
     lon = gps.get("lng")
@@ -111,6 +115,7 @@ def _normalize(r):
     return make_listing(
         source="bezrealitky",
         native_id=r.get("id"),
+        deal="pronajem" if pronajem else "prodej",
         category=_ESTATE_TO_CATEGORY.get(estate, "byt"),
         title=title,
         price=price,

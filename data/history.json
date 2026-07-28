@@ -4276,5 +4276,206 @@
   "price": 6900000,
   "area": "Ruprechtice (Liberec)",
   "url": "https://www.sreality.cz/detail/prodej/byt/3+1/liberec/2536608588"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:3592675404",
+  "title": "Pronájem rodinného domu 140 m², pozemek 2500 m²",
+  "price": 29000,
+  "area": "Masarykova třída (Liberec)",
+  "url": "https://www.sreality.cz/detail/pronajem/dum/rodinny/liberec/3592675404"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:4029341772",
+  "title": "Pronájem rodinného domu 55 m², pozemek 804 m²",
+  "price": 20000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/pronajem/dum/rodinny/libez/4029341772"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "bezrealitky:1032625",
+  "title": "Pronájem domu 140 m², pozemek 750 m²",
+  "price": 22000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1032625-nabidka-pronajem-domu-trhovy-stepanov"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:2659962956",
+  "title": "Pronájem bytu 4+1 91 m²",
+  "price": 22000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/2659962956"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:3817922636",
+  "title": "Pronájem bytu 4+1 112 m²",
+  "price": 30000,
+  "area": "Masarykova třída (Liberec)",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/3817922636"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:1724444748",
+  "title": "Pronájem bytu 4+1 106 m²",
+  "price": 19500,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/1724444748"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:1312596044",
+  "title": "Pronájem bytu 4+1 83 m²",
+  "price": 15000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/1312596044"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:666271820",
+  "title": "Pronájem bytu 4+1 127 m²",
+  "price": 24000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/bystrice/666271820"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:2255810636",
+  "title": "Pronájem bytu 4+1 102 m²",
+  "price": 25000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/benesov/2255810636"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "bezrealitky:1039267",
+  "title": "Pronájem bytu 4+kk 120 m²",
+  "price": 8500,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1039267-nabidka-pronajem-bytu-lyzarska-liberec"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:2725679180",
+  "title": "Pronájem bytu 3+1 100 m²",
+  "price": 26900,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/liberec/2725679180"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:2609414220",
+  "title": "Pronájem bytu 3+1 127 m²",
+  "price": 30900,
+  "area": "Masarykova třída (Liberec)",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/liberec/2609414220"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "appeared",
+  "id": "sreality:1952940108",
+  "title": "Pronájem bytu 3+1 130 m²",
+  "price": 24000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/bystrice/1952940108"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "removed",
+  "id": "sreality:1479238476",
+  "title": "Prodej stavebního pozemku 5523 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1479238476"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "removed",
+  "id": "sreality:163271500",
+  "title": "Prodej rodinného domu 165 m², pozemek 735 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/163271500"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "removed",
+  "id": "sreality:1722261580",
+  "title": "Prodej lesa 14111 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/les/liberec/1722261580"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "removed",
+  "id": "sreality:1875891020",
+  "title": "Prodej stavebního pozemku 1848 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1875891020"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "removed",
+  "id": "sreality:206123852",
+  "title": "Prodej stavebního pozemku 1001 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/206123852"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "removed",
+  "id": "sreality:2320224332",
+  "title": "Prodej bytu 4+1 81 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/2320224332"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "removed",
+  "id": "sreality:235955020",
+  "title": "Prodej louky 6492 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/liberec/235955020"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "removed",
+  "id": "sreality:2467733580",
+  "title": "Prodej pozemku 8999 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/zvestov/2467733580"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "removed",
+  "id": "sreality:2545852492",
+  "title": "Prodej stavebního pozemku 1200 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/2545852492"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "removed",
+  "id": "sreality:3237146700",
+  "title": "Prodej lesa 10902 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/les/liberec/3237146700"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "removed",
+  "id": "sreality:3440021580",
+  "title": "Prodej rodinného domu 264 m², pozemek 834 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/3440021580"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "removed",
+  "id": "sreality:4144398412",
+  "title": "Prodej rodinného domu 390 m², pozemek 1268 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bernartice/4144398412"
  }
 ]

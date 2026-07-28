@@ -28,9 +28,25 @@ def assign_area(item):
     area, dist = nearest_area(item.get("lat"), item.get("lon"), config.AREAS)
     if area is None:
         return False
+    if not poloha_je_dost_presna(item, area):
+        return False
     item["matched_area"] = area["name"]
     item["distance_km"] = round(dist, 2) if dist is not None else None
     return True
+
+
+def poloha_je_dost_presna(item, area):
+    """
+    Zahodí inzeráty, u kterých portál zná jen obec.
+
+    Takový inzerát dostane souřadnice středu obce, i když leží kdekoliv v ní.
+    U vesnice to nevadí, u Liberce se pozemek „přestěhuje“ na náměstí a spadne
+    do lokality, se kterou nemá nic společného. Bereme je proto jen tam, kde je
+    sledovaná oblast dost velká na to, aby se do ní celá obec vešla.
+    """
+    if item.get("location_precision") != "municipality":
+        return True
+    return reach_km(area) >= config.SETTINGS["city_only_min_reach_km"]
 
 
 def data_vypadaji_uplne(pocet_stazenych, log):

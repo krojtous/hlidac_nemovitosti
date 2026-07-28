@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-29T00:24",
- "count": 425,
+ "generated_at": "2026-07-29T01:09",
+ "count": 438,
  "criteria": {
   "areas": [
    {
@@ -56,6 +56,24 @@
     "min_area_m2": 90
    },
    {
+    "label": "Pronájem domu",
+    "price_from": 3000,
+    "price_to": 35000,
+    "min_area_m2": null
+   },
+   {
+    "label": "Pronájem bytu 4+1 / 4+kk (min. 80 m²)",
+    "price_from": 3000,
+    "price_to": 35000,
+    "min_area_m2": 80
+   },
+   {
+    "label": "Pronájem bytu 3+1 (min. 90 m²)",
+    "price_from": 3000,
+    "price_to": 35000,
+    "min_area_m2": 90
+   },
+   {
     "label": "Pozemek",
     "price_from": 50000,
     "price_to": 5000000,
@@ -68,26 +86,158 @@
   ]
  },
  "favorites": [
-  "sreality:224038988"
+  "sreality:224038988",
+  "sreality:3419922508",
+  "sreality:49602636"
  ],
  "listings": [
   {
-   "id": "sreality:49602636",
+   "id": "sreality:3592675404",
    "source": "sreality",
-   "category": "byt",
-   "title": "Prodej bytu 3+1 110 m²",
-   "price": 9449000,
-   "area_m2": 110,
-   "land_area_m2": null,
-   "disposition": "3+1",
+   "deal": "pronajem",
+   "category": "dum",
+   "location_precision": "address",
+   "title": "Pronájem rodinného domu 140 m², pozemek 2500 m²",
+   "price": 29000,
+   "area_m2": 140,
+   "land_area_m2": 2500,
+   "disposition": null,
    "city": "Liberec",
-   "address": "Vítězná, Liberec I-Staré Město",
-   "lat": 50.7727913820042,
-   "lon": 15.0686949584332,
-   "url": "https://www.sreality.cz/detail/prodej/byt/3+1/liberec/49602636",
-   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_E/nO2CysqjGrCDmo6Bj5KHRvQzj/8b00.jpeg?fl=res,800,600,3|shr,,20|webp,60",
-   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_E/nO2CysqjGrCDmo6Bj5KHRvQzj/8b00.jpeg?fl=res,100,100,1|jpg,80",
-   "price_per_m2": 85900,
+   "address": "Josefinino údolí, Liberec V-Kristiánov",
+   "lat": 50.767007557,
+   "lon": 15.068982916,
+   "url": "https://www.sreality.cz/detail/pronajem/dum/rodinny/liberec/3592675404",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_F/nEwftpXyZ4AdffkEHUkWtQ/5fef.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_F/nEwftpXyZ4AdffkEHUkWtQ/5fef.jpeg?fl=res,100,100,1|jpg,80",
+   "price_per_m2": 207,
+   "matched_area": "Masarykova třída (Liberec)",
+   "distance_km": 0.56,
+   "first_seen": "2026-07-29",
+   "last_seen": "2026-07-29",
+   "removed_on": null,
+   "is_new": true,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 29000
+    }
+   ]
+  },
+  {
+   "id": "sreality:4029341772",
+   "source": "sreality",
+   "deal": "pronajem",
+   "category": "dum",
+   "location_precision": "municipality",
+   "title": "Pronájem rodinného domu 55 m², pozemek 804 m²",
+   "price": 20000,
+   "area_m2": 55,
+   "land_area_m2": 804,
+   "disposition": null,
+   "city": "Libež",
+   "address": "Libež",
+   "lat": 49.75741865954097,
+   "lon": 14.916767038006338,
+   "url": "https://www.sreality.cz/detail/pronajem/dum/rodinny/libez/4029341772",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_A/nO2CysqjGrCe62NBmaHGKlmk/9d51.png?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_A/nO2CysqjGrCe62NBmaHGKlmk/9d51.png?fl=res,100,100,1|jpg,80",
+   "price_per_m2": 364,
+   "matched_area": "Vlašim",
+   "distance_km": 6.01,
+   "first_seen": "2026-07-29",
+   "last_seen": "2026-07-29",
+   "removed_on": null,
+   "is_new": true,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 20000
+    }
+   ]
+  },
+  {
+   "id": "bezrealitky:1032625",
+   "source": "bezrealitky",
+   "deal": "pronajem",
+   "category": "dum",
+   "location_precision": null,
+   "title": "Pronájem domu 140 m², pozemek 750 m²",
+   "price": 22000,
+   "area_m2": 140,
+   "land_area_m2": 750,
+   "disposition": "4+1",
+   "city": null,
+   "address": "Trhový Štěpánov - Dubějovice, Středočeský kraj",
+   "lat": 49.70135,
+   "lon": 15.046405,
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1032625-nabidka-pronajem-domu-trhovy-stepanov",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1032k/1032625/1780999281-vjatrehyvc-photo-2026-06-03-15-48-37.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1032k/1032625/1780999281-vjatrehyvc-photo-2026-06-03-15-48-37.jpg",
+   "price_per_m2": 157,
+   "matched_area": "Vlašim",
+   "distance_km": 10.46,
+   "first_seen": "2026-07-29",
+   "last_seen": "2026-07-29",
+   "removed_on": null,
+   "is_new": true,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 22000
+    }
+   ]
+  },
+  {
+   "id": "sreality:2659962956",
+   "source": "sreality",
+   "deal": "pronajem",
+   "category": "byt",
+   "location_precision": "address",
+   "title": "Pronájem bytu 4+1 91 m²",
+   "price": 22000,
+   "area_m2": 91,
+   "land_area_m2": null,
+   "disposition": "4+1",
+   "city": "Liberec",
+   "address": "Dobrovského, Liberec II-Nové Město",
+   "lat": 50.77204357,
+   "lon": 15.045902048,
+   "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/2659962956",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_E/nO2CysqjGrDPliFBooZHSICsQ/bcf5.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_E/nO2CysqjGrDPliFBooZHSICsQ/bcf5.jpeg?fl=res,100,100,1|jpg,80",
+   "price_per_m2": 242,
+   "matched_area": "Ruprechtice (Liberec)",
+   "distance_km": 2.36,
+   "first_seen": "2026-07-29",
+   "last_seen": "2026-07-29",
+   "removed_on": null,
+   "is_new": true,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 22000
+    }
+   ]
+  },
+  {
+   "id": "sreality:3817922636",
+   "source": "sreality",
+   "deal": "pronajem",
+   "category": "byt",
+   "location_precision": "address",
+   "title": "Pronájem bytu 4+1 112 m²",
+   "price": 30000,
+   "area_m2": 112,
+   "land_area_m2": null,
+   "disposition": "4+1",
+   "city": "Liberec",
+   "address": "Fučíkova, Liberec V-Kristiánov",
+   "lat": 50.770983612052795,
+   "lon": 15.070963408706097,
+   "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/3817922636",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_D/kQMlcCt5zmChFvGLmiHOUEAe/df8a.png?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_D/kQMlcCt5zmChFvGLmiHOUEAe/df8a.png?fl=res,100,100,1|jpg,80",
+   "price_per_m2": 268,
    "matched_area": "Masarykova třída (Liberec)",
    "distance_km": 0.13,
    "first_seen": "2026-07-29",
@@ -97,29 +247,127 @@
    "price_history": [
     {
      "date": "2026-07-29",
-     "price": 9449000
+     "price": 30000
     }
    ]
   },
   {
-   "id": "sreality:598692428",
+   "id": "sreality:1724444748",
    "source": "sreality",
+   "deal": "pronajem",
    "category": "byt",
-   "title": "Prodej bytu 3+1 102 m²",
-   "price": 7490000,
+   "location_precision": "address",
+   "title": "Pronájem bytu 4+1 106 m²",
+   "price": 19500,
+   "area_m2": 106,
+   "land_area_m2": null,
+   "disposition": "4+1",
+   "city": "Liberec",
+   "address": "Chrastavská, Liberec II-Nové Město",
+   "lat": 50.7713549172,
+   "lon": 15.0505655261,
+   "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/1724444748",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qC_C/kQMlcCt5zmBDp4mH3xG6opR8/52c0.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qC_C/kQMlcCt5zmBDp4mH3xG6opR8/52c0.jpeg?fl=res,100,100,1|jpg,80",
+   "price_per_m2": 184,
+   "matched_area": "Ruprechtice (Liberec)",
+   "distance_km": 2.22,
+   "first_seen": "2026-07-29",
+   "last_seen": "2026-07-29",
+   "removed_on": null,
+   "is_new": true,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 19500
+    }
+   ]
+  },
+  {
+   "id": "sreality:1312596044",
+   "source": "sreality",
+   "deal": "pronajem",
+   "category": "byt",
+   "location_precision": "address",
+   "title": "Pronájem bytu 4+1 83 m²",
+   "price": 15000,
+   "area_m2": 83,
+   "land_area_m2": null,
+   "disposition": "4+1",
+   "city": "Liberec",
+   "address": "Březová alej, Liberec I-Staré Město",
+   "lat": 50.7744407,
+   "lon": 15.082155,
+   "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/1312596044",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qA_E/kcHp2YdDtzYqGBAJJGedkwA/841f.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qA_E/kcHp2YdDtzYqGBAJJGedkwA/841f.jpeg?fl=res,100,100,1|jpg,80",
+   "price_per_m2": 181,
+   "matched_area": "Ruprechtice (Liberec)",
+   "distance_km": 1.81,
+   "first_seen": "2026-07-29",
+   "last_seen": "2026-07-29",
+   "removed_on": null,
+   "is_new": true,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 15000
+    }
+   ]
+  },
+  {
+   "id": "sreality:666271820",
+   "source": "sreality",
+   "deal": "pronajem",
+   "category": "byt",
+   "location_precision": "address",
+   "title": "Pronájem bytu 4+1 127 m²",
+   "price": 24000,
+   "area_m2": 127,
+   "land_area_m2": null,
+   "disposition": "4+1",
+   "city": "Bystřice",
+   "address": "Líšno",
+   "lat": 49.73245882879609,
+   "lon": 14.682795163725174,
+   "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/bystrice/666271820",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qC_B/nO2CysqjGrCP7qOIaBG2sfi7/634a.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qC_B/nO2CysqjGrCP7qOIaBG2sfi7/634a.jpeg?fl=res,100,100,1|jpg,80",
+   "price_per_m2": 189,
+   "matched_area": "Vlašim",
+   "distance_km": 16.0,
+   "first_seen": "2026-07-29",
+   "last_seen": "2026-07-29",
+   "removed_on": null,
+   "is_new": true,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 24000
+    }
+   ]
+  },
+  {
+   "id": "sreality:2255810636",
+   "source": "sreality",
+   "deal": "pronajem",
+   "category": "byt",
+   "location_precision": "address",
+   "title": "Pronájem bytu 4+1 102 m²",
+   "price": 25000,
    "area_m2": 102,
    "land_area_m2": null,
-   "disposition": "3+1",
-   "city": "Liberec",
-   "address": "Jiskrova, Liberec I-Staré Město",
-   "lat": 50.780110111720305,
-   "lon": 15.066236766387973,
-   "url": "https://www.sreality.cz/detail/prodej/byt/3+1/liberec/598692428",
-   "image": "https://d18-a.sdn.cz/d_18/c_img_p8_B/kY1K2LlXQD1lSJZfFvKktq/a1f2.png?fl=res,800,600,3|shr,,20|webp,60",
-   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_p8_B/kY1K2LlXQD1lSJZfFvKktq/a1f2.png?fl=res,100,100,1|jpg,80",
-   "price_per_m2": 73431,
-   "matched_area": "Ruprechtice (Liberec)",
-   "distance_km": 0.89,
+   "disposition": "4+1",
+   "city": "Benešov",
+   "address": "Hráského, Benešov",
+   "lat": 49.7793925125219,
+   "lon": 14.6966583075918,
+   "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/benesov/2255810636",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qC_F/kQMlcCt5zmD87zEMR2HE5G6x/c116.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qC_F/kQMlcCt5zmD87zEMR2HE5G6x/c116.jpeg?fl=res,100,100,1|jpg,80",
+   "price_per_m2": 245,
+   "matched_area": "Vlašim",
+   "distance_km": 16.89,
    "first_seen": "2026-07-29",
    "last_seen": "2026-07-29",
    "removed_on": null,
@@ -127,29 +375,31 @@
    "price_history": [
     {
      "date": "2026-07-29",
-     "price": 7490000
+     "price": 25000
     }
    ]
   },
   {
-   "id": "sreality:2536608588",
-   "source": "sreality",
+   "id": "bezrealitky:1039267",
+   "source": "bezrealitky",
+   "deal": "pronajem",
    "category": "byt",
-   "title": "Prodej bytu 3+1 98 m²",
-   "price": 6900000,
-   "area_m2": 98,
+   "location_precision": null,
+   "title": "Pronájem bytu 4+kk 120 m²",
+   "price": 8500,
+   "area_m2": 120,
    "land_area_m2": null,
-   "disposition": "3+1",
-   "city": "Liberec",
-   "address": "Gorkého, Liberec I-Staré Město",
-   "lat": 50.7753974368594,
-   "lon": 15.0701114579641,
-   "url": "https://www.sreality.cz/detail/prodej/byt/3+1/liberec/2536608588",
-   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_B/nO2CysqjGrCDmo6fQKHKTQ0q/1910.jpeg?fl=res,800,600,3|shr,,20|webp,60",
-   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_B/nO2CysqjGrCDmo6fQKHKTQ0q/1910.jpeg?fl=res,100,100,1|jpg,80",
-   "price_per_m2": 70408,
+   "disposition": "4+kk",
+   "city": null,
+   "address": "Lyžařská, Liberec - Starý Harcov, Liberecký kraj",
+   "lat": 50.7748958,
+   "lon": 15.0939543,
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1039267-nabidka-pronajem-bytu-lyzarska-liberec",
+   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1039k/1039267/1782656106-nptsrmtamb-img-7317.jpg",
+   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1039k/1039267/1782656106-nptsrmtamb-img-7317.jpg",
+   "price_per_m2": 71,
    "matched_area": "Ruprechtice (Liberec)",
-   "distance_km": 1.41,
+   "distance_km": 2.34,
    "first_seen": "2026-07-29",
    "last_seen": "2026-07-29",
    "removed_on": null,
@@ -157,7 +407,103 @@
    "price_history": [
     {
      "date": "2026-07-29",
-     "price": 6900000
+     "price": 8500
+    }
+   ]
+  },
+  {
+   "id": "sreality:2725679180",
+   "source": "sreality",
+   "deal": "pronajem",
+   "category": "byt",
+   "location_precision": "address",
+   "title": "Pronájem bytu 3+1 100 m²",
+   "price": 26900,
+   "area_m2": 100,
+   "land_area_m2": null,
+   "disposition": "3+1",
+   "city": "Liberec",
+   "address": "Na Perštýně, Liberec IV-Perštýn",
+   "lat": 50.7628136538,
+   "lon": 15.0602161632,
+   "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/liberec/2725679180",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_C/nO2CysqjGrDPliFu9vHMVFHq/eed2.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_C/nO2CysqjGrDPliFu9vHMVFHq/eed2.jpeg?fl=res,100,100,1|jpg,80",
+   "price_per_m2": 269,
+   "matched_area": "Vratislavice nad Nisou",
+   "distance_km": 2.94,
+   "first_seen": "2026-07-29",
+   "last_seen": "2026-07-29",
+   "removed_on": null,
+   "is_new": true,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 26900
+    }
+   ]
+  },
+  {
+   "id": "sreality:2609414220",
+   "source": "sreality",
+   "deal": "pronajem",
+   "category": "byt",
+   "location_precision": "address",
+   "title": "Pronájem bytu 3+1 127 m²",
+   "price": 30900,
+   "area_m2": 127,
+   "land_area_m2": null,
+   "disposition": "3+1",
+   "city": "Liberec",
+   "address": "Vrbova, Liberec I-Staré Město",
+   "lat": 50.7726746671,
+   "lon": 15.0699799423,
+   "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/liberec/2609414220",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qC_C/kQMlcCt5zmC5zFHHTxG58Qjl/fbef.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qC_C/kQMlcCt5zmC5zFHHTxG58Qjl/fbef.jpeg?fl=res,100,100,1|jpg,80",
+   "price_per_m2": 243,
+   "matched_area": "Masarykova třída (Liberec)",
+   "distance_km": 0.08,
+   "first_seen": "2026-07-29",
+   "last_seen": "2026-07-29",
+   "removed_on": null,
+   "is_new": true,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 30900
+    }
+   ]
+  },
+  {
+   "id": "sreality:1952940108",
+   "source": "sreality",
+   "deal": "pronajem",
+   "category": "byt",
+   "location_precision": "address",
+   "title": "Pronájem bytu 3+1 130 m²",
+   "price": 24000,
+   "area_m2": 130,
+   "land_area_m2": null,
+   "disposition": "3+1",
+   "city": "Bystřice",
+   "address": "Líšno",
+   "lat": 49.7324588287961,
+   "lon": 14.6827951637252,
+   "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/bystrice/1952940108",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qC_B/nO2CysqjGrB9kIMKfDG16ddm/89af.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qC_B/nO2CysqjGrB9kIMKfDG16ddm/89af.jpeg?fl=res,100,100,1|jpg,80",
+   "price_per_m2": 185,
+   "matched_area": "Vlašim",
+   "distance_km": 16.0,
+   "first_seen": "2026-07-29",
+   "last_seen": "2026-07-29",
+   "removed_on": null,
+   "is_new": true,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 24000
     }
    ]
   },
@@ -189,7 +535,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej domu 77 m², pozemek 570 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1007911-nabidka-prodej-domu-roubickov-naceradec"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1007911-nabidka-prodej-domu-roubickov-naceradec",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Čechtice - Nakvasovice, Středočeský kraj",
@@ -219,7 +567,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 4.244 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1015489-nabidka-prodej-pozemku"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1015489-nabidka-prodej-pozemku",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Vlašim - Nesperská Lhota, Středočeský kraj",
@@ -278,7 +628,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 12.039 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1025892-nabidka-prodej-pozemku-postupice"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1025892-nabidka-prodej-pozemku-postupice",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Vlašim - Domašín, Středočeský kraj",
@@ -308,7 +660,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej domu 65 m², pozemek 476 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1028193-nabidka-prodej-domu-vlasim"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1028193-nabidka-prodej-domu-vlasim",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Šternberská, Divišov - Divišov u Benešova, Středočeský kraj",
@@ -338,7 +692,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej domu 102 m², pozemek 172 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1028589-nabidka-prodej-domu-sternberska-divisov"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1028589-nabidka-prodej-domu-sternberska-divisov",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Jankov - Čestín u Jankova, Středočeský kraj",
@@ -368,7 +724,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 8.633 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037342-nabidka-prodej-pozemku-jankov"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037342-nabidka-prodej-pozemku-jankov",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Divišov - Zdebuzeves, Středočeský kraj",
@@ -427,7 +785,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 2.128 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1040458-nabidka-prodej-pozemku-trhovy-stepanov"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1040458-nabidka-prodej-pozemku-trhovy-stepanov",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Kácov - Kácov, Středočeský kraj",
@@ -486,7 +846,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 2.929 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1043219-nabidka-prodej-pozemku-tremosnice"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1043219-nabidka-prodej-pozemku-tremosnice",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Blanická, Postupice - Postupice, Středočeský kraj",
@@ -516,7 +878,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej domu 160 m², pozemek 3.535 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044480-nabidka-prodej-domu-blanicka-lisek"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044480-nabidka-prodej-domu-blanicka-lisek",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Loket - Němčice u Dolních Kralovic, Středočeský kraj",
@@ -546,7 +910,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 2.723 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044744-nabidka-prodej-pozemku-nemcice"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044744-nabidka-prodej-pozemku-nemcice",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Libež - Libež, Středočeský kraj",
@@ -576,7 +942,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 8.010 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045159-nabidka-prodej-pozemku-libez"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045159-nabidka-prodej-pozemku-libez",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Libež - Libež, Středočeský kraj",
@@ -606,7 +974,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 10.185 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045160-nabidka-prodej-pozemku-libez"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045160-nabidka-prodej-pozemku-libez",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Libež - Libež, Středočeský kraj",
@@ -636,7 +1006,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 8.739 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045162-nabidka-prodej-pozemku-libez"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045162-nabidka-prodej-pozemku-libez",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Psáře - Psáře, Středočeský kraj",
@@ -695,7 +1067,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 3.856 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949774-nabidka-prodej-pozemku-pravonin"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949774-nabidka-prodej-pozemku-pravonin",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Pravonín - Křížov pod Blaníkem, Středočeský kraj",
@@ -725,7 +1099,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 13.670 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949826-nabidka-prodej-pozemku-pravonin"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949826-nabidka-prodej-pozemku-pravonin",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Načeradec - Načeradec, Středočeský kraj",
@@ -755,7 +1131,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 820 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/968533-nabidka-prodej-pozemku"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/968533-nabidka-prodej-pozemku",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Milovanice",
@@ -785,7 +1163,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1949 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/1045082188"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/1045082188",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Soutice",
@@ -815,7 +1195,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 127 m², pozemek 3187 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/soutice/105181260"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/soutice/105181260",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Jankov",
@@ -845,7 +1227,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 8633 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/jankov/1061417036"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/jankov/1061417036",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Načeradec",
@@ -875,7 +1259,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 21681 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/naceradec/1064497228"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/naceradec/1064497228",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Kácov",
@@ -905,7 +1291,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 135 m², pozemek 1075 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kacov/1067180108"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kacov/1067180108",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Čeňovice",
@@ -964,7 +1352,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 926 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/soutice/1069740108"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/soutice/1069740108",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Kamberk",
@@ -1023,7 +1413,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1465 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/naceradec/1070370892"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/naceradec/1070370892",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Libež",
@@ -1053,7 +1445,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 8010 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/libez/1179836492"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/libez/1179836492",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Vyšetice",
@@ -1083,7 +1477,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 2632 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sebirov/1192091724"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sebirov/1192091724",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Sedlice",
@@ -1113,7 +1509,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 110 m², pozemek 2823 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/keblov/1194619724"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/keblov/1194619724",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Okrouhlice",
@@ -1143,7 +1541,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1040 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/benesov/121464140"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/benesov/121464140",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Horní náměstí, Divišov",
@@ -1173,7 +1573,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 213 m², pozemek 695 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/121806924"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/121806924",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Vlašimská, Divišov",
@@ -1203,7 +1605,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 94 m², pozemek 787 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/1239171660"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/1239171660",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Zdebuzeves",
@@ -1233,7 +1637,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 255 m², pozemek 3631 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/1270513740"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/1270513740",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Hrazená Lhota",
@@ -1263,7 +1669,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 320 m², pozemek 1743 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/132292684"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/132292684",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Ratměřice",
@@ -1297,7 +1705,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 890 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ratmerice/1353031756"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ratmerice/1353031756",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Ke Ctiborkám, Zruč nad Sázavou",
@@ -1327,7 +1737,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 65 m², pozemek 400 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/1359581260"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/1359581260",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Tehov",
@@ -1357,7 +1769,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 200 m², pozemek 429 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/1362595916"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/1362595916",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Libouň",
@@ -1387,7 +1801,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 325 m², pozemek 913 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zvestov/1373201228"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zvestov/1373201228",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Louňovice pod Blaníkem",
@@ -1417,7 +1833,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 248 m², pozemek 1000 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/lounovice-pod-blanikem/1394533196"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/lounovice-pod-blanikem/1394533196",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "V Dolích, Divišov",
@@ -1447,7 +1865,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1391 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/1401774924"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/1401774924",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Vyšetice",
@@ -1477,7 +1897,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 3421 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/sebirov/1409646668"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/sebirov/1409646668",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Pozovská, Postupice",
@@ -1511,7 +1933,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1000 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/1430475596"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/1430475596",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Šebířov",
@@ -1545,7 +1969,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 36326 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/sebirov/1458771276"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/sebirov/1458771276",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Dvořákova, Zruč nad Sázavou",
@@ -1575,7 +2001,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 190 m², pozemek 833 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/1468588108"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/1468588108",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Zahradní, Divišov",
@@ -1605,7 +2033,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 150 m², pozemek 930 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/147411788"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/147411788",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Holšice",
@@ -1635,7 +2065,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 140 m², pozemek 2049 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/chaberice/1484709964"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/chaberice/1484709964",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Daměnice",
@@ -1694,7 +2126,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 4064 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/tehov/1500214092"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/tehov/1500214092",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Milovanice",
@@ -1724,7 +2158,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 160 m², pozemek 3130 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/1516979020"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/1516979020",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Teplýšovice",
@@ -1754,7 +2190,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 241 m², pozemek 1264 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/teplysovice/1562542156"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/teplysovice/1562542156",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Čelivo",
@@ -1784,7 +2222,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 95 m², pozemek 1509 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/1570943052"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/1570943052",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Jeníkov",
@@ -1814,7 +2254,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 140 m², pozemek 1534 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cechtice/1594941516"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cechtice/1594941516",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Bílkovice",
@@ -1873,7 +2315,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 703 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/1617395788"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/1617395788",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Tehov",
@@ -1900,7 +2344,7 @@
     }
    ],
    "price_per_m2": 60545,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej rodinného domu 165 m², pozemek 735 m²",
    "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/163271500"
@@ -1933,7 +2377,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1251 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/psare/1648513868"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/psare/1648513868",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Vlašimská, Načeradec",
@@ -1963,7 +2409,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 88 m², pozemek 504 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/1652573004"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/1652573004",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Načeradec",
@@ -1993,7 +2441,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 214 m², pozemek 602 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/1655869516"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/1655869516",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Dubovka",
@@ -2023,7 +2473,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 384 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/psare/1659233100"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/psare/1659233100",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Onšovice",
@@ -2082,7 +2534,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 6515 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/pravonin/1688728396"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/pravonin/1688728396",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Řendějov",
@@ -2112,7 +2566,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1987 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rendejov/1734005580"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rendejov/1734005580",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Zdislavice",
@@ -2142,7 +2598,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 110 m², pozemek 979 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zdislavice/1756753996"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zdislavice/1756753996",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Veliš",
@@ -2172,7 +2630,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 27408 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/velis/1772548172"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/velis/1772548172",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Polánka",
@@ -2202,7 +2662,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 66 m², pozemek 2524 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/1773527116"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/1773527116",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Městečko",
@@ -2232,7 +2694,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 13942 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/chotysany/1791221836"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/chotysany/1791221836",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Veliš",
@@ -2262,7 +2726,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1400 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/velis/1795253580"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/velis/1795253580",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Tehov",
@@ -2296,7 +2762,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 967 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/tehov/1813701196"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/tehov/1813701196",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "U Haltýře, Divišov",
@@ -2355,7 +2823,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 210 m², pozemek 206 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1841664076"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1841664076",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Kácov",
@@ -2385,7 +2855,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 10832 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/kacov/1849270860"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/kacov/1849270860",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Libež",
@@ -2415,7 +2887,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 8739 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/libez/1884479564"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/libez/1884479564",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Všechlapy",
@@ -2445,7 +2919,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 3259 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/vsechlapy/1916837964"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/vsechlapy/1916837964",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Zámecké náměstí, Načeradec",
@@ -2475,7 +2951,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 170 m², pozemek 280 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/191754316"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/191754316",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Všechlapy",
@@ -2505,7 +2983,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 96 m², pozemek 256 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vsechlapy/1941910348"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vsechlapy/1941910348",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Vlašim",
@@ -2535,7 +3015,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 105 m², pozemek 408 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/197878860"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/197878860",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Chabeřice",
@@ -2565,7 +3047,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 160 m², pozemek 1165 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/chaberice/1980342348"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/chaberice/1980342348",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Nemíž",
@@ -2595,7 +3079,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 3892 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/tehov/1989341260"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/tehov/1989341260",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Dobříčkov",
@@ -2625,7 +3111,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 70 m², pozemek 1911 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/2041684044"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/2041684044",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Jana Očka, Vlašim",
@@ -2655,7 +3143,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 268 m², pozemek 549 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2048525132"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2048525132",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Luční, Vlašim",
@@ -2685,7 +3175,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 320 m², pozemek 608 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2100748364"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2100748364",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Bílkovice",
@@ -2715,7 +3207,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1140 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bilkovice/2116546636"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bilkovice/2116546636",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Radonice",
@@ -2745,7 +3239,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1486 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/2178723916"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/2178723916",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Liberec-Vratislavice nad Nisou",
@@ -2775,7 +3271,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 1603 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/2184983116"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/2184983116",
+   "deal": "prodej",
+   "location_precision": "quarter"
   },
   {
    "address": "Pravonín",
@@ -2805,7 +3303,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 237 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin/2185658956"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin/2185658956",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Všechlapy",
@@ -2835,7 +3335,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 200 m², pozemek 152 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vsechlapy/2195431500"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vsechlapy/2195431500",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Hrabalova, Liberec XIV-Ruprechtice",
@@ -2865,7 +3367,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 720 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/221205324"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/221205324",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Na Sídlišti, Divišov",
@@ -2895,7 +3399,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 100 m², pozemek 1100 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/2215330380"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/2215330380",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Načeradec",
@@ -2925,7 +3431,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1368 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/naceradec/2215863116"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/naceradec/2215863116",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Skrýšov",
@@ -2955,7 +3463,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 133 m², pozemek 576 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/sebirov/2235686988"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/sebirov/2235686988",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Vzdušná, Liberec I-Staré Město",
@@ -2985,7 +3495,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 123 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/224038988"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/224038988",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Strojetice",
@@ -3015,7 +3527,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 848 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/strojetice/225878092"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/strojetice/225878092",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Radošovice",
@@ -3074,7 +3588,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 252 m², pozemek 933 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2295849036"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2295849036",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Kácov",
@@ -3104,7 +3620,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 138 m², pozemek 1074 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kacov/2300047436"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kacov/2300047436",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Libež",
@@ -3163,7 +3681,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 49646 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/velis/2309419084"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/velis/2309419084",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Dubějovice",
@@ -3193,7 +3713,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 233 m², pozemek 653 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/23240780"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/23240780",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Trhový Štěpánov",
@@ -3223,7 +3745,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1644 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/trhovy-stepanov/2358239308"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/trhovy-stepanov/2358239308",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Čechtice",
@@ -3253,7 +3777,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 4244 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/cechtice/2372575308"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/cechtice/2372575308",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Postupice",
@@ -3283,7 +3809,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 12039 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/postupice/2389151820"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/postupice/2389151820",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Chabeřice",
@@ -3313,7 +3841,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 157 m², pozemek 1334 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/chaberice/2408620108"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/chaberice/2408620108",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Staškova, Liberec XIV-Ruprechtice",
@@ -3343,7 +3873,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 240 m², pozemek 360 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2409951308"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2409951308",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Pardidubská, Zruč nad Sázavou",
@@ -3402,7 +3934,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 927 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vsechlapy/2441322572"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vsechlapy/2441322572",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Struhařov",
@@ -3432,7 +3966,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1442 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/struharov/2462134860"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/struharov/2462134860",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Zvěstov",
@@ -3459,7 +3995,7 @@
     }
    ],
    "price_per_m2": 278,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej pozemku 8999 m²",
    "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/zvestov/2467733580"
@@ -3521,7 +4057,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1200 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/mnichovice/2519319372"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/mnichovice/2519319372",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Vlašim",
@@ -3551,7 +4089,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 105 m², pozemek 505 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2522506316"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2522506316",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Vlašim",
@@ -3581,7 +4121,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1262 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vlasim/2524029004"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vlasim/2524029004",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Šternov",
@@ -3611,7 +4153,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 631 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/2544996428"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/2544996428",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Kácov",
@@ -3641,7 +4185,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej komerčního pozemku 804 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/komercni/kacov/2554159692"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/komercni/kacov/2554159692",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Vlašim",
@@ -3671,7 +4217,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 1000 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vlasim/2561905228"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vlasim/2561905228",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Postupice",
@@ -3701,7 +4249,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 126 m², pozemek 1123 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/2564158028"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/2564158028",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Kladruby",
@@ -3731,7 +4281,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 4190 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/kladruby/2635465292"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/kladruby/2635465292",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Soutice",
@@ -3761,7 +4313,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 857 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/soutice/264433740"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/soutice/264433740",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Domašín",
@@ -3791,7 +4345,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 120 m², pozemek 421 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2656497740"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2656497740",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Dalkovická, Trhový Štěpánov",
@@ -3821,7 +4377,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 110 m², pozemek 828 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/2694045772"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/2694045772",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "V Sedle, Trhový Štěpánov",
@@ -3851,7 +4409,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 178 m², pozemek 1239 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/2705617740"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/2705617740",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Mojmírova, Liberec XIV-Ruprechtice",
@@ -3881,7 +4441,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 108 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/271679564"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/271679564",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Sedlice",
@@ -3911,7 +4473,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 106 m², pozemek 298 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/keblov/2744664908"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/keblov/2744664908",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Načeradec",
@@ -3941,7 +4505,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 158 m², pozemek 642 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/2746388556"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/2746388556",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Holšice",
@@ -3971,7 +4537,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 670 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/chaberice/2746581068"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/chaberice/2746581068",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Pilátka, Dlouhé Pole",
@@ -4001,7 +4569,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 388 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/benesov/2810540876"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/benesov/2810540876",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Němčice",
@@ -4060,7 +4630,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 113 m², pozemek 55 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2855396172"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2855396172",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Rataje",
@@ -4090,7 +4662,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 754 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje/2860802892"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje/2860802892",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Popovice",
@@ -4120,7 +4694,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 231 m², pozemek 654 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/popovice/2861625420"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/popovice/2861625420",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Čížov",
@@ -4150,7 +4726,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 278 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/chaberice/2878771276"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/chaberice/2878771276",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Kondrac",
@@ -4213,7 +4791,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1000 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/naceradec/2907378252"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/naceradec/2907378252",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Mladovice",
@@ -4243,7 +4823,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1020 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/popovice/2909724748"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/popovice/2909724748",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Strojetice",
@@ -4273,7 +4855,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 952 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/strojetice/2910232652"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/strojetice/2910232652",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Malovidy",
@@ -4303,7 +4887,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 571 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/2945114188"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/2945114188",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Němčice",
@@ -4333,7 +4919,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 263 m², pozemek 1178 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/loket/2947433292"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/loket/2947433292",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Louňovice pod Blaníkem",
@@ -4392,7 +4980,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 297 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/2987094604"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/2987094604",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Divišov",
@@ -4422,7 +5012,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1500 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/299675724"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/299675724",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Miřetice",
@@ -4452,7 +5044,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1145 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/miretice/3005866060"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/miretice/3005866060",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Lipiny u Radošovic",
@@ -4482,7 +5076,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 94 m², pozemek 1867 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/radosovice/3028725836"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/radosovice/3028725836",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Zvěstov",
@@ -4512,7 +5108,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 51947 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/zvestov/30290764"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/zvestov/30290764",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Blanická, Louňovice pod Blaníkem",
@@ -4542,7 +5140,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 75 m², pozemek 798 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/lounovice-pod-blanikem/3035529292"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/lounovice-pod-blanikem/3035529292",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Libež",
@@ -4572,7 +5172,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 71 m², pozemek 565 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/libez/3053908044"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/libez/3053908044",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Chotýšany",
@@ -4602,7 +5204,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 64 m², pozemek 829 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/chotysany/3060789324"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/chotysany/3060789324",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Hulice",
@@ -4636,7 +5240,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 42 m², pozemek 419 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/hulice/3070926924"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/hulice/3070926924",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Libež",
@@ -4666,7 +5272,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 135 m², pozemek 703 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/libez/307159884"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/libez/307159884",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Vlašim",
@@ -4696,7 +5304,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 741 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vlasim/3124835148"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vlasim/3124835148",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Pičín",
@@ -4726,7 +5336,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 64632 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/jankov/3133399116"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/jankov/3133399116",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Popovice",
@@ -4756,7 +5368,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 3093 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/popovice/3181543500"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/popovice/3181543500",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Ondříčkova, Liberec I-Staré Město",
@@ -4786,7 +5400,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 90 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/3209265228"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/3209265228",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Načeradec",
@@ -4816,7 +5432,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 620 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/naceradec/3212677196"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/naceradec/3212677196",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Vlašim",
@@ -4846,7 +5464,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 841 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vlasim/3235467852"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vlasim/3235467852",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Bílkovice",
@@ -4876,7 +5496,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 164 m², pozemek 1000 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bilkovice/3239764812"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bilkovice/3239764812",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Nesperská Lhota",
@@ -4910,7 +5532,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 200 m², pozemek 147 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3252850764"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3252850764",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Vlastišov",
@@ -4940,7 +5564,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 120 m², pozemek 1407 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zvestov/3261813580"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zvestov/3261813580",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Zvěstov",
@@ -4970,7 +5596,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 1506 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/zvestov/3275334220"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/zvestov/3275334220",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Zdislavice",
@@ -5000,7 +5628,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1173 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zdislavice/3281855308"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zdislavice/3281855308",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Libež",
@@ -5030,7 +5660,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1028 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/3320140620"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/3320140620",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Zdislavice",
@@ -5060,7 +5692,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 80 m², pozemek 1958 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zdislavice/3336417356"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zdislavice/3336417356",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Dubějovice",
@@ -5090,7 +5724,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 90 m², pozemek 300 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/3340755020"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/3340755020",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Vlašimská, Zruč nad Sázavou",
@@ -5120,7 +5756,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 119 m², pozemek 479 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/3345507148"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/3345507148",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Útěchvosty",
@@ -5150,7 +5788,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 144 m², pozemek 822 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/podveky/3368394828"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/podveky/3368394828",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Kamberk",
@@ -5209,7 +5849,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1300 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/mnichovice/338281292"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/mnichovice/338281292",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Pravonín",
@@ -5239,7 +5881,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 13670 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin/3393098572"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin/3393098572",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Na Pískovně, Liberec XIV-Ruprechtice",
@@ -5269,7 +5913,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 90 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/3419922508"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/3419922508",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "náměstí Sv. Čecha, Postupice",
@@ -5299,7 +5945,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 126 m², pozemek 283 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/3477069900"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/3477069900",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Chotýšany",
@@ -5329,7 +5977,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 143 m², pozemek 922 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/chotysany/3478843468"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/chotysany/3478843468",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Libež",
@@ -5359,7 +6009,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1187 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/3523141708"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/3523141708",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Chabeřice",
@@ -5389,7 +6041,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 2210 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/chaberice/3528504140"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/chaberice/3528504140",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Český Šternberk",
@@ -5419,7 +6073,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 2748 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/cesky-sternberk/3552424012"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/cesky-sternberk/3552424012",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Litichovice",
@@ -5449,7 +6105,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1411 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/litichovice/3560370252"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/litichovice/3560370252",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Tatouňovice",
@@ -5479,7 +6137,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 400 m², pozemek 1751 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cakov/3571663692"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cakov/3571663692",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Ke Ctiborkám, Zruč nad Sázavou",
@@ -5509,7 +6169,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 120 m², pozemek 753 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/3587654476"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/3587654476",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Roudný",
@@ -5539,7 +6201,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 505 m², pozemek 4038 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zvestov/3595256652"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zvestov/3595256652",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Nesperská Lhota",
@@ -5569,7 +6233,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 6534 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vlasim/3595387724"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vlasim/3595387724",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Dračí, Liberec XIV-Ruprechtice",
@@ -5599,7 +6265,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1633 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3637384012"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3637384012",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Libouň",
@@ -5629,7 +6297,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 120 m², pozemek 982 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zvestov/364602188"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zvestov/364602188",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Nad Školou, Trhový Štěpánov",
@@ -5659,7 +6329,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 142 m², pozemek 621 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/3667075916"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/3667075916",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Trhový Štěpánov",
@@ -5689,7 +6361,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 1133 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/trhovy-stepanov/3671385164"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/trhovy-stepanov/3671385164",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Nádražní, Trhový Štěpánov",
@@ -5719,7 +6393,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 60 m², pozemek 246 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/3673002060"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/3673002060",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Malovidy",
@@ -5749,7 +6425,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 657 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/3740377164"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/3740377164",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Milovanice",
@@ -5779,7 +6457,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1949 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/3755978828"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/3755978828",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Prostřední, Zruč nad Sázavou",
@@ -5809,7 +6489,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 75 m², pozemek 270 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/3773797196"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/3773797196",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Libež",
@@ -5839,7 +6521,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 10185 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/libez/3780304972"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/libez/3780304972",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Trhový Štěpánov",
@@ -5869,7 +6553,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 2128 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/trhovy-stepanov/3795120204"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/trhovy-stepanov/3795120204",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Divišov",
@@ -5899,7 +6585,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1620 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/3840631628"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/3840631628",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Lísek",
@@ -5929,7 +6617,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1000 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/3894865996"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/3894865996",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Erbenova, Vlašim",
@@ -5959,7 +6649,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 191 m², pozemek 600 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3901874252"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3901874252",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Lbosín",
@@ -5993,7 +6685,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 187 m², pozemek 505 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/3901915212"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/3901915212",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Radošovice",
@@ -6023,7 +6717,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 17689 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/radosovice/3911803468"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/radosovice/3911803468",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Radošovice",
@@ -6053,7 +6749,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 18903 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/radosovice/3917046348"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/radosovice/3917046348",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Bílkovice",
@@ -6083,7 +6781,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 150 m², pozemek 308 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bilkovice/3924493132"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bilkovice/3924493132",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Na Kopci, Divišov",
@@ -6113,7 +6813,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 118 m², pozemek 165 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/3928015692"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/3928015692",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Vinohradská, Čechtice",
@@ -6143,7 +6845,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 400 m², pozemek 899 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cechtice/3931013196"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cechtice/3931013196",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Vlašim",
@@ -6173,7 +6877,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 134 m², pozemek 487 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3939198028"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3939198028",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Vlašim",
@@ -6203,7 +6909,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 6386 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/vlasim/3944067916"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/vlasim/3944067916",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Domašín",
@@ -6233,7 +6941,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 849 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vlasim/394838860"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vlasim/394838860",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Čáslavsko",
@@ -6263,7 +6973,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 11982 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/caslavsko/3951137612"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/caslavsko/3951137612",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Miroslav",
@@ -6293,7 +7005,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 699 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/3958465356"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/3958465356",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Polní, Zruč nad Sázavou",
@@ -6323,7 +7037,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 74 m², pozemek 170 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/3965461324"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/3965461324",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Strojetice",
@@ -6353,7 +7069,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 969 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/strojetice/3967197260"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/strojetice/3967197260",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Jankovská Lhota",
@@ -6383,7 +7101,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 300 m², pozemek 4182 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/jankov/4041691980"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/jankov/4041691980",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Popovice",
@@ -6413,7 +7133,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1740 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/popovice/4050886732"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/popovice/4050886732",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Divišov",
@@ -6443,7 +7165,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 976 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/4064297548"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/4064297548",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Pozov",
@@ -6502,7 +7226,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej komerčního pozemku 700 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/komercni/teplysovice/4101199180"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/komercni/teplysovice/4101199180",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Černýš",
@@ -6532,7 +7258,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 896 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/soutice/4107141964"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/soutice/4107141964",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Chotýšany",
@@ -6562,7 +7290,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 13942 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/chotysany/4118303564"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/chotysany/4118303564",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Libež",
@@ -6592,7 +7322,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 108 m², pozemek 3066 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/libez/4122899276"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/libez/4122899276",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Malovidy",
@@ -6622,7 +7354,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 60 m², pozemek 571 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/4135907404"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/4135907404",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Hulice",
@@ -6656,7 +7390,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 42 m², pozemek 419 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/hulice/413827148"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/hulice/413827148",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Křížov",
@@ -6686,7 +7422,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 954 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/pravonin/4143063884"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/pravonin/4143063884",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Louňovice pod Blaníkem",
@@ -6716,7 +7454,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 816 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/lounovice-pod-blanikem/4147573580"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/lounovice-pod-blanikem/4147573580",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Soutice",
@@ -6746,7 +7486,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1004 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/soutice/4158304332"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/soutice/4158304332",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Tehov",
@@ -6776,7 +7518,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 120 m², pozemek 951 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/4201676876"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/4201676876",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Laby",
@@ -6806,7 +7550,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 45954 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zvestov/4212597580"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zvestov/4212597580",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Tehov",
@@ -6836,7 +7582,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 941 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/tehov/4215308364"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/tehov/4215308364",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Čelivo",
@@ -6870,7 +7618,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 90581 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/postupice/4221165644"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/postupice/4221165644",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Vlašimská, Zruč nad Sázavou",
@@ -6900,7 +7650,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 479 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zruc-nad-sazavou/4234765132"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zruc-nad-sazavou/4234765132",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Libež",
@@ -6930,7 +7682,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1248 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/4243451980"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/4243451980",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Trhový Štěpánov",
@@ -6960,7 +7714,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 705 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/trhovy-stepanov/4270408524"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/trhovy-stepanov/4270408524",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Strojetice",
@@ -6990,7 +7746,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 845 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/strojetice/4275979084"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/strojetice/4275979084",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Veliš",
@@ -7020,7 +7778,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 22238 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/velis/430370892"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/velis/430370892",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Domašín",
@@ -7050,7 +7810,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 1137 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/vlasim/446730316"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/vlasim/446730316",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Kácov",
@@ -7080,7 +7842,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 130 m², pozemek 1819 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kacov/453697612"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kacov/453697612",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Kamberk",
@@ -7139,7 +7903,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 804 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/kacov/494682700"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/kacov/494682700",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "V Kopci, Načeradec",
@@ -7169,7 +7935,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 100 m², pozemek 108 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/495165516"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/495165516",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Mladovice",
@@ -7199,7 +7967,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 144 m², pozemek 699 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/popovice/515473484"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/popovice/515473484",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Soběšín",
@@ -7229,7 +7999,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1868 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sobesin/534405964"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sobesin/534405964",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Chabeřice",
@@ -7259,7 +8031,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 899 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/chaberice/646067020"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/chaberice/646067020",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Teplýšovice",
@@ -7289,7 +8063,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1394 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/teplysovice/688031564"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/teplysovice/688031564",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Louňovice pod Blaníkem",
@@ -7319,7 +8095,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 23891 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/lounovice-pod-blanikem/740406092"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/lounovice-pod-blanikem/740406092",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "V Hůře, Postupice",
@@ -7349,7 +8127,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 207 m², pozemek 1084 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/7581772"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/7581772",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Mnichovice",
@@ -7379,7 +8159,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 5707 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/mnichovice/763851340"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/mnichovice/763851340",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Býkovice",
@@ -7409,7 +8191,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 202 m², pozemek 551 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/struharov/787710028"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/struharov/787710028",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Jankov",
@@ -7439,7 +8223,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 15336 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/jankov/8052812"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/jankov/8052812",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Kamberk",
@@ -7498,7 +8284,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 604 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/mnichovice/868524108"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/mnichovice/868524108",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Hlávkova, Liberec",
@@ -7557,7 +8345,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 95 m², pozemek 987 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cesky-sternberk/926081100"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cesky-sternberk/926081100",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Sokolská, Vlašim",
@@ -7587,7 +8377,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 76 m², pozemek 146 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/952799308"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/952799308",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Louňovice pod Blaníkem",
@@ -7621,7 +8413,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 8755 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/lounovice-pod-blanikem/957010764"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/lounovice-pod-blanikem/957010764",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Daměnice",
@@ -7651,7 +8445,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 12602 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/naceradec/959832140"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/naceradec/959832140",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Libež",
@@ -7681,7 +8477,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 717 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/96501836"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/96501836",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Pravonín",
@@ -7711,7 +8509,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 3856 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin/977179468"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin/977179468",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Kamenná Lhota",
@@ -7770,7 +8570,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 61 m², pozemek 570 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/987295820"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/987295820",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Hulice",
@@ -7800,7 +8602,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 400 m², pozemek 1405 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/hulice/989102156"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/hulice/989102156",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Čížov",
@@ -7830,7 +8634,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 273 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/chaberice/999723084"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/chaberice/999723084",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Ostředek - Bělčice u Ostředka, Středočeský kraj",
@@ -7860,7 +8666,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 11.254 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1003146-nabidka-prodej-pozemku-ostredek"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1003146-nabidka-prodej-pozemku-ostredek",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Zbizuby - Zbizuby, Středočeský kraj",
@@ -7890,7 +8698,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 1.527 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1013262-nabidka-prodej-pozemku"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1013262-nabidka-prodej-pozemku",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Šebířov - Vyšetice, Jihočeský kraj",
@@ -7920,7 +8730,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 2.281 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1015868-nabidka-prodej-pozemku"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1015868-nabidka-prodej-pozemku",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Pod Vodárnou, Jablonec nad Nisou - Lukášov, Liberecký kraj",
@@ -7950,7 +8762,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej domu 110 m², pozemek 896 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023789-nabidka-prodej-domu-pod-vodarnou-jablonec-nad-nisou"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023789-nabidka-prodej-domu-pod-vodarnou-jablonec-nad-nisou",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Votice - Budenín, Středočeský kraj",
@@ -7980,7 +8794,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 6.639 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033466-nabidka-prodej-pozemku-votice"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033466-nabidka-prodej-pozemku-votice",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Jablonec nad Nisou - Lukášov, Liberecký kraj",
@@ -8010,7 +8826,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 1.070 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1036886-nabidka-prodej-pozemku-jablonec-nad-nisou"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1036886-nabidka-prodej-pozemku-jablonec-nad-nisou",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Frýdlantská, Liberec - Liberec, Liberecký kraj",
@@ -8040,7 +8858,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej bytu 4+kk 109 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037820-nabidka-prodej-bytu-frydlantska-liberec"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037820-nabidka-prodej-bytu-frydlantska-liberec",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Slapsko - Slapsko, Jihočeský kraj",
@@ -8070,7 +8890,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej domu 206 m², pozemek 885 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1039477-nabidka-prodej-domu-slapsko"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1039477-nabidka-prodej-domu-slapsko",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Karla Nového, Bystřice - Bystřice u Benešova, Středočeský kraj",
@@ -8100,7 +8922,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej domu 151 m², pozemek 866 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1046330-nabidka-prodej-domu-karla-noveho-bystrice"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1046330-nabidka-prodej-domu-karla-noveho-bystrice",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Postupice - Jemniště, Středočeský kraj",
@@ -8130,7 +8954,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 8.431 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048427-nabidka-prodej-pozemku-postupice"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048427-nabidka-prodej-pozemku-postupice",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Horka II - Horka nad Sázavou, Středočeský kraj",
@@ -8160,7 +8986,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 1.493 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/836119-nabidka-prodej-pozemku-horka-ii"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/836119-nabidka-prodej-pozemku-horka-ii",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Louňovice pod Blaníkem - Louňovice pod Blaníkem, Středočeský kraj",
@@ -8190,7 +9018,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej domu 248 m², pozemek 1.000 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/942752-nabidka-prodej-domu-lounovice-pod-blanikem"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/942752-nabidka-prodej-domu-lounovice-pod-blanikem",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Slapsko - Slapsko, Jihočeský kraj",
@@ -8220,7 +9050,9 @@
    "removed_on": null,
    "source": "bezrealitky",
    "title": "Prodej pozemku 6.571 m²",
-   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949795-nabidka-prodej-pozemku-slapsko"
+   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949795-nabidka-prodej-pozemku-slapsko",
+   "deal": "prodej",
+   "location_precision": null
   },
   {
    "address": "Pod Baštou, Zruč nad Sázavou",
@@ -8250,7 +9082,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 110 m², pozemek 424 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/1032336204"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/1032336204",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Pražského povstání, Benešov",
@@ -8284,7 +9118,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 11842 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/benesov/1036116044"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/benesov/1036116044",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Borovsko",
@@ -8314,7 +9150,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 100 m², pozemek 1765 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bernartice/1067082316"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bernartice/1067082316",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Nad Nisou, Liberec XXV-Vesec",
@@ -8344,7 +9182,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1660 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1087968076"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1087968076",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Křivsoudov",
@@ -8374,7 +9214,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 224 m², pozemek 1055 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/krivsoudov/1146060876"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/krivsoudov/1146060876",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Dobiášova, Liberec VI-Rochlice",
@@ -8404,7 +9246,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 94 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/1150178124"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/1150178124",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Rataje",
@@ -8434,7 +9278,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 119 m², pozemek 940 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje/1161093196"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje/1161093196",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Tyršův vrch, Liberec XXX-Vratislavice nad Nisou",
@@ -8464,7 +9310,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 118 m², pozemek 924 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1212141644"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1212141644",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Libež",
@@ -8498,7 +9346,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 925 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/1222606924"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/1222606924",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Pozovská, Postupice",
@@ -8528,7 +9378,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 151 m², pozemek 802 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/1222627404"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/1222627404",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Neustupov",
@@ -8558,7 +9410,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 450 m², pozemek 1649 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/neustupov/1222779468"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/neustupov/1222779468",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Petroupim",
@@ -8588,7 +9442,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 979 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/petroupim/1236886348"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/petroupim/1236886348",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Vyhlídková, Liberec XXV-Vesec",
@@ -8618,7 +9474,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1019 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1249112140"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1249112140",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Šebířov",
@@ -8648,7 +9506,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 94 m², pozemek 727 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/sebirov/127464268"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/sebirov/127464268",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Zbizuby",
@@ -8678,7 +9538,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 2112 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zbizuby/1280548940"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zbizuby/1280548940",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Nad Potokem, Liberec XXV-Vesec",
@@ -8708,7 +9570,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 463 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1284759628"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1284759628",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Šebířov",
@@ -8738,7 +9602,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 150 m², pozemek 11572 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/sebirov/1311576908"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/sebirov/1311576908",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Zbizuby",
@@ -8768,7 +9634,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 2380 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/zbizuby/1316143948"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/zbizuby/1316143948",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Kozmice",
@@ -8798,7 +9666,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 97 m², pozemek 1079 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/1367113804"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/1367113804",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Liberec",
@@ -8825,7 +9695,7 @@
     }
    ],
    "price_per_m2": 690,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej stavebního pozemku 5523 m²",
    "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1479238476"
@@ -8858,7 +9728,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 696 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1485869132"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1485869132",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Malovidy",
@@ -8888,7 +9760,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 120 m², pozemek 475 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vracovice/1517932620"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vracovice/1517932620",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Rataje nad Sázavou",
@@ -8918,7 +9792,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 802 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/1525424972"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/1525424972",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Alšova, Liberec I-Staré Město",
@@ -8948,7 +9824,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 125 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/1536648012"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/1536648012",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Křivsoudov",
@@ -8978,7 +9856,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 16903 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/krivsoudov/154849356"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/krivsoudov/154849356",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Zeyerova, Liberec I-Staré Město",
@@ -9008,7 +9888,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 160 m², pozemek 666 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1582850892"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1582850892",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Mšenská, Liberec XXIX-Kunratice",
@@ -9042,7 +9924,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 4467 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1601270348"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1601270348",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Na Perštýně, Liberec IV-Perštýn",
@@ -9072,7 +9956,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 92 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/1638621772"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/1638621772",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Na Nivách, Liberec XV-Starý Harcov",
@@ -9102,7 +9988,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 336 m², pozemek 1629 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1676259404"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1676259404",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Na Kačírku, Liberec VI-Rochlice",
@@ -9132,7 +10020,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 120 m², pozemek 417 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1707601996"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1707601996",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Liberec",
@@ -9159,7 +10049,7 @@
     }
    ],
    "price_per_m2": 65,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej lesa 14111 m²",
    "url": "https://www.sreality.cz/detail/prodej/pozemek/les/liberec/1722261580"
@@ -9192,7 +10082,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 111 m², pozemek 458 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1741877324"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1741877324",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Neustupov",
@@ -9222,7 +10114,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 1146 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/neustupov/1781813836"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/neustupov/1781813836",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Řendějov",
@@ -9252,7 +10146,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pozemku 1750 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/rendejov/1840734796"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/rendejov/1840734796",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Liberec",
@@ -9279,7 +10175,7 @@
     }
    ],
    "price_per_m2": 2425,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1848 m²",
    "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1875891020"
@@ -9312,7 +10208,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 418 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1884652364"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1884652364",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Na Čeperce, Bystřice",
@@ -9346,7 +10244,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 800 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/1885279052"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/1885279052",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Vyhlídková, Liberec XXV-Vesec",
@@ -9376,7 +10276,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 1019 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/1893851212"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/1893851212",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Vyklantická, Lukavec",
@@ -9406,7 +10308,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 93 m², pozemek 857 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/lukavec/1915064396"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/lukavec/1915064396",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Zbizuby",
@@ -9436,7 +10340,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 800 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/1948770380"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/1948770380",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Šebířov",
@@ -9466,7 +10372,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 44451 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/sebirov/1988252492"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/sebirov/1988252492",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Na Malé Straně, Divišov",
@@ -9496,7 +10404,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 74 m², pozemek 73 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/2003423308"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/2003423308",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Lukavec",
@@ -9526,7 +10436,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 195 m², pozemek 945 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/lukavec/2004767564"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/lukavec/2004767564",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Alberovice",
@@ -9556,7 +10468,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1158 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/loket/2019680332"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/loket/2019680332",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Březový vrch, Liberec XV-Starý Harcov",
@@ -9586,7 +10500,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 133 m², pozemek 237 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2047894348"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2047894348",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Mariánovice",
@@ -9616,7 +10532,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 151 m², pozemek 569 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/2050138188"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/2050138188",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Liberec",
@@ -9643,7 +10561,7 @@
     }
    ],
    "price_per_m2": 4785,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1001 m²",
    "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/206123852"
@@ -9676,7 +10594,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 2075 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ostredek/2061980492"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ostredek/2061980492",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Nábřežní, Zruč nad Sázavou",
@@ -9706,7 +10626,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 70 m², pozemek 274 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2070172492"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2070172492",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Králův háj, Liberec V-Kristiánov",
@@ -9736,7 +10658,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 115 m², pozemek 443 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2080592716"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2080592716",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Rataje nad Sázavou",
@@ -9766,7 +10690,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1381 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/2082407244"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/2082407244",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Vlašim",
@@ -9796,7 +10722,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 106 m², pozemek 600 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2093535308"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2093535308",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Křivsoudov",
@@ -9826,7 +10754,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1090 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/krivsoudov/2122580556"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/krivsoudov/2122580556",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Kašparova, Liberec VI-Rochlice",
@@ -9856,7 +10786,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 135 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2146598988"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2146598988",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Kozmice",
@@ -9886,7 +10818,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 142 m², pozemek 804 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/2167034700"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/2167034700",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Výletní, Liberec XXXII-Radčice",
@@ -9916,7 +10850,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 600 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/21975884"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/21975884",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Česká, Liberec XXV-Vesec",
@@ -9946,7 +10882,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 82 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2201522252"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2201522252",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Šebířov",
@@ -9980,7 +10918,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1359 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sebirov/2207875148"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sebirov/2207875148",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Bystřice",
@@ -10010,7 +10950,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 98 m², pozemek 650 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/2219184972"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/2219184972",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Otradovice",
@@ -10040,7 +10982,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1230 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/jankov/2251141196"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/jankov/2251141196",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Ouběnice",
@@ -10070,7 +11014,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 104 m², pozemek 605 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/2287464524"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/2287464524",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Ostředek",
@@ -10100,7 +11046,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 11254 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/ostredek/2301248332"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/ostredek/2301248332",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Liberec",
@@ -10127,7 +11075,7 @@
     }
    ],
    "price_per_m2": 69136,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej bytu 4+1 81 m²",
    "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/2320224332"
@@ -10160,7 +11108,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 227 m², pozemek 749 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/2328437324"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/2328437324",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Liberec",
@@ -10187,7 +11137,7 @@
     }
    ],
    "price_per_m2": 200,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej louky 6492 m²",
    "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/liberec/235955020"
@@ -10220,7 +11170,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 727 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/2435309644"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/2435309644",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Liberec",
@@ -10247,7 +11199,7 @@
     }
    ],
    "price_per_m2": 3583,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1200 m²",
    "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/2545852492"
@@ -10280,7 +11232,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 6639 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/votice/255098956"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/votice/255098956",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Rataje nad Sázavou",
@@ -10310,7 +11264,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 801 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/2567062092"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/2567062092",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Horka II",
@@ -10340,7 +11296,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1493 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/horka-ii/2575176524"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/horka-ii/2575176524",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Řendějov",
@@ -10370,7 +11328,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 6061 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/rendejov/2636357708"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/rendejov/2636357708",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "1. máje, Zruč nad Sázavou",
@@ -10400,7 +11360,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 250 m², pozemek 234 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2706407500"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2706407500",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Měchnov",
@@ -10430,7 +11392,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 60 m², pozemek 461 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/2745946188"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/2745946188",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Libež",
@@ -10460,7 +11424,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 6239 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/2755383372"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/2755383372",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Proseč nad Nisou",
@@ -10490,7 +11456,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1247 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/jablonec-nad-nisou/2755613516"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/jablonec-nad-nisou/2755613516",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Lukavec",
@@ -10520,7 +11488,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 3796 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/lukavec/2777412428"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/lukavec/2777412428",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Dukelská, Liberec VI-Rochlice",
@@ -10550,7 +11520,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 124 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2856739916"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2856739916",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Liberec XVII-Kateřinky",
@@ -10580,7 +11552,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 1730 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/liberec/2860925772"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/liberec/2860925772",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Zruč nad Sázavou",
@@ -10610,7 +11584,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 7910 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/zruc-nad-sazavou/2875060300"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/zruc-nad-sazavou/2875060300",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Karla Nového, Bystřice",
@@ -10640,7 +11616,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 151 m², pozemek 866 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/2881212492"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/2881212492",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Cihlářská, Liberec VI-Rochlice",
@@ -10670,7 +11648,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 82 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/2941469516"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/2941469516",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Na Bohdalci, Liberec XV-Starý Harcov",
@@ -10700,7 +11680,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 174 m², pozemek 2048 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2972901452"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2972901452",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Vyšetice",
@@ -10730,7 +11712,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1181 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sebirov/2984566860"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sebirov/2984566860",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Ostředek",
@@ -10760,7 +11744,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 889 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ostredek/2991255628"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ostredek/2991255628",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Rýmařovská, Liberec XXX-Vratislavice nad Nisou",
@@ -10790,7 +11776,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 135 m², pozemek 211 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2991689804"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2991689804",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Na Trojici, Bystřice",
@@ -10820,7 +11808,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 85 m², pozemek 900 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/3027628108"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/3027628108",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Zbizuby",
@@ -10850,7 +11840,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 128 m², pozemek 1738 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/3064419148"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/3064419148",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Liberec",
@@ -10880,7 +11872,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1610 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3084685388"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3084685388",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Libež",
@@ -10910,7 +11904,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 931 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/3110514764"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/3110514764",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Alšova, Benešov",
@@ -10940,7 +11936,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 103 m², pozemek 551 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/3132198988"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/3132198988",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Svobody, Liberec",
@@ -10970,7 +11968,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 731 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3160445004"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3160445004",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Šumná, Liberec XXV-Vesec",
@@ -11000,7 +12000,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 280 m², pozemek 876 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3193565260"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3193565260",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Liberec",
@@ -11027,7 +12029,7 @@
     }
    ],
    "price_per_m2": 50,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej lesa 10902 m²",
    "url": "https://www.sreality.cz/detail/prodej/pozemek/les/liberec/3237146700"
@@ -11064,7 +12066,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1163 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3251487564"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3251487564",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Bernartice",
@@ -11098,7 +12102,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1087 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bernartice/3268575308"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bernartice/3268575308",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Zbizuby",
@@ -11128,7 +12134,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1000 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/3282600012"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/3282600012",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Zruč nad Sázavou",
@@ -11158,7 +12166,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 5369 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zruc-nad-sazavou/3314020428"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zruc-nad-sazavou/3314020428",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Liberec XXX-Vratislavice nad Nisou",
@@ -11192,7 +12202,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 3945 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/liberec/3314828108"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/liberec/3314828108",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Kozmice",
@@ -11222,7 +12234,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 120 m², pozemek 1198 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/3317289036"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/3317289036",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Tyršův vrch, Liberec XXX-Vratislavice nad Nisou",
@@ -11252,7 +12266,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1132 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3402096716"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3402096716",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "U Černého dolu, Liberec IV-Perštýn",
@@ -11282,7 +12298,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 119 m², pozemek 626 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3404948300"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3404948300",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Londýnská, Liberec XI-Růžodol I",
@@ -11312,7 +12330,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 64 m², pozemek 530 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3428574028"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3428574028",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Zbizuby",
@@ -11342,7 +12362,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 112 m², pozemek 1923 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/3436871756"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/3436871756",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Kozmice",
@@ -11369,7 +12391,7 @@
     }
    ],
    "price_per_m2": 23674,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej rodinného domu 264 m², pozemek 834 m²",
    "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/3440021580"
@@ -11402,7 +12424,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 80 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/3441168972"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/3441168972",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Dlouhá, Liberec XXV-Vesec",
@@ -11432,7 +12456,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1358 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3461918796"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3461918796",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Liberec XII-Staré Pavlovice",
@@ -11462,7 +12488,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 160 m², pozemek 510 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3469062220"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3469062220",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Zbizuby",
@@ -11492,7 +12520,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 6015 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zbizuby/3527320396"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zbizuby/3527320396",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Mariánovice",
@@ -11522,7 +12552,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 125 m², pozemek 182 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/3542474828"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/3542474828",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Na Výsluní, Rataje nad Sázavou",
@@ -11552,7 +12584,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 200 m², pozemek 526 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/3557786444"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/3557786444",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Gollova, Liberec IV-Perštýn",
@@ -11582,7 +12616,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 80 m², pozemek 376 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3557982284"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3557982284",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Bystřice",
@@ -11612,7 +12648,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1719 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/3571893068"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/3571893068",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Líšno",
@@ -11642,7 +12680,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 168 m², pozemek 811 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/3590112076"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/3590112076",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Bernartice",
@@ -11672,7 +12712,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 150 m², pozemek 341 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bernartice/3603427404"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bernartice/3603427404",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Novorudská, Liberec XV-Starý Harcov",
@@ -11702,7 +12744,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 794 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/360530508"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/360530508",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Hodkovická, Liberec XXIII-Doubí",
@@ -11732,7 +12776,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 120 m², pozemek 906 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3664633932"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3664633932",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Zahradní, Rataje nad Sázavou",
@@ -11762,7 +12808,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 82 m², pozemek 400 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/3683291212"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/3683291212",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Petroupim",
@@ -11792,7 +12840,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 781 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/petroupim/3685311308"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/petroupim/3685311308",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Na Vrších, Divišov",
@@ -11822,7 +12872,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 750 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/3697922124"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/3697922124",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Petroupim",
@@ -11852,7 +12904,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 110 m², pozemek 1178 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/petroupim/3701837900"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/petroupim/3701837900",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Dukelská, Liberec VI-Rochlice",
@@ -11882,7 +12936,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 115 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/374424140"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/374424140",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Křivsoudov",
@@ -11912,7 +12968,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 980 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/krivsoudov/3760517196"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/krivsoudov/3760517196",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Zruč nad Sázavou",
@@ -11942,7 +13000,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej lesa 4719 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zruc-nad-sazavou/3826487372"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zruc-nad-sazavou/3826487372",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Leknínová, Liberec XXX-Vratislavice nad Nisou",
@@ -11972,7 +13032,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 152 m², pozemek 262 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3871322956"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3871322956",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Na Veseckém kopci, Liberec XXV-Vesec",
@@ -12002,7 +13064,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 500 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3887890508"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3887890508",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Kněž",
@@ -12032,7 +13096,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 205 m², pozemek 6330 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cestin/3947417676"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cestin/3947417676",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Vilice",
@@ -12062,7 +13128,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 3195 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vilice/396657484"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vilice/396657484",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Velká Ves",
@@ -12092,7 +13160,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 9679 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/lukavec/3982086220"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/lukavec/3982086220",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Dlouhá, Liberec XXV-Vesec",
@@ -12122,7 +13192,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 1359 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/4034129996"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/4034129996",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Vilice",
@@ -12152,7 +13224,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej zahrady 1008 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/vilice/4058701900"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/vilice/4058701900",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Bernartice",
@@ -12186,7 +13260,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 870 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bernartice/4073881676"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bernartice/4073881676",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Líšno",
@@ -12216,7 +13292,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 797 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/4094357580"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/4094357580",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Petroupim",
@@ -12246,7 +13324,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 771 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/petroupim/4104491084"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/petroupim/4104491084",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Křešín",
@@ -12276,7 +13356,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 24814 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/kresin/4124303436"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/kresin/4124303436",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Bernartice",
@@ -12303,7 +13385,7 @@
     }
    ],
    "price_per_m2": 8459,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej rodinného domu 390 m², pozemek 1268 m²",
    "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bernartice/4144398412"
@@ -12336,7 +13418,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 109 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/41541708"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/41541708",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Ječná, Liberec XV-Starý Harcov",
@@ -12366,7 +13450,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+1 81 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/4158648396"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/4158648396",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Na Obci, Bystřice",
@@ -12396,7 +13482,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 100 m², pozemek 335 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/4173816652"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/4173816652",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Mladá, Liberec XXV-Vesec",
@@ -12426,7 +13514,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 150 m², pozemek 858 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/4178894924"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/4178894924",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Tylova, Liberec VII-Horní Růžodol",
@@ -12456,7 +13546,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej bytu 4+kk 82 m²",
-   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/4218871884"
+   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/4218871884",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Trhový Štěpánov",
@@ -12486,7 +13578,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 105 m², pozemek 1300 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/4220112972"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/4220112972",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "V Rokli, Liberec XVII-Kateřinky",
@@ -12516,7 +13610,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 130 m², pozemek 2730 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/456634444"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/456634444",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Bedrč",
@@ -12546,7 +13642,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1535 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/benesov/470991692"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/benesov/470991692",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Zruč nad Sázavou",
@@ -12576,7 +13674,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 38 m², pozemek 594 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/514646092"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/514646092",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Nad Potokem, Liberec XXV-Vesec",
@@ -12606,7 +13706,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 784 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/594407500"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/594407500",
+   "deal": "prodej",
+   "location_precision": "street"
   },
   {
    "address": "Dětřichova, Liberec XV-Starý Harcov",
@@ -12636,7 +13738,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 180 m², pozemek 859 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/617128012"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/617128012",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Horka II",
@@ -12666,7 +13770,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1386 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/horka-ii/63279180"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/horka-ii/63279180",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Zbizuby",
@@ -12696,7 +13802,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1527 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/634499148"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/634499148",
+   "deal": "prodej",
+   "location_precision": "municipality"
   },
   {
    "address": "Onšovice",
@@ -12726,7 +13834,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1022 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/radosovice/699060300"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/radosovice/699060300",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Bělokozly",
@@ -12756,7 +13866,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej pole 5240 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/sazava/703886156"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/sazava/703886156",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Hroznice",
@@ -12786,7 +13898,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 115 m², pozemek 1180 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/739696716"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/739696716",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Zruč nad Sázavou",
@@ -12816,7 +13930,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 1273 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zruc-nad-sazavou/772358988"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zruc-nad-sazavou/772358988",
+   "deal": "prodej",
+   "location_precision": "ward"
   },
   {
    "address": "Bezručova, Benešov",
@@ -12846,7 +13962,9 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 200 m², pozemek 403 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/865771596"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/865771596",
+   "deal": "prodej",
+   "location_precision": "address"
   },
   {
    "address": "Křešín",
@@ -12876,7 +13994,105 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej louky 3606 m²",
-   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/kresin/890429516"
+   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/kresin/890429516",
+   "deal": "prodej",
+   "location_precision": "ward"
+  },
+  {
+   "address": "Gorkého, Liberec I-Staré Město",
+   "area_m2": 98,
+   "category": "byt",
+   "city": "Liberec",
+   "disposition": "3+1",
+   "distance_km": 1.41,
+   "first_seen": "2026-07-29",
+   "id": "sreality:2536608588",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_B/nO2CysqjGrCDmo6fQKHKTQ0q/1910.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_B/nO2CysqjGrCDmo6fQKHKTQ0q/1910.jpeg?fl=res,100,100,1|jpg,80",
+   "is_new": false,
+   "land_area_m2": null,
+   "last_seen": "2026-07-29",
+   "lat": 50.7753974368594,
+   "lon": 15.0701114579641,
+   "matched_area": "Ruprechtice (Liberec)",
+   "price": 6900000,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 6900000
+    }
+   ],
+   "price_per_m2": 70408,
+   "removed_on": null,
+   "source": "sreality",
+   "title": "Prodej bytu 3+1 98 m²",
+   "url": "https://www.sreality.cz/detail/prodej/byt/3+1/liberec/2536608588",
+   "deal": "prodej",
+   "location_precision": "address"
+  },
+  {
+   "address": "Vítězná, Liberec I-Staré Město",
+   "area_m2": 110,
+   "category": "byt",
+   "city": "Liberec",
+   "disposition": "3+1",
+   "distance_km": 0.13,
+   "first_seen": "2026-07-29",
+   "id": "sreality:49602636",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_E/nO2CysqjGrCDmo6Bj5KHRvQzj/8b00.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_E/nO2CysqjGrCDmo6Bj5KHRvQzj/8b00.jpeg?fl=res,100,100,1|jpg,80",
+   "is_new": false,
+   "land_area_m2": null,
+   "last_seen": "2026-07-29",
+   "lat": 50.7727913820042,
+   "lon": 15.0686949584332,
+   "matched_area": "Masarykova třída (Liberec)",
+   "price": 9449000,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 9449000
+    }
+   ],
+   "price_per_m2": 85900,
+   "removed_on": null,
+   "source": "sreality",
+   "title": "Prodej bytu 3+1 110 m²",
+   "url": "https://www.sreality.cz/detail/prodej/byt/3+1/liberec/49602636",
+   "deal": "prodej",
+   "location_precision": "address"
+  },
+  {
+   "address": "Jiskrova, Liberec I-Staré Město",
+   "area_m2": 102,
+   "category": "byt",
+   "city": "Liberec",
+   "disposition": "3+1",
+   "distance_km": 0.89,
+   "first_seen": "2026-07-29",
+   "id": "sreality:598692428",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_p8_B/kY1K2LlXQD1lSJZfFvKktq/a1f2.png?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_p8_B/kY1K2LlXQD1lSJZfFvKktq/a1f2.png?fl=res,100,100,1|jpg,80",
+   "is_new": false,
+   "land_area_m2": null,
+   "last_seen": "2026-07-29",
+   "lat": 50.780110111720305,
+   "lon": 15.066236766387973,
+   "matched_area": "Ruprechtice (Liberec)",
+   "price": 7490000,
+   "price_history": [
+    {
+     "date": "2026-07-29",
+     "price": 7490000
+    }
+   ],
+   "price_per_m2": 73431,
+   "removed_on": null,
+   "source": "sreality",
+   "title": "Prodej bytu 3+1 102 m²",
+   "url": "https://www.sreality.cz/detail/prodej/byt/3+1/liberec/598692428",
+   "deal": "prodej",
+   "location_precision": "address"
   }
  ]
 }

@@ -34,12 +34,15 @@ AREAS = [
 ]
 
 # ---------------------------------------------------------------------------
-# CO se hledá (tři kategorie). Ceny jsou v korunách.
+# CO se hledá. Ceny jsou v korunách, u pronájmu měsíčně.
+#
+# "deal" určuje, jestli jde o prodej, nebo pronájem. Když chybí, bere se prodej.
 # ---------------------------------------------------------------------------
 SEARCHES = [
     {
         "key": "dum",
         "label": "Dům se zahradou",
+        "deal": "prodej",
         "price_from": 100_000,
         "price_to": 12_000_000,
         "min_area_m2": None,          # u domu neomezujeme obytnou plochu
@@ -51,6 +54,7 @@ SEARCHES = [
     {
         "key": "byt",
         "label": "Byt 4+1 / 4+kk (min. 80 m²)",
+        "deal": "prodej",
         "price_from": 100_000,
         "price_to": 12_000_000,
         "min_area_m2": 80,
@@ -61,6 +65,7 @@ SEARCHES = [
     {
         "key": "byt31",
         "label": "Byt 3+1 (min. 90 m²)",
+        "deal": "prodej",
         "price_from": 100_000,
         "price_to": 12_000_000,
         "min_area_m2": 90,
@@ -68,9 +73,41 @@ SEARCHES = [
         "sreality": {"category_main_cb": 1, "category_sub_cb": [7]},
         "bezrealitky": {"estate_type": "BYT", "dispositions": ["DISP_3_1"]},
     },
+    # --- Pronájmy: stejné dispozice a plochy jako u prodeje, strop 35 000 Kč/měsíc ---
+    {
+        "key": "dum_pronajem",
+        "label": "Pronájem domu",
+        "deal": "pronajem",
+        "price_from": 3_000,
+        "price_to": 35_000,
+        "min_area_m2": None,
+        "sreality": {"category_main_cb": 2, "category_sub_cb": [37]},
+        "bezrealitky": {"estate_type": "DUM", "dispositions": []},
+    },
+    {
+        "key": "byt_pronajem",
+        "label": "Pronájem bytu 4+1 / 4+kk (min. 80 m²)",
+        "deal": "pronajem",
+        "price_from": 3_000,
+        "price_to": 35_000,
+        "min_area_m2": 80,
+        "sreality": {"category_main_cb": 1, "category_sub_cb": [8, 9]},
+        "bezrealitky": {"estate_type": "BYT", "dispositions": ["DISP_4_KK", "DISP_4_1"]},
+    },
+    {
+        "key": "byt31_pronajem",
+        "label": "Pronájem bytu 3+1 (min. 90 m²)",
+        "deal": "pronajem",
+        "price_from": 3_000,
+        "price_to": 35_000,
+        "min_area_m2": 90,
+        "sreality": {"category_main_cb": 1, "category_sub_cb": [7]},
+        "bezrealitky": {"estate_type": "BYT", "dispositions": ["DISP_3_1"]},
+    },
     {
         "key": "pozemek",
         "label": "Pozemek",
+        "deal": "prodej",
         "price_from": 50_000,
         "price_to": 5_000_000,        # u pozemku strop 5 mil.
         "min_area_m2": None,
@@ -87,6 +124,13 @@ SETTINGS = {
     # Které portály použít
     "use_sreality": True,
     "use_bezrealitky": True,
+
+    # Některé inzeráty nemají skutečnou adresu a portál je posadí doprostřed
+    # obce – v Liberci je pak pozemek „na náměstí“, i když leží kdekoliv ve
+    # městě. U malé vesnice to nevadí (celá se vejde do pár set metrů),
+    # u velkého města ano. Takové inzeráty proto bereme jen u lokalit, které
+    # mají dosah aspoň tolik kilometrů. 0 = brát vždy, 999 = nikdy.
+    "city_only_min_reach_km": 10.0,
 
     # Pojistka proti tichému výpadku portálu: když se stáhne méně než tenhle
     # podíl toho, co je v evidenci (0.5 = polovina), nic se neuloží a běh skončí

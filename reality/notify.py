@@ -8,10 +8,14 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 
-def _fmt_price(p):
+def _fmt_price(p, rec=None):
+    """Cena; u pronájmu se přidá „/měsíc“, ať se neplete s kupní cenou."""
     if not p:
         return "cena neuvedena"
-    return f"{p:,.0f} Kč".replace(",", " ")
+    text = f"{p:,.0f} Kč".replace(",", " ")
+    if rec and rec.get("deal") == "pronajem":
+        text += "/měsíc"
+    return text
 
 
 def _card(inner):
@@ -40,7 +44,7 @@ def _price_change_rows(changes):
             f"<a href='{it.get('url')}' style='color:#0b5cad;text-decoration:none'>"
             f"{it.get('title') or 'Inzerát'}</a></div>"
             f"<div style='color:{barva};margin-top:3px;font-weight:bold'>"
-            f"{_fmt_price(old)} → {_fmt_price(new)}{rozdil}</div>"
+            f"{_fmt_price(old, it)} → {_fmt_price(new, it)}{rozdil}</div>"
             f"<div style='color:#888;font-size:13px;margin-top:2px'>"
             f"{it.get('address') or ''} · {it.get('source', '')}</div>"
         ))
@@ -58,7 +62,7 @@ def _gone_rows(gone):
             f"<a href='{it.get('url')}' style='color:#0b5cad;text-decoration:none'>"
             f"{it.get('title') or 'Inzerát'}</a></div>"
             f"<div style='color:#333;margin-top:3px'>"
-            f"poslední cena {_fmt_price(it.get('price'))}</div>"
+            f"poslední cena {_fmt_price(it.get('price'), it)}</div>"
             f"<div style='color:#888;font-size:13px;margin-top:2px'>"
             f"{it.get('address') or ''} · {it.get('source', '')} · "
             f"v nabídce od {it.get('first_seen') or '?'}</div>"
@@ -86,13 +90,15 @@ def build_email_html(new_list, price_changes, gone, settings):
             dist_txt = f" · {dist:.1f} km od středu" if isinstance(dist, (int, float)) else ""
             area_txt = f" · {it['area_m2']} m²" if it.get("area_m2") else ""
             disp_txt = f" · {it['disposition']}" if it.get("disposition") else ""
+            if it.get("deal") == "pronajem":
+                disp_txt += " · pronájem"
             src = it.get("source", "")
             parts.append(_card(
                 f"<div style='font-weight:bold'>"
                 f"<a href='{it.get('url')}' style='color:#0b5cad;text-decoration:none'>"
                 f"{it.get('title') or 'Inzerát'}</a></div>"
                 f"<div style='color:#333;margin-top:3px'>"
-                f"{_fmt_price(it.get('price'))}{area_txt}{disp_txt}</div>"
+                f"{_fmt_price(it.get('price'), it)}{area_txt}{disp_txt}</div>"
                 f"<div style='color:#888;font-size:13px;margin-top:2px'>"
                 f"{it.get('address') or ''}{dist_txt} · {src}</div>"
             ))

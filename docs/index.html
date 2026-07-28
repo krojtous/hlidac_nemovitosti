@@ -176,6 +176,11 @@
     <option value="byt">Byt</option>
     <option value="pozemek">Pozemek</option>
   </select>
+  <select id="fDeal">
+    <option value="">Prodej i pronájem</option>
+    <option value="prodej">Jen prodej</option>
+    <option value="pronajem">Jen pronájem</option>
+  </select>
   <select id="fSrc">
     <option value="">Oba portály</option>
     <option value="sreality">Sreality</option>
@@ -247,7 +252,7 @@ const COLS = [
   {key:"fav",       label:"★",         sort:true,  type:"num", val:r=>FAV.has(r.id)?1:0},
   {key:"image",     label:"",          sort:false},
   {key:"title",     label:"Nemovitost",sort:true,  type:"str"},
-  {key:"price",     label:"Cena",      sort:true,  type:"num", fmt:fmtPrice},
+  {key:"price",     label:"Cena",      sort:true,  type:"num", fmt:(v,r)=>fmtPrice(v,r)},
   {key:"area_m2",   label:"Plocha",    sort:true,  type:"num", fmt:v=>v?fmtNum(v)+" m²":"—"},
   {key:"price_per_m2",label:"Kč/m²",   sort:true,  type:"num", fmt:v=>v?fmtNum(v):"—"},
   {key:"disposition",label:"Disp.",    sort:true,  type:"str", fmt:v=>v||"—"},
@@ -255,12 +260,14 @@ const COLS = [
   {key:"distance_km",label:"Vzdál.",   sort:true,  type:"num", fmt:v=>v!=null?v.toFixed(1)+" km":"—"},
   {key:"first_seen",label:"Přidáno",   sort:true,  type:"str"},
   {key:"source",    label:"Portál",    sort:true,  type:"str"},
+  {key:"deal",      label:"Nabídka",   sort:true,  type:"str",
+   fmt:v=>v==="pronajem"?"pronájem":"prodej"},
 ];
 let DATA=[], sortKey="first_seen", sortDir=-1;
 
 // Sloupce, ze kterých se na mobilu stanou štítky pod cenou.
 const CHIP_COLS=["area_m2","price_per_m2","disposition","matched_area",
-                 "distance_km","first_seen","source"];
+                 "distance_km","first_seen","source","deal"];
 
 // --- Oblíbené ---------------------------------------------------------------
 // Označení se drží v prohlížeči (localStorage), takže je hned a funguje i offline.
@@ -539,7 +546,11 @@ async function overStavVRepozitari(){
 }
 
 function fmtNum(n){return (n||0).toLocaleString("cs-CZ").replace(/ /g," ");}
-function fmtPrice(n){return n? fmtNum(n)+" Kč":"—";}
+// U pronájmu je cena měsíční – bez toho by se 25 000 Kč pletlo s kupní cenou.
+function fmtPrice(n, r){
+  if(!n) return "—";
+  return fmtNum(n)+(r && r.deal==="pronajem" ? " Kč/měs" : " Kč");
+}
 
 function buildHead(){
   const tr=document.getElementById("head");
@@ -622,6 +633,8 @@ function passFilters(r){
   const a=document.getElementById("fArea").value; if(a && r.matched_area!==a) return false;
   const c=document.getElementById("fCat").value; if(c && r.category!==c) return false;
   const s=document.getElementById("fSrc").value; if(s && r.source!==s) return false;
+  const d=document.getElementById("fDeal").value;
+  if(d && (r.deal||"prodej")!==d) return false;
   if(q){ const hay=((r.title||"")+" "+(r.address||"")).toLowerCase(); if(!hay.includes(q)) return false; }
   return true;
 }
@@ -668,7 +681,7 @@ function render(){
         if(r.address){const d=document.createElement("div"); d.className="addr"; d.textContent=r.address; td.appendChild(d);}
       } else {
         const v=r[c.key];
-        const text=c.fmt?c.fmt(v):(v==null?"—":v);
+        const text=c.fmt?c.fmt(v,r):(v==null?"—":v);
         td.textContent=text;
         if(c.type==="num") td.classList.add("num");
         if(c.key==="source") td.classList.add("src");
@@ -711,7 +724,7 @@ function initFilters(){
   const areas=[...new Set(DATA.map(r=>r.matched_area).filter(Boolean))].sort();
   const sel=document.getElementById("fArea");
   areas.forEach(a=>{const o=document.createElement("option"); o.value=a; o.textContent=a; sel.appendChild(o);});
-  ["q","fArea","fCat","fSrc","fNew","fFav","fHide"].forEach(id=>{
+  ["q","fArea","fCat","fDeal","fSrc","fNew","fFav","fHide"].forEach(id=>{
     const el=document.getElementById(id);
     el.addEventListener(id==="q"?"input":"change", render);
   });

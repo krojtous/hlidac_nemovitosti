@@ -79,7 +79,7 @@ def search(search_cfg, area, settings, log):
     """
     s = search_cfg["sreality"]
     params = {
-        "category_type_cb": 1,                     # prodej
+        "category_type_cb": 2 if _je_pronajem(search_cfg) else 1,   # 1 prodej, 2 pronájem
         "category_main_cb": s["category_main_cb"],
         "locality_gps_lat": round(area["lat"], 6),
         "locality_gps_lon": round(area["lon"], 6),
@@ -121,19 +121,26 @@ def search(search_cfg, area, settings, log):
     return out
 
 
-def _total_price(e):
+def _je_pronajem(search_cfg):
+    return search_cfg.get("deal") == "pronajem"
+
+
+def _total_price(e, pronajem=False):
     """
-    Celková cena za nemovitost.
+    Cena za celou nemovitost, u pronájmu měsíční nájem.
+
+    Jednotka ceny (`price_unit_cb`): 1 = „za nemovitost“, 2 = „za měsíc“,
+    3 = „za m²“. U prodeje bereme jen jedničku, u pronájmu jen dvojku.
 
     Pozor: u části inzerátů (typicky pole a jiné pozemky) uvádí Sreality
     v `price_czk` cenu ZA m² – celková cena je pak v `price_summary_czk`.
-    Poznáme to podle jednotky (value 1 = „za nemovitost“, 3 = „za m²“).
-    Když ani jedno pole není cena za nemovitost, radši vrátíme None
+    Když ani jedno pole není v očekávané jednotce, radši vrátíme None
     („cena neuvedena“) než abychom ukázali jednotkovou cenu jako celkovou.
     """
-    if (e.get("price_summary_unit_cb") or {}).get("value") == 1 and e.get("price_summary_czk"):
+    jednotka = 2 if pronajem else 1
+    if (e.get("price_summary_unit_cb") or {}).get("value") == jednotka and e.get("price_summary_czk"):
         return int(e["price_summary_czk"])
-    if (e.get("price_unit_cb") or {}).get("value") == 1 and e.get("price_czk"):
+    if (e.get("price_unit_cb") or {}).get("value") == jednotka and e.get("price_czk"):
         return int(e["price_czk"])
     return None
 
@@ -151,7 +158,8 @@ def _normalize(e, search_cfg):
     name = e.get("advert_name") or ""
     area_m2, land_m2 = parse_areas_from_name(name)
 
-    price = _total_price(e)
+    pronajem = _je_pronajem(search_cfg)
+    price = _total_price(e, pronajem)
     ppm2 = e.get("price_czk_m2")
     ppm2 = int(ppm2) if ppm2 else None
 
@@ -166,7 +174,8 @@ def _normalize(e, search_cfg):
     sub_seo = _sub_seo(main_cb, sub_cb)
     # Lokalitu si Sreality opraví samy přesměrováním, stačí cokoliv nenulového.
     city_seo = loc.get("city_seo_name") or "x"
-    url = f"https://www.sreality.cz/detail/prodej/{main_seo}/{sub_seo}/{city_seo}/{hash_id}"
+    deal_seo = "pronajem" if pronajem else "prodej"
+    url = f"https://www.sreality.cz/detail/{deal_seo}/{main_seo}/{sub_seo}/{city_seo}/{hash_id}"
 
     imgs = e.get("advert_images") or []
     raw_img = imgs[0] if imgs else None
@@ -180,6 +189,10 @@ def _normalize(e, search_cfg):
     return make_listing(
         source="sreality",
         native_id=hash_id,
+        deal="pronajem" if pronajem else "prodej",
+        # entity_type říká, k čemu se poloha vztahuje: "address", "street",
+        # "ward"… nebo "municipality" = jen obec, bod padne doprostřed města.
+        location_precision=loc.get("entity_type"),
         category=_MAIN_TO_CATEGORY.get(main_cb, search_cfg["key"]),
         title=name,
         price=price,
