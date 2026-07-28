@@ -129,8 +129,8 @@ každý den ráno. Ručně ho vyzkoušíš v záložce **Actions → Hlídač ne
 ## Oblíbené nemovitosti a hlídání ceny
 
 Hvězdičkou v prvním sloupci si označíš nemovitosti, které tě zaujaly.
-**U označených chodí e-mail i při změně ceny** – u ostatních ne, jinak by
-upozornění chodila každý den.
+**U označených chodí e-mail i při změně ceny a když zmizí z nabídky**
+(typicky prodej) – u ostatních ne, jinak by upozornění chodila každý den.
 
 Označení se ukládá do prohlížeče, takže je okamžité a funguje i offline.
 Aby o něm ale věděl i hlídač v cloudu (ten e-maily posílá), musí se seznam
@@ -161,9 +161,28 @@ Otevři [`config.py`](config.py) a uprav:
 > „srovnala“ znovu podle nových kritérií (jinak se posun může projevit jako spousta
 > nových / zmizelých položek).
 
+## Když workflow zčervená
+
+Hlídač schválně **skončí chybou, když stáhne podezřele málo inzerátů** (méně než
+polovinu toho, co má v evidenci). Bez téhle pojistky by nedostupný portál vypadal
+jako by ze dne na den zmizela celá nabídka – evidence by se přepsala a workflow
+by přitom skončil zeleně.
+
+Když ti tedy z GitHubu přijde upozornění na neúspěšný běh:
+
+1. Otevři log v **Actions** a najdi řádky se slovem `CHYBA` – ukážou, který portál
+   neodpověděl.
+2. Většinou jde o dočasný výpadek a další den se to spraví samo. **Data zůstala
+   nedotčená**, nic se neztratilo.
+3. Když se to opakuje, portál nejspíš změnil API – opravit je potřeba soubory
+   v `reality/`.
+4. Pokud je propad skutečný (třeba jsi zúžil kritéria v `config.py`), spusť
+   jednorázově s `REALITY_FORCE=1` a evidence se srovná. Práh se dá změnit
+   v `config.py` položkou `min_fresh_ratio`.
+
 ## Časté otázky
 - **Přijde e-mail každý den?** Ne. Jen když přibyla nová nemovitost nebo se
-  změnila cena u některé z oblíbených.
+  u některé z oblíbených změnila cena či zmizela z nabídky.
 - **První běh** naplní evidenci a e-mail schválně nepošle (bylo by tam stovky položek).
 - **Portály změní API?** Pak stačí upravit soubory v `reality/`. Endpointy byly ověřeny
   v červenci 2026 (Sreality: `api/v1/estates/search`, Bezrealitky: GraphQL `listAdverts`).

@@ -78,6 +78,12 @@ SETTINGS = {
     "use_sreality": True,
     "use_bezrealitky": True,
 
+    # Pojistka proti tichému výpadku portálu: když se stáhne méně než tenhle
+    # podíl toho, co je v evidenci (0.5 = polovina), nic se neuloží a běh skončí
+    # chybou. Chrání před tím, aby se při nedostupném API označila celá nabídka
+    # za zmizelou. Jednorázově se to dá obejít proměnnou REALITY_FORCE=1.
+    "min_fresh_ratio": 0.5,
+
     # Pojistka proti nekonečnému stahování (max inzerátů na jeden dotaz).
     # Bezrealitky mají celostátně ~1500 domů i pozemků, proto raději vyšší strop,
     # ať se při prvním načtení nic nevynechá.

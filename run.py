@@ -33,6 +33,37 @@ def assign_area(item):
     return True
 
 
+def data_vypadaji_uplne(pocet_stazenych, log):
+    """
+    Pojistka proti tichému výpadku portálu.
+
+    Když portál neodpoví nebo změní API, stáhne se málo (klidně nula) inzerátů.
+    Evidence by pak celou nabídku označila za zmizelou, přepsala data a workflow
+    by přitom skončil zeleně. Radši v takovém případě neuložíme nic a spadneme,
+    ať je porucha vidět.
+
+    Skutečný pokles nabídky bývá v jednotkách procent za den; propad na polovinu
+    znamená problém na naší straně, ne na trhu.
+    """
+    aktivni = store.active_count()
+    if aktivni == 0:
+        return True  # první běh nebo prázdná evidence – není s čím porovnávat
+
+    podil = pocet_stazenych / aktivni
+    if podil >= config.SETTINGS["min_fresh_ratio"]:
+        return True
+
+    log("")
+    log("!!! PODEZŘELE MÁLO DAT – nic se neukládá !!!")
+    log(f"    Staženo {pocet_stazenych} inzerátů, v evidenci je jich {aktivni} "
+        f"({podil:.0%}).")
+    log("    Nejspíš neodpověděl některý portál nebo změnil API (viz CHYBA výše).")
+    log("    Evidence i tabulka zůstávají beze změny, e-mail se neposílá.")
+    log("    Když je propad opravdu skutečný (třeba po zúžení kritérií v config.py),")
+    log("    spusť jednorázově s REALITY_FORCE=1 a evidence se srovná.")
+    return False
+
+
 def build_criteria():
     """
     Popis nastavení hledání pro tabulku – aby bylo vidět, podle čeho se vybírá
@@ -104,28 +135,32 @@ def main():
     fresh = collect()
     log(f"\nCelkem inzerátů ve sledovaných lokalitách: {len(fresh)}")
 
-    listings, new_list, price_changes, history, first_run = store.reconcile(
+    if not os.environ.get("REALITY_FORCE") and not data_vypadaji_uplne(len(fresh), log):
+        return 1  # nenulový kód schválně: workflow zčervená a přijde upozornění
+
+    listings, new_list, price_changes, gone_list, history, first_run = store.reconcile(
         list(fresh.values()), log)
-    favorites = store.load_favorites()
+    favorites = set(store.load_favorites())
     store.save(listings, history)
     store.export_dashboard(listings, DOCS_DIR, build_criteria(), favorites)
     log(f"\nUloženo. Data pro tabulku: docs/data.json")
 
-    # Na změnu ceny upozorňujeme jen u označených nemovitostí – u všech by to
+    # Změnu ceny a zmizení hlásíme jen u označených nemovitostí – u všech by to
     # byl každodenní spam. Seznam je v data/favorites.json, plní ho tabulka.
-    fav_changes = [ch for ch in price_changes if ch["listing"]["id"] in set(favorites)]
-    log(f"  Oblíbených: {len(favorites)}, z toho dnes změnilo cenu: {len(fav_changes)}")
+    fav_changes = [ch for ch in price_changes if ch["listing"]["id"] in favorites]
+    fav_gone = [rec for rec in gone_list if rec["id"] in favorites]
+    log(f"  Oblíbených: {len(favorites)}, z toho dnes změnilo cenu: {len(fav_changes)}, "
+        f"zmizelo z nabídky: {len(fav_gone)}")
 
     if first_run:
         log("  První běh – jen se naplní evidence, e-mail se neposílá "
             "(jinak by přišly stovky položek).")
     else:
         try:
-            notify.send_email(new_list, fav_changes, config.SETTINGS, log)
+            notify.send_email(new_list, fav_changes, fav_gone, config.SETTINGS, log)
         except Exception as e:  # noqa: BLE001
             log(f"  E-mail se nepodařilo odeslat: {e}")
 
-    # Návratový kód: nenulový by shodil workflow, proto vždy 0.
     return 0
 
 

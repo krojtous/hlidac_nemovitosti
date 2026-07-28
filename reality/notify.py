@@ -47,7 +47,29 @@ def _price_change_rows(changes):
     return parts
 
 
-def build_email_html(new_list, price_changes, settings):
+def _gone_rows(gone):
+    """Sekce e-mailu s oblíbenými, které zmizely z nabídky (nejspíš prodané)."""
+    if not gone:
+        return []
+    parts = [f"<h2 style='margin-top:26px'>Oblíbené zmizely z nabídky ({len(gone)})</h2>"]
+    for it in gone:
+        parts.append(_card(
+            f"<div style='font-weight:bold'>"
+            f"<a href='{it.get('url')}' style='color:#0b5cad;text-decoration:none'>"
+            f"{it.get('title') or 'Inzerát'}</a></div>"
+            f"<div style='color:#333;margin-top:3px'>"
+            f"poslední cena {_fmt_price(it.get('price'))}</div>"
+            f"<div style='color:#888;font-size:13px;margin-top:2px'>"
+            f"{it.get('address') or ''} · {it.get('source', '')} · "
+            f"v nabídce od {it.get('first_seen') or '?'}</div>"
+        ))
+    parts.append("<p style='color:#888;font-size:12px'>"
+                 "Inzerát z portálu zmizel – bývá to prodej, ale někdy jen "
+                 "přepis nabídky. Odkaz proto nechávám funkční.</p>")
+    return parts
+
+
+def build_email_html(new_list, price_changes, gone, settings):
     """Vytvoří HTML tělo e-mailu: novinky podle lokality + změny cen u oblíbených."""
     by_area = {}
     for it in new_list:
@@ -75,28 +97,45 @@ def build_email_html(new_list, price_changes, settings):
                 f"{it.get('address') or ''}{dist_txt} · {src}</div>"
             ))
     parts += _price_change_rows(price_changes)
+    parts += _gone_rows(gone)
     parts.append("<p style='color:#999;font-size:12px;margin-top:20px'>"
                  "Automatické upozornění hlídače nemovitostí.</p></div>")
     return "\n".join(parts)
 
 
-def _subject(new_list, price_changes, settings):
+def _sklonuj(n, jedna, dve_ctyri, pet_vic):
+    """Český tvar podle počtu: 1 nová, 2 nové, 5 nových."""
+    if n == 1:
+        return jedna
+    if 2 <= n <= 4:
+        return dve_ctyri
+    return pet_vic
+
+
+def _subject(new_list, price_changes, gone, settings):
     """Předmět podle toho, co se v e-mailu vlastně veze."""
-    prefix = settings["email_subject_prefix"]
-    if new_list and price_changes:
-        return f"{prefix} ({len(new_list)}) + změna ceny ({len(price_changes)})"
+    if new_list and not price_changes and not gone:
+        return f"{settings['email_subject_prefix']} ({len(new_list)})"
+    casti = []
     if new_list:
-        return f"{prefix} ({len(new_list)})"
-    return f"🏠 Změna ceny u oblíbených ({len(price_changes)})"
+        n = len(new_list)
+        casti.append(f"{n} {_sklonuj(n, 'nová', 'nové', 'nových')}")
+    if price_changes:
+        n = len(price_changes)
+        casti.append(f"{_sklonuj(n, 'změna', 'změny', 'změn')} ceny u {n}")
+    if gone:
+        n = len(gone)
+        casti.append(f"{n} {_sklonuj(n, 'zmizela', 'zmizely', 'zmizelo')} z nabídky")
+    return "🏠 Hlídač nemovitostí – " + ", ".join(casti)
 
 
-def send_email(new_list, price_changes, settings, log):
+def send_email(new_list, price_changes, gone, settings, log):
     """
-    Pošle e-mail, když přibyly nové nemovitosti nebo se změnila cena
-    u oblíbených. Přihlašovací údaje se berou z SMTP_USER a SMTP_PASS.
+    Pošle e-mail, když přibyly nové nemovitosti nebo se u oblíbených změnila
+    cena či zmizely z nabídky. Údaje se berou z SMTP_USER a SMTP_PASS.
     """
-    if not new_list and not price_changes:
-        log("  E-mail se neposílá (žádné novinky ani změny cen u oblíbených).")
+    if not new_list and not price_changes and not gone:
+        log("  E-mail se neposílá (žádné novinky ani změny u oblíbených).")
         return False
 
     user = os.environ.get("SMTP_USER")
@@ -109,10 +148,10 @@ def send_email(new_list, price_changes, settings, log):
         return False
 
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = _subject(new_list, price_changes, settings)
+    msg["Subject"] = _subject(new_list, price_changes, gone, settings)
     msg["From"] = user
     msg["To"] = to_addr
-    msg.attach(MIMEText(build_email_html(new_list, price_changes, settings),
+    msg.attach(MIMEText(build_email_html(new_list, price_changes, gone, settings),
                         "html", "utf-8"))
 
     ctx = ssl.create_default_context()

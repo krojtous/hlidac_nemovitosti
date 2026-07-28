@@ -49,10 +49,15 @@ def load_favorites():
     return [i for i in ids if isinstance(i, str)]
 
 
+def active_count():
+    """Kolik inzerátů je v evidenci vedeno jako stále v nabídce."""
+    return sum(1 for r in load_listings().values() if not r.get("removed_on"))
+
+
 def reconcile(fresh_items, log):
     """
     Porovná čerstvě stažené inzeráty s uloženými.
-    Vrací (all_listings_dict, new_list, price_changes_list).
+    Vrací (all_listings, new_list, price_changes, gone_list, history, first_run).
 
     Do každého záznamu doplní:
       first_seen, last_seen, removed_on, price_history, is_new
@@ -65,6 +70,7 @@ def reconcile(fresh_items, log):
     fresh_by_id = {it["id"]: it for it in fresh_items}
     new_list = []
     price_changes = []
+    gone_list = []
 
     # 1) projdi čerstvé -> nové nebo aktualizace
     for lid, it in fresh_by_id.items():
@@ -102,12 +108,13 @@ def reconcile(fresh_items, log):
         if lid not in fresh_by_id and not rec.get("removed_on"):
             rec["removed_on"] = today
             rec["is_new"] = False
+            gone_list.append(rec)
             history.append({"date": today, "event": "removed", "id": lid,
                             "title": rec.get("title"), "url": rec.get("url")})
 
     log(f"  Nových: {len(new_list)}, změn ceny: {len(price_changes)}, "
-        f"celkem v evidenci: {len(stored)}")
-    return stored, new_list, price_changes, history, first_run
+        f"zmizelo: {len(gone_list)}, celkem v evidenci: {len(stored)}")
+    return stored, new_list, price_changes, gone_list, history, first_run
 
 
 def save(listings, history):

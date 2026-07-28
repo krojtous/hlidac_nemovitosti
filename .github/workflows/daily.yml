@@ -20,6 +20,10 @@ jobs:
     steps:
       - name: Stažení repozitáře
         uses: actions/checkout@v4
+        with:
+          # Celá historie – bez ní neprojde rebase, když do repozitáře přibude
+          # commit v době, kdy job běží (typicky uložení oblíbených).
+          fetch-depth: 0
 
       - name: Nastavení Pythonu
         uses: actions/setup-python@v5
@@ -43,7 +47,18 @@ jobs:
           git add data docs/data.json
           if git diff --staged --quiet; then
             echo "Beze změn – není co commitovat."
-          else
-            git commit -m "Aktualizace nabídky $(date +%F)"
-            git push
+            exit 0
           fi
+          git commit -m "Aktualizace nabídky $(date +%F)"
+          # Push může selhat, když během běhu někdo commitne (typicky uložení
+          # oblíbených přes web). Stáhneme si jeho změnu pod sebe a zkusíme znovu.
+          for pokus in 1 2 3; do
+            if git push; then
+              echo "Uloženo (pokus $pokus)."
+              exit 0
+            fi
+            echo "Push selhal – zkusím načíst cizí změny a poslat znovu."
+            git pull --rebase origin main || exit 1
+          done
+          echo "Push se nepodařil ani na třetí pokus."
+          exit 1
