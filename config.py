@@ -85,9 +85,10 @@ SETTINGS = {
 
     # E-mail: kam posílat upozornění.
     # Odesílá se JEN když přibyly nové nemovitosti.
-    # Přihlašovací údaje se NEberou odsud, ale z proměnných prostředí / GitHub Secrets
-    # (SMTP_USER, SMTP_PASS) – viz README.
-    "email_to": "matousp@gmail.com",
+    # Adresa ani přihlašovací údaje se NEberou odsud, ale z proměnných prostředí /
+    # GitHub Secrets (MAIL_TO, SMTP_USER, SMTP_PASS) – viz README. Repozitář je
+    # veřejný, adresu tu proto nechávám prázdnou, ať ji nesbírají spamboti.
+    "email_to": "",
     "email_subject_prefix": "🏠 Nové nemovitosti",
     "smtp_host": "smtp.gmail.com",
     "smtp_port": 465,

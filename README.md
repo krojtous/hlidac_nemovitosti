@@ -92,9 +92,9 @@ a přidej tři položky:
 
 | Název | Hodnota |
 |---|---|
-| `SMTP_USER` | tvoje gmailová adresa, např. `matousp@gmail.com` |
+| `SMTP_USER` | gmailová adresa, ze které se odesílá |
 | `SMTP_PASS` | **App Password** z Google (viz níže) |
-| `MAIL_TO` | kam posílat upozornění (např. `matousp@gmail.com`) |
+| `MAIL_TO` | adresa, kam upozornění chodí |
 
 **App Password** = jednorázové heslo pro aplikace:
 Google účet → *Zabezpečení* → zapni *dvoufázové ověření* →
