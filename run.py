@@ -43,8 +43,13 @@ def poloha_je_dost_presna(item, area):
     U vesnice to nevadí, u Liberce se pozemek „přestěhuje“ na náměstí a spadne
     do lokality, se kterou nemá nic společného. Bereme je proto jen tam, kde je
     sledovaná oblast dost velká na to, aby se do ní celá obec vešla.
+
+    Sreality přesnost popisují dvěma poli, která se často neshodují – jeden
+    inzerát na náměstí v Liberci má „municipality“ jen v entity_type, druhý jen
+    v inaccuracy_type. Stačí proto, aby to bylo v jednom z nich.
     """
-    if item.get("location_precision") != "municipality":
+    if "municipality" not in (item.get("location_precision"),
+                              item.get("location_inaccuracy")):
         return True
     return reach_km(area) >= config.SETTINGS["city_only_min_reach_km"]
 

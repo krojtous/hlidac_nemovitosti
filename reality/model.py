@@ -6,7 +6,8 @@ import re
 
 def make_listing(source, native_id, category, title, price, area_m2, land_area_m2,
                  disposition, city, address, lat, lon, url, image, price_per_m2,
-                 image_thumb=None, deal="prodej", location_precision=None):
+                 image_thumb=None, deal="prodej", location_precision=None,
+                 location_inaccuracy=None):
     """Vytvoří jednotný záznam inzerátu (obyčejný slovník kvůli ukládání do JSON)."""
     # Kč/m² portál často neuvádí – dopočítáme ho z ceny a plochy.
     # (U pozemku je „plocha“ výměra pozemku, takže vyjde cena za m² pozemku.)
@@ -18,8 +19,11 @@ def make_listing(source, native_id, category, title, price, area_m2, land_area_m
         "deal": deal,                   # "prodej" / "pronajem" (u pronájmu je cena měsíční)
         "category": category,           # "dum" / "byt" / "pozemek"
         # Jak přesně portál zná polohu ("address", "street", "ward", "municipality"…).
-        # "municipality" = ví jen obec, bod je uprostřed města. None = portál to neuvádí.
-        "location_precision": location_precision,
+        # Sreality to říkají dvěma poli a nesouhlasí spolu: entity_type je, k čemu
+        # se poloha vztahuje, inaccuracy_type jak přesně je zveřejněná. Stačí, aby
+        # "municipality" bylo v jednom z nich, a bod padá doprostřed města.
+        "location_precision": location_precision,      # entity_type
+        "location_inaccuracy": location_inaccuracy,    # inaccuracy_type
         "title": title,
         "price": price,                 # Kč, int nebo None
         "area_m2": area_m2,             # užitná/obytná plocha (u pozemku výměra pozemku)

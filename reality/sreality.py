@@ -190,9 +190,11 @@ def _normalize(e, search_cfg):
         source="sreality",
         native_id=hash_id,
         deal="pronajem" if pronajem else "prodej",
-        # entity_type říká, k čemu se poloha vztahuje: "address", "street",
-        # "ward"… nebo "municipality" = jen obec, bod padne doprostřed města.
+        # Přesnost polohy: entity_type = k čemu se vztahuje, inaccuracy_type =
+        # jak přesně je zveřejněná. "municipality" v kterémkoliv z nich znamená,
+        # že bod padne doprostřed města (viz run.poloha_je_dost_presna).
         location_precision=loc.get("entity_type"),
+        location_inaccuracy=loc.get("inaccuracy_type"),
         category=_MAIN_TO_CATEGORY.get(main_cb, search_cfg["key"]),
         title=name,
         price=price,
