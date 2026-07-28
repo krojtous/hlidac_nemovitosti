@@ -26,7 +26,7 @@
    }
   ],
   "price_per_m2": 35,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 11.254 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1003146-nabidka-prodej-pozemku-ostredek"
@@ -122,7 +122,7 @@
    }
   ],
   "price_per_m2": 19,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 4.244 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1015489-nabidka-prodej-pozemku"
@@ -154,7 +154,7 @@
    }
   ],
   "price_per_m2": 29,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 2.281 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1015868-nabidka-prodej-pozemku"
@@ -247,7 +247,7 @@
    }
   ],
   "price_per_m2": 71,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 12.039 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1025892-nabidka-prodej-pozemku-postupice"
@@ -328,7 +328,7 @@
   "id": "bezrealitky:1032625",
   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1032k/1032625/1780999281-vjatrehyvc-photo-2026-06-03-15-48-37.jpg",
   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1032k/1032625/1780999281-vjatrehyvc-photo-2026-06-03-15-48-37.jpg",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": 750,
   "last_seen": "2026-07-29",
   "lat": 49.70135,
@@ -375,7 +375,7 @@
    }
   ],
   "price_per_m2": 35,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 6.639 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033466-nabidka-prodej-pozemku-votice"
@@ -439,7 +439,7 @@
    }
   ],
   "price_per_m2": 45,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 8.633 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037342-nabidka-prodej-pozemku-jankov"
@@ -488,7 +488,7 @@
   "id": "bezrealitky:1039267",
   "image": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1039k/1039267/1782656106-nptsrmtamb-img-7317.jpg",
   "image_thumb": "https://api.bezrealitky.cz/media/cache/record_main/data/images/advert/1039k/1039267/1782656106-nptsrmtamb-img-7317.jpg",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": null,
   "last_seen": "2026-07-29",
   "lat": 50.7748958,
@@ -721,7 +721,7 @@
    }
   ],
   "price_per_m2": 322,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 2.723 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044744-nabidka-prodej-pozemku-nemcice"
@@ -753,7 +753,7 @@
    }
   ],
   "price_per_m2": 59,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 8.010 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045159-nabidka-prodej-pozemku-libez"
@@ -785,7 +785,7 @@
    }
   ],
   "price_per_m2": 58,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 10.185 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045160-nabidka-prodej-pozemku-libez"
@@ -817,7 +817,7 @@
    }
   ],
   "price_per_m2": 58,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 8.739 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045162-nabidka-prodej-pozemku-libez"
@@ -881,7 +881,7 @@
    }
   ],
   "price_per_m2": 45,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 8.431 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048427-nabidka-prodej-pozemku-postupice"
@@ -1006,7 +1006,7 @@
    }
   ],
   "price_per_m2": 41,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 3.856 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949774-nabidka-prodej-pozemku-pravonin"
@@ -1038,7 +1038,7 @@
    }
   ],
   "price_per_m2": 33,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 6.571 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949795-nabidka-prodej-pozemku-slapsko"
@@ -1070,7 +1070,7 @@
    }
   ],
   "price_per_m2": 44,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "bezrealitky",
   "title": "Prodej pozemku 13.670 m²",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949826-nabidka-prodej-pozemku-pravonin"
@@ -1170,7 +1170,7 @@
    }
   ],
   "price_per_m2": 250,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 11842 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/benesov/1036116044"
@@ -1266,7 +1266,7 @@
    }
   ],
   "price_per_m2": 45,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 8633 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/jankov/1061417036"
@@ -1298,7 +1298,7 @@
    }
   ],
   "price_per_m2": 50,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 21681 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/naceradec/1064497228"
@@ -1644,7 +1644,7 @@
    }
   ],
   "price_per_m2": 59,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 8010 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/libez/1179836492"
@@ -2096,7 +2096,7 @@
    }
   ],
   "price_per_m2": 27,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej lesa 2112 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zbizuby/1280548940"
@@ -2177,7 +2177,7 @@
   "id": "sreality:1312596044",
   "image": "https://d18-a.sdn.cz/d_18/c_img_qA_E/kcHp2YdDtzYqGBAJJGedkwA/841f.jpeg?fl=res,800,600,3|shr,,20|webp,60",
   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qA_E/kcHp2YdDtzYqGBAJJGedkwA/841f.jpeg?fl=res,100,100,1|jpg,80",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": null,
   "last_seen": "2026-07-29",
   "lat": 50.7744407,
@@ -2224,7 +2224,7 @@
    }
   ],
   "price_per_m2": 39,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 2380 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/zbizuby/1316143948"
@@ -2516,7 +2516,7 @@
    }
   ],
   "price_per_m2": 49,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 3421 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/sebirov/1409646668"
@@ -2588,7 +2588,7 @@
    }
   ],
   "price_per_m2": 20,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej lesa 36326 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/sebirov/1458771276"
@@ -2807,7 +2807,7 @@
    }
   ],
   "price_per_m2": 37,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej lesa 4064 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/tehov/1500214092"
@@ -2967,7 +2967,7 @@
    }
   ],
   "price_per_m2": 47,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 16903 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/krivsoudov/154849356"
@@ -3382,7 +3382,7 @@
    }
   ],
   "price_per_m2": 3755,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pozemku 384 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/psare/1659233100"
@@ -3475,7 +3475,7 @@
    }
   ],
   "price_per_m2": 92,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pozemku 6515 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/pravonin/1688728396"
@@ -3554,7 +3554,7 @@
   "id": "sreality:1724444748",
   "image": "https://d18-a.sdn.cz/d_18/c_img_qC_C/kQMlcCt5zmBDp4mH3xG6opR8/52c0.jpeg?fl=res,800,600,3|shr,,20|webp,60",
   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qC_C/kQMlcCt5zmBDp4mH3xG6opR8/52c0.jpeg?fl=res,100,100,1|jpg,80",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": null,
   "last_seen": "2026-07-29",
   "lat": 50.7713549172,
@@ -3697,7 +3697,7 @@
    }
   ],
   "price_per_m2": 51,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 27408 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/velis/1772548172"
@@ -3761,7 +3761,7 @@
    }
   ],
   "price_per_m2": 1387,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pozemku 1146 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/neustupov/1781813836"
@@ -3793,7 +3793,7 @@
    }
   ],
   "price_per_m2": 54,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 13942 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/chotysany/1791221836"
@@ -3922,7 +3922,7 @@
    }
   ],
   "price_per_m2": 114,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pozemku 1750 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/rendejov/1840734796"
@@ -3986,7 +3986,7 @@
    }
   ],
   "price_per_m2": 45,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 10832 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/kacov/1849270860"
@@ -4048,7 +4048,7 @@
    }
   ],
   "price_per_m2": 58,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 8739 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/libez/1884479564"
@@ -4148,7 +4148,7 @@
    }
   ],
   "price_per_m2": 2159,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej zahrady 1019 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/1893851212"
@@ -4212,7 +4212,7 @@
    }
   ],
   "price_per_m2": 460,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej zahrady 3259 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/vsechlapy/1916837964"
@@ -4325,7 +4325,7 @@
   "id": "sreality:1952940108",
   "image": "https://d18-a.sdn.cz/d_18/c_img_qC_B/nO2CysqjGrB9kIMKfDG16ddm/89af.jpeg?fl=res,800,600,3|shr,,20|webp,60",
   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qC_B/nO2CysqjGrB9kIMKfDG16ddm/89af.jpeg?fl=res,100,100,1|jpg,80",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": null,
   "last_seen": "2026-07-29",
   "lat": 49.7324588287961,
@@ -4436,7 +4436,7 @@
    }
   ],
   "price_per_m2": 40,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 44451 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/sebirov/1988252492"
@@ -4468,7 +4468,7 @@
    }
   ],
   "price_per_m2": 20,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej lesa 3892 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/tehov/1989341260"
@@ -5106,7 +5106,7 @@
    }
   ],
   "price_per_m2": 618,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej zahrady 1603 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/2184983116"
@@ -5138,7 +5138,7 @@
    }
   ],
   "price_per_m2": 355,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej louky 237 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin/2185658956"
@@ -5302,7 +5302,7 @@
    }
   ],
   "price_per_m2": 2347,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej zahrady 720 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/221205324"
@@ -5511,7 +5511,7 @@
   "id": "sreality:2255810636",
   "image": "https://d18-a.sdn.cz/d_18/c_img_qC_F/kQMlcCt5zmD87zEMR2HE5G6x/c116.jpeg?fl=res,800,600,3|shr,,20|webp,60",
   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qC_F/kQMlcCt5zmD87zEMR2HE5G6x/c116.jpeg?fl=res,100,100,1|jpg,80",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": null,
   "last_seen": "2026-07-29",
   "lat": 49.7793925125219,
@@ -5715,7 +5715,7 @@
    }
   ],
   "price_per_m2": 35,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej louky 11254 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/ostredek/2301248332"
@@ -5776,7 +5776,7 @@
    }
   ],
   "price_per_m2": 49,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 49646 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/velis/2309419084"
@@ -5964,7 +5964,7 @@
    }
   ],
   "price_per_m2": 19,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej louky 4244 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/cechtice/2372575308"
@@ -5996,7 +5996,7 @@
    }
   ],
   "price_per_m2": 71,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 12039 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/postupice/2389151820"
@@ -6153,7 +6153,7 @@
    }
   ],
   "price_per_m2": 1294,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pozemku 927 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vsechlapy/2441322572"
@@ -6466,7 +6466,7 @@
    }
   ],
   "price_per_m2": 35,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej louky 6639 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/votice/255098956"
@@ -6498,7 +6498,7 @@
    }
   ],
   "price_per_m2": 3719,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej komerčního pozemku 804 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/komercni/kacov/2554159692"
@@ -6530,7 +6530,7 @@
    }
   ],
   "price_per_m2": 490,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pozemku 1000 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vlasim/2561905228"
@@ -6643,7 +6643,7 @@
   "id": "sreality:2609414220",
   "image": "https://d18-a.sdn.cz/d_18/c_img_qC_C/kQMlcCt5zmC5zFHHTxG58Qjl/fbef.jpeg?fl=res,800,600,3|shr,,20|webp,60",
   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qC_C/kQMlcCt5zmC5zFHHTxG58Qjl/fbef.jpeg?fl=res,100,100,1|jpg,80",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": null,
   "last_seen": "2026-07-29",
   "lat": 50.7726746671,
@@ -6722,7 +6722,7 @@
    }
   ],
   "price_per_m2": 35,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej lesa 6061 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/rendejov/2636357708"
@@ -6803,7 +6803,7 @@
   "id": "sreality:2659962956",
   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_E/nO2CysqjGrDPliFBooZHSICsQ/bcf5.jpeg?fl=res,800,600,3|shr,,20|webp,60",
   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_E/nO2CysqjGrDPliFBooZHSICsQ/bcf5.jpeg?fl=res,100,100,1|jpg,80",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": null,
   "last_seen": "2026-07-29",
   "lat": 50.77204357,
@@ -6963,7 +6963,7 @@
   "id": "sreality:2725679180",
   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_C/nO2CysqjGrDPliFu9vHMVFHq/eed2.jpeg?fl=res,800,600,3|shr,,20|webp,60",
   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_C/nO2CysqjGrDPliFu9vHMVFHq/eed2.jpeg?fl=res,100,100,1|jpg,80",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": null,
   "last_seen": "2026-07-29",
   "lat": 50.7628136538,
@@ -7106,7 +7106,7 @@
    }
   ],
   "price_per_m2": 1299,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej zahrady 670 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/chaberice/2746581068"
@@ -7202,7 +7202,7 @@
    }
   ],
   "price_per_m2": 27,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 3796 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/lukavec/2777412428"
@@ -7391,7 +7391,7 @@
    }
   ],
   "price_per_m2": 457,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej louky 1730 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/liberec/2860925772"
@@ -7455,7 +7455,7 @@
    }
   ],
   "price_per_m2": 269,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej zahrady 7910 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/zruc-nad-sazavou/2875060300"
@@ -8093,7 +8093,7 @@
    }
   ],
   "price_per_m2": 45,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 51947 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/zvestov/30290764"
@@ -8449,7 +8449,7 @@
    }
   ],
   "price_per_m2": 48,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 64632 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/jankov/3133399116"
@@ -8513,7 +8513,7 @@
    }
   ],
   "price_per_m2": 64,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej lesa 3093 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/popovice/3181543500"
@@ -8875,7 +8875,7 @@
    }
   ],
   "price_per_m2": 132,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pozemku 1506 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/zvestov/3275334220"
@@ -9007,7 +9007,7 @@
    }
   ],
   "price_per_m2": 98,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej louky 3945 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/liberec/3314828108"
@@ -9292,7 +9292,7 @@
    }
   ],
   "price_per_m2": 44,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej louky 13670 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin/3393098572"
@@ -9706,7 +9706,7 @@
    }
   ],
   "price_per_m2": 26,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej lesa 6015 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zbizuby/3527320396"
@@ -9738,7 +9738,7 @@
    }
   ],
   "price_per_m2": 85,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pozemku 2210 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/chaberice/3528504140"
@@ -10043,7 +10043,7 @@
   "id": "sreality:3592675404",
   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_F/nEwftpXyZ4AdffkEHUkWtQ/5fef.jpeg?fl=res,800,600,3|shr,,20|webp,60",
   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_F/nEwftpXyZ4AdffkEHUkWtQ/5fef.jpeg?fl=res,100,100,1|jpg,80",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": 2500,
   "last_seen": "2026-07-29",
   "lat": 50.767007557,
@@ -10122,7 +10122,7 @@
    }
   ],
   "price_per_m2": 99,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pozemku 6534 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vlasim/3595387724"
@@ -10346,7 +10346,7 @@
    }
   ],
   "price_per_m2": 118,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej lesa 1133 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/trhovy-stepanov/3671385164"
@@ -10698,7 +10698,7 @@
    }
   ],
   "price_per_m2": 58,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 10185 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/libez/3780304972"
@@ -10747,7 +10747,7 @@
   "id": "sreality:3817922636",
   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_D/kQMlcCt5zmChFvGLmiHOUEAe/df8a.png?fl=res,800,600,3|shr,,20|webp,60",
   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_D/kQMlcCt5zmChFvGLmiHOUEAe/df8a.png?fl=res,100,100,1|jpg,80",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": null,
   "last_seen": "2026-07-29",
   "lat": 50.770983612052795,
@@ -10794,7 +10794,7 @@
    }
   ],
   "price_per_m2": 32,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej lesa 4719 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zruc-nad-sazavou/3826487372"
@@ -11022,7 +11022,7 @@
    }
   ],
   "price_per_m2": 34,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 17689 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/radosovice/3911803468"
@@ -11054,7 +11054,7 @@
    }
   ],
   "price_per_m2": 40,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 18903 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/radosovice/3917046348"
@@ -11214,7 +11214,7 @@
    }
   ],
   "price_per_m2": 39,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 6386 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/vlasim/3944067916"
@@ -11310,7 +11310,7 @@
    }
   ],
   "price_per_m2": 38,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 11982 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/caslavsko/3951137612"
@@ -11470,7 +11470,7 @@
    }
   ],
   "price_per_m2": 34,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 9679 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/lukavec/3982086220"
@@ -11487,7 +11487,7 @@
   "id": "sreality:4029341772",
   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_A/nO2CysqjGrCe62NBmaHGKlmk/9d51.png?fl=res,800,600,3|shr,,20|webp,60",
   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_A/nO2CysqjGrCe62NBmaHGKlmk/9d51.png?fl=res,100,100,1|jpg,80",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": 804,
   "last_seen": "2026-07-29",
   "lat": 49.75741865954097,
@@ -11534,7 +11534,7 @@
    }
   ],
   "price_per_m2": 1325,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej zahrady 1359 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/liberec/4034129996"
@@ -11630,7 +11630,7 @@
    }
   ],
   "price_per_m2": 86,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej zahrady 1008 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/vilice/4058701900"
@@ -11791,7 +11791,7 @@
    }
   ],
   "price_per_m2": 4500,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej komerčního pozemku 700 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/komercni/teplysovice/4101199180"
@@ -11887,7 +11887,7 @@
    }
   ],
   "price_per_m2": 57,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 13942 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/chotysany/4118303564"
@@ -11951,7 +11951,7 @@
    }
   ],
   "price_per_m2": 48,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 24814 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/kresin/4124303436"
@@ -12337,7 +12337,7 @@
    }
   ],
   "price_per_m2": 33,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej lesa 45954 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/zvestov/4212597580"
@@ -12469,7 +12469,7 @@
    }
   ],
   "price_per_m2": 49,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 90581 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/postupice/4221165644"
@@ -12565,7 +12565,7 @@
    }
   ],
   "price_per_m2": 79,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej zahrady 705 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/trhovy-stepanov/4270408524"
@@ -12629,7 +12629,7 @@
    }
   ],
   "price_per_m2": 51,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 22238 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/velis/430370892"
@@ -12661,7 +12661,7 @@
    }
   ],
   "price_per_m2": 87,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej louky 1137 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/vlasim/446730316"
@@ -12818,7 +12818,7 @@
    }
   ],
   "price_per_m2": 3719,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pozemku 804 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/kacov/494682700"
@@ -13187,7 +13187,7 @@
   "id": "sreality:666271820",
   "image": "https://d18-a.sdn.cz/d_18/c_img_qC_B/nO2CysqjGrCP7qOIaBG2sfi7/634a.jpeg?fl=res,800,600,3|shr,,20|webp,60",
   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qC_B/nO2CysqjGrCP7qOIaBG2sfi7/634a.jpeg?fl=res,100,100,1|jpg,80",
-  "is_new": true,
+  "is_new": false,
   "land_area_m2": null,
   "last_seen": "2026-07-29",
   "lat": 49.73245882879609,
@@ -13298,7 +13298,7 @@
    }
   ],
   "price_per_m2": 496,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 5240 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/sazava/703886156"
@@ -13362,7 +13362,7 @@
    }
   ],
   "price_per_m2": 28,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pozemku 23891 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/lounovice-pod-blanikem/740406092"
@@ -13426,7 +13426,7 @@
    }
   ],
   "price_per_m2": 41,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej lesa 5707 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/mnichovice/763851340"
@@ -13522,7 +13522,7 @@
    }
   ],
   "price_per_m2": 56,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 15336 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/jankov/8052812"
@@ -13676,7 +13676,7 @@
    }
   ],
   "price_per_m2": 37,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej louky 3606 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/kresin/890429516"
@@ -13776,7 +13776,7 @@
    }
   ],
   "price_per_m2": 20,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej lesa 8755 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/les/lounovice-pod-blanikem/957010764"
@@ -13808,7 +13808,7 @@
    }
   ],
   "price_per_m2": 38,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej pole 12602 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/pole/naceradec/959832140"
@@ -13872,7 +13872,7 @@
    }
   ],
   "price_per_m2": 41,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej louky 3856 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin/977179468"

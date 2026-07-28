@@ -28,9 +28,10 @@ _ESTATE_TO_CATEGORY = {"BYT": "byt", "DUM": "dum", "POZEMEK": "pozemek"}
 # Typ nabídky (PRODEJ / PRONAJEM) se do dotazu doplňuje za %OFFER% – je to naše
 # konstanta z config.py, ne uživatelský vstup.
 _QUERY = """
-query List($estateType: [EstateType], $disposition: [Disposition], $priceFrom: Int,
-           $priceTo: Int, $surfaceFrom: Int, $limit: Int, $offset: Int) {
-  listAdverts(offerType: [%OFFER%], estateType: $estateType, disposition: $disposition,
+query List($estateType: [EstateType], $landType: [LandType], $disposition: [Disposition],
+           $priceFrom: Int, $priceTo: Int, $surfaceFrom: Int, $limit: Int, $offset: Int) {
+  listAdverts(offerType: [%OFFER%], estateType: $estateType, landType: $landType,
+              disposition: $disposition,
               priceFrom: $priceFrom, priceTo: $priceTo, surfaceFrom: $surfaceFrom,
               limit: $limit, offset: $offset, order: TIMEORDER_DESC) {
     totalCount
@@ -50,6 +51,8 @@ def search(search_cfg, settings, log):
     dotaz = _QUERY.replace("%OFFER%", "PRONAJEM" if pronajem else "PRODEJ")
     variables = {
         "estateType": [b["estate_type"]],
+        # druh pozemku (STAVEBNI, POLE, LES…); None = neomezovat
+        "landType": b.get("land_types") or None,
         "disposition": b["dispositions"] or None,
         "priceFrom": search_cfg["price_from"],
         "priceTo": search_cfg["price_to"],

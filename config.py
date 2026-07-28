@@ -106,14 +106,17 @@ SEARCHES = [
     },
     {
         "key": "pozemek",
-        "label": "Pozemek",
+        "label": "Stavební pozemek",
         "deal": "prodej",
         "price_from": 50_000,
         "price_to": 5_000_000,        # u pozemku strop 5 mil.
         "min_area_m2": None,
-        # Sreality: 3 = Pozemky, všechny podtypy
-        "sreality": {"category_main_cb": 3, "category_sub_cb": []},
-        "bezrealitky": {"estate_type": "POZEMEK", "dispositions": []},
+        # Jen stavební pozemky – pole, louky, lesy, zahrady ani rybníky nechceme.
+        # Sreality: 3 = Pozemky, sub 19 = Bydlení (= „stavební pozemek“).
+        "sreality": {"category_main_cb": 3, "category_sub_cb": [19]},
+        # Bezrealitky mají vlastní druh pozemku; STAVEBNI je totéž.
+        "bezrealitky": {"estate_type": "POZEMEK", "dispositions": [],
+                        "land_types": ["STAVEBNI"]},
     },
 ]
 

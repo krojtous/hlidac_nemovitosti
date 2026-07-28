@@ -11,7 +11,7 @@ pošle **e-mail** s novinkami a udržuje **přehlednou tabulku** s historií.
 | Dům se zahradou | cena do 12 mil. Kč |
 | Byt 4+1 / 4+kk | plocha od 80 m², cena do 12 mil. Kč |
 | Byt 3+1 | plocha od 90 m², cena do 12 mil. Kč |
-| Pozemek | cena do 5 mil. Kč |
+| Stavební pozemek | cena do 5 mil. Kč (pole, louky, lesy ani zahrady se nehlídají) |
 | **Pronájem** domu | do 35 000 Kč/měsíc |
 | **Pronájem** bytu 4+1 / 4+kk | plocha od 80 m², do 35 000 Kč/měsíc |
 | **Pronájem** bytu 3+1 | plocha od 90 m², do 35 000 Kč/měsíc |
