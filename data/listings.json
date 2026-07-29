@@ -3269,6 +3269,7 @@
   "area_m2": 165,
   "category": "dum",
   "city": "Tehov",
+  "deal": "prodej",
   "disposition": null,
   "distance_km": 6.13,
   "first_seen": "2026-07-21",
@@ -3279,6 +3280,8 @@
   "land_area_m2": 735,
   "last_seen": "2026-07-29",
   "lat": 49.737907804378025,
+  "location_inaccuracy": "address",
+  "location_precision": "address",
   "lon": 14.96856580938251,
   "matched_area": "Vlašim",
   "price": 9990000,
@@ -3289,7 +3292,7 @@
    }
   ],
   "price_per_m2": 60545,
-  "removed_on": "2026-07-29",
+  "removed_on": null,
   "source": "sreality",
   "title": "Prodej rodinného domu 165 m², pozemek 735 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/163271500"
@@ -9671,6 +9674,7 @@
   "area_m2": 264,
   "category": "dum",
   "city": "Kozmice",
+  "deal": "prodej",
   "disposition": null,
   "distance_km": 15.33,
   "first_seen": "2026-07-28",
@@ -9681,6 +9685,8 @@
   "land_area_m2": 834,
   "last_seen": "2026-07-29",
   "lat": 49.824523,
+  "location_inaccuracy": "gps",
+  "location_precision": "address",
   "lon": 14.796456,
   "matched_area": "Vlašim",
   "price": 6250000,
@@ -9691,7 +9697,7 @@
    }
   ],
   "price_per_m2": 23674,
-  "removed_on": "2026-07-29",
+  "removed_on": null,
   "source": "sreality",
   "title": "Prodej rodinného domu 264 m², pozemek 834 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/3440021580"
@@ -12333,6 +12339,7 @@
   "area_m2": 390,
   "category": "dum",
   "city": "Bernartice",
+  "deal": "prodej",
   "disposition": null,
   "distance_km": 16.69,
   "first_seen": "2026-07-28",
@@ -12343,6 +12350,8 @@
   "land_area_m2": 1268,
   "last_seen": "2026-07-29",
   "lat": 49.674821,
+  "location_inaccuracy": "gps",
+  "location_precision": "address",
   "lon": 15.128488,
   "matched_area": "Vlašim",
   "price": 3299000,
@@ -12353,7 +12362,7 @@
    }
   ],
   "price_per_m2": 8459,
-  "removed_on": "2026-07-29",
+  "removed_on": null,
   "source": "sreality",
   "title": "Prodej rodinného domu 390 m², pozemek 1268 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bernartice/4144398412"
@@ -12715,7 +12724,7 @@
    }
   ],
   "price_per_m2": 32381,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej rodinného domu 105 m², pozemek 1300 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/4220112972"
@@ -12979,7 +12988,7 @@
    }
   ],
   "price_per_m2": 68462,
-  "removed_on": null,
+  "removed_on": "2026-07-29",
   "source": "sreality",
   "title": "Prodej rodinného domu 130 m², pozemek 1819 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kacov/453697612"

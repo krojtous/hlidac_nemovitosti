@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T01:36",
+ "generated_at": "2026-07-29T07:39",
  "count": 438,
  "criteria": {
   "areas": [
@@ -1963,10 +1963,13 @@
     }
    ],
    "price_per_m2": 60545,
-   "removed_on": "2026-07-29",
+   "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 165 m², pozemek 735 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/163271500"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/163271500",
+   "deal": "prodej",
+   "location_precision": "address",
+   "location_inaccuracy": "address"
   },
   {
    "address": "Psáře",
@@ -7582,7 +7585,7 @@
     }
    ],
    "price_per_m2": 68462,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej rodinného domu 130 m², pozemek 1819 m²",
    "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kacov/453697612"
@@ -12233,10 +12236,13 @@
     }
    ],
    "price_per_m2": 23674,
-   "removed_on": "2026-07-29",
+   "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 264 m², pozemek 834 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/3440021580"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/3440021580",
+   "deal": "prodej",
+   "location_precision": "address",
+   "location_inaccuracy": "gps"
   },
   {
    "address": "K Sportovnímu Areálu, Liberec XXV-Vesec",
@@ -13251,10 +13257,13 @@
     }
    ],
    "price_per_m2": 8459,
-   "removed_on": "2026-07-29",
+   "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 390 m², pozemek 1268 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bernartice/4144398412"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bernartice/4144398412",
+   "deal": "prodej",
+   "location_precision": "address",
+   "location_inaccuracy": "gps"
   },
   {
    "address": "Frýdlantská, Liberec I-Staré Město",
@@ -13449,7 +13458,7 @@
     }
    ],
    "price_per_m2": 32381,
-   "removed_on": null,
+   "removed_on": "2026-07-29",
    "source": "sreality",
    "title": "Prodej rodinného domu 105 m², pozemek 1300 m²",
    "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/4220112972"
