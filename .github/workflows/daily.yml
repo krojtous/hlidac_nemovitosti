@@ -1,9 +1,9 @@
 name: Hlídač nemovitostí (denně)
 
-# Spouští se každý den ráno a také ručně tlačítkem "Run workflow".
+# TEST: dočasně každých 10 minut kvůli ověření funkčnosti – po testu vrátit zpět na denní cron.
 on:
   schedule:
-    - cron: "0 5 * * *"   # 05:00 UTC = cca 7:00 ráno v ČR
+    - cron: "*/10 * * * *"   # docasne testovaci interval
   workflow_dispatch: {}
 
 # Aby si běh mohl commitnout aktualizovaná data zpět do repozitáře.
