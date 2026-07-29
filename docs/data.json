@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T07:39",
+ "generated_at": "2026-07-29T10:47+00:00",
  "count": 438,
  "criteria": {
   "areas": [
@@ -1784,18 +1784,18 @@
    "city": "Teplýšovice",
    "deal": "prodej",
    "disposition": null,
-   "distance_km": 13.46,
+   "distance_km": 13.38,
    "first_seen": "2026-07-21",
    "id": "sreality:1562542156",
-   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_F/nEwftpXyZCL67dei6HUmv96/0a61.jpeg?fl=res,800,600,3|shr,,20|webp,60",
-   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_F/nEwftpXyZCL67dei6HUmv96/0a61.jpeg?fl=res,100,100,1|jpg,80",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_F/nEwftpXyZDPeBmB4DHVs8fc/1bf9.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_F/nEwftpXyZDPeBmB4DHVs8fc/1bf9.jpeg?fl=res,100,100,1|jpg,80",
    "is_new": false,
    "land_area_m2": 1264,
    "last_seen": "2026-07-29",
-   "lat": 49.806666,
-   "location_inaccuracy": "gps",
-   "location_precision": "address",
-   "lon": 14.800983,
+   "lat": 49.8061046468579,
+   "location_inaccuracy": "ward",
+   "location_precision": "ward",
+   "lon": 14.8015814612372,
    "matched_area": "Vlašim",
    "price": 8499000,
    "price_history": [
@@ -1943,6 +1943,7 @@
    "area_m2": 165,
    "category": "dum",
    "city": "Tehov",
+   "deal": "prodej",
    "disposition": null,
    "distance_km": 6.13,
    "first_seen": "2026-07-21",
@@ -1953,6 +1954,8 @@
    "land_area_m2": 735,
    "last_seen": "2026-07-29",
    "lat": 49.737907804378025,
+   "location_inaccuracy": "address",
+   "location_precision": "address",
    "lon": 14.96856580938251,
    "matched_area": "Vlašim",
    "price": 9990000,
@@ -1966,10 +1969,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 165 m², pozemek 735 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/163271500",
-   "deal": "prodej",
-   "location_precision": "address",
-   "location_inaccuracy": "address"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/163271500"
   },
   {
    "address": "Psáře",
@@ -4543,8 +4543,8 @@
    "distance_km": 13.48,
    "first_seen": "2026-07-21",
    "id": "sreality:2945114188",
-   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_E/nOa03Se6MmDfr1PDZVHSQQxY/a698.jpeg?fl=res,800,600,3|shr,,20|webp,60",
-   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_E/nOa03Se6MmDfr1PDZVHSQQxY/a698.jpeg?fl=res,100,100,1|jpg,80",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_F/nEwftpXyZCCONkWfHVsno1/baf6.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_F/nEwftpXyZCCONkWfHVsno1/baf6.jpeg?fl=res,100,100,1|jpg,80",
    "is_new": false,
    "land_area_m2": null,
    "last_seen": "2026-07-29",
@@ -4553,14 +4553,18 @@
    "location_precision": "address",
    "lon": 14.9274177778,
    "matched_area": "Vlašim",
-   "price": 4990000,
+   "price": 3990000,
    "price_history": [
     {
      "date": "2026-07-21",
      "price": 4990000
+    },
+    {
+     "date": "2026-07-29",
+     "price": 3990000
     }
    ],
-   "price_per_m2": 8739,
+   "price_per_m2": 6988,
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej stavebního pozemku 571 m²",
@@ -6549,8 +6553,8 @@
    "distance_km": 14.24,
    "first_seen": "2026-07-21",
    "id": "sreality:3931013196",
-   "image": "https://d18-a.sdn.cz/d_18/c_img_qC_A/nO2CysqjGrC2szhJHmG0OPfk/fe80.jpeg?fl=res,800,600,3|shr,,20|webp,60",
-   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qC_A/nO2CysqjGrC2szhJHmG0OPfk/fe80.jpeg?fl=res,100,100,1|jpg,80",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_F/kOyy3Gv43yCpHP2FC0HVqFSt/5f4a.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_F/kOyy3Gv43yCpHP2FC0HVqFSt/5f4a.jpeg?fl=res,100,100,1|jpg,80",
    "is_new": false,
    "land_area_m2": 899,
    "last_seen": "2026-07-29",
@@ -6559,14 +6563,18 @@
    "location_precision": "address",
    "lon": 15.0506875196668,
    "matched_area": "Vlašim",
-   "price": 6200000,
+   "price": 5900000,
    "price_history": [
     {
      "date": "2026-07-21",
      "price": 6200000
+    },
+    {
+     "date": "2026-07-29",
+     "price": 5900000
     }
    ],
-   "price_per_m2": 15500,
+   "price_per_m2": 14750,
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 400 m², pozemek 899 m²",
@@ -7069,8 +7077,8 @@
    "distance_km": 13.48,
    "first_seen": "2026-07-21",
    "id": "sreality:4135907404",
-   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_D/kQMlcCt5zmwiaBBPddHOqLpS/0a67.jpeg?fl=res,800,600,3|shr,,20|webp,60",
-   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_D/kQMlcCt5zmwiaBBPddHOqLpS/0a67.jpeg?fl=res,100,100,1|jpg,80",
+   "image": "https://d18-a.sdn.cz/d_18/c_img_qD_F/kOyy3Gv43yDmAsMF5jHVspcV/c072.jpeg?fl=res,800,600,3|shr,,20|webp,60",
+   "image_thumb": "https://d18-a.sdn.cz/d_18/c_img_qD_F/kOyy3Gv43yDmAsMF5jHVspcV/c072.jpeg?fl=res,100,100,1|jpg,80",
    "is_new": false,
    "land_area_m2": 571,
    "last_seen": "2026-07-29",
@@ -7079,14 +7087,18 @@
    "location_precision": "address",
    "lon": 14.9274177778,
    "matched_area": "Vlašim",
-   "price": 4990000,
+   "price": 3990000,
    "price_history": [
     {
      "date": "2026-07-21",
      "price": 4990000
+    },
+    {
+     "date": "2026-07-29",
+     "price": 3990000
     }
    ],
-   "price_per_m2": 83167,
+   "price_per_m2": 66500,
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 60 m², pozemek 571 m²",
@@ -12216,6 +12228,7 @@
    "area_m2": 264,
    "category": "dum",
    "city": "Kozmice",
+   "deal": "prodej",
    "disposition": null,
    "distance_km": 15.33,
    "first_seen": "2026-07-28",
@@ -12226,6 +12239,8 @@
    "land_area_m2": 834,
    "last_seen": "2026-07-29",
    "lat": 49.824523,
+   "location_inaccuracy": "gps",
+   "location_precision": "address",
    "lon": 14.796456,
    "matched_area": "Vlašim",
    "price": 6250000,
@@ -12239,10 +12254,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 264 m², pozemek 834 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/3440021580",
-   "deal": "prodej",
-   "location_precision": "address",
-   "location_inaccuracy": "gps"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/3440021580"
   },
   {
    "address": "K Sportovnímu Areálu, Liberec XXV-Vesec",
@@ -13237,6 +13249,7 @@
    "area_m2": 390,
    "category": "dum",
    "city": "Bernartice",
+   "deal": "prodej",
    "disposition": null,
    "distance_km": 16.69,
    "first_seen": "2026-07-28",
@@ -13247,6 +13260,8 @@
    "land_area_m2": 1268,
    "last_seen": "2026-07-29",
    "lat": 49.674821,
+   "location_inaccuracy": "gps",
+   "location_precision": "address",
    "lon": 15.128488,
    "matched_area": "Vlašim",
    "price": 3299000,
@@ -13260,10 +13275,7 @@
    "removed_on": null,
    "source": "sreality",
    "title": "Prodej rodinného domu 390 m², pozemek 1268 m²",
-   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bernartice/4144398412",
-   "deal": "prodej",
-   "location_precision": "address",
-   "location_inaccuracy": "gps"
+   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bernartice/4144398412"
   },
   {
    "address": "Frýdlantská, Liberec I-Staré Město",

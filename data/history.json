@@ -5114,5 +5114,32 @@
   "id": "sreality:453697612",
   "title": "Prodej rodinného domu 130 m², pozemek 1819 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kacov/453697612"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "price_changed",
+  "id": "sreality:4135907404",
+  "title": "Prodej rodinného domu 60 m², pozemek 571 m²",
+  "old_price": 4990000,
+  "new_price": 3990000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/4135907404"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "price_changed",
+  "id": "sreality:3931013196",
+  "title": "Prodej rodinného domu 400 m², pozemek 899 m²",
+  "old_price": 6200000,
+  "new_price": 5900000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cechtice/3931013196"
+ },
+ {
+  "date": "2026-07-29",
+  "event": "price_changed",
+  "id": "sreality:2945114188",
+  "title": "Prodej stavebního pozemku 571 m²",
+  "old_price": 4990000,
+  "new_price": 3990000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/2945114188"
  }
 ]
