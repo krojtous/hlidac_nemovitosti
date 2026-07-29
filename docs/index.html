@@ -546,6 +546,15 @@ async function overStavVRepozitari(){
 }
 
 function fmtNum(n){return (n||0).toLocaleString("cs-CZ").replace(/ /g," ");}
+// generated_at se ukládá v UTC (CI běží na ubuntu-latest) – tady se převádí
+// na pražský čas, aby seděl na hodinky bez ohledu na letní/zimní čas.
+function fmtGeneratedAt(s){
+  if(!s) return "";
+  const iso=/[zZ]|[+-]\d\d:\d\d$/.test(s) ? s : s+"Z"; // starší záznamy bez zóny = UTC
+  const dt=new Date(iso);
+  if(isNaN(dt)) return s;
+  return dt.toLocaleString("cs-CZ",{timeZone:"Europe/Prague",day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});
+}
 // U pronájmu je cena měsíční – bez toho by se 25 000 Kč pletlo s kupní cenou.
 function fmtPrice(n, r){
   if(!n) return "—";
@@ -736,7 +745,7 @@ fetch("data.json?_="+Date.now()).then(r=>r.json()).then(d=>{
   loadFav();
   const nNew=DATA.filter(r=>r.is_new).length;
   document.getElementById("meta").textContent=
-    `${d.count} nemovitostí · ${nNew} nových · aktualizováno ${d.generated_at||""}`;
+    `${d.count} nemovitostí · ${nNew} nových · aktualizováno ${fmtGeneratedAt(d.generated_at)}`;
   renderCriteria(d.criteria);
   initFilters();
   initMobileSort();

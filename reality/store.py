@@ -3,7 +3,7 @@
 
 import json
 import os
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 LISTINGS_FILE = os.path.join(DATA_DIR, "listings.json")
@@ -140,7 +140,7 @@ def export_dashboard(listings, docs_dir, criteria=None, favorites=None):
                   key=lambda r: (not r.get("is_new"), r.get("first_seen", "")),
                   reverse=False)
     payload = {
-        "generated_at": datetime.now().isoformat(timespec="minutes"),
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="minutes"),
         "count": len(rows),
         "criteria": criteria or {},
         "favorites": sorted(favorites or []),
