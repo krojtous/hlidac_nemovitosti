@@ -5141,5 +5141,60 @@
   "old_price": 4990000,
   "new_price": 3990000,
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/2945114188"
+ },
+ {
+  "date": "2026-07-30",
+  "event": "appeared",
+  "id": "sreality:2723008588",
+  "title": "Prodej rodinného domu 250 m², pozemek 573 m²",
+  "price": 4750000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/2723008588"
+ },
+ {
+  "date": "2026-07-30",
+  "event": "price_changed",
+  "id": "sreality:1562542156",
+  "title": "Prodej rodinného domu 241 m², pozemek 1264 m²",
+  "old_price": 8499000,
+  "new_price": 7999000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/teplysovice/1562542156"
+ },
+ {
+  "date": "2026-07-30",
+  "event": "appeared",
+  "id": "sreality:3769552972",
+  "title": "Pronájem bytu 4+kk 120 m²",
+  "price": 24000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/liberec/3769552972"
+ },
+ {
+  "date": "2026-07-30",
+  "event": "removed",
+  "id": "sreality:2635465292",
+  "title": "Prodej stavebního pozemku 4190 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/kladruby/2635465292"
+ },
+ {
+  "date": "2026-07-30",
+  "event": "removed",
+  "id": "sreality:3193565260",
+  "title": "Prodej rodinného domu 280 m², pozemek 876 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3193565260"
+ },
+ {
+  "date": "2026-07-30",
+  "event": "removed",
+  "id": "sreality:3542474828",
+  "title": "Prodej rodinného domu 125 m², pozemek 182 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/3542474828"
+ },
+ {
+  "date": "2026-07-30",
+  "event": "removed",
+  "id": "sreality:3557786444",
+  "title": "Prodej rodinného domu 200 m², pozemek 526 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/3557786444"
  }
 ]
