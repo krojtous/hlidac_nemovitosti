@@ -5196,5 +5196,87 @@
   "id": "sreality:3557786444",
   "title": "Prodej rodinného domu 200 m², pozemek 526 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/3557786444"
+ },
+ {
+  "date": "2026-07-31",
+  "event": "price_changed",
+  "id": "sreality:881102924",
+  "title": "Prodej rodinného domu 270 m², pozemek 231 m²",
+  "old_price": 10200000,
+  "new_price": 11200000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/881102924"
+ },
+ {
+  "date": "2026-07-31",
+  "event": "appeared",
+  "id": "sreality:3062747212",
+  "title": "Prodej rodinného domu 143 m², pozemek 1514 m²",
+  "price": 8490000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/krivsoudov/3062747212"
+ },
+ {
+  "date": "2026-07-31",
+  "event": "price_changed",
+  "id": "sreality:2004767564",
+  "title": "Prodej rodinného domu 195 m², pozemek 945 m²",
+  "old_price": 3090000,
+  "new_price": 2900000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/lukavec/2004767564"
+ },
+ {
+  "date": "2026-07-31",
+  "event": "price_changed",
+  "id": "sreality:986018636",
+  "title": "Prodej rodinného domu 160 m², pozemek 2058 m²",
+  "old_price": 8499000,
+  "new_price": 8300000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/popovice/986018636"
+ },
+ {
+  "date": "2026-07-31",
+  "event": "appeared",
+  "id": "bezrealitky:1012892",
+  "title": "Pronájem bytu 3+1 100 m²",
+  "price": 24000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1012892-nabidka-pronajem-bytu-na-perstyne-liberec"
+ },
+ {
+  "date": "2026-07-31",
+  "event": "appeared",
+  "id": "sreality:4153295692",
+  "title": "Prodej stavebního pozemku 1980 m²",
+  "price": 3950000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rendejov/4153295692"
+ },
+ {
+  "date": "2026-07-31",
+  "event": "removed",
+  "id": "bezrealitky:1028589",
+  "title": "Prodej domu 102 m², pozemek 172 m²",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1028589-nabidka-prodej-domu-sternberska-divisov"
+ },
+ {
+  "date": "2026-07-31",
+  "event": "removed",
+  "id": "bezrealitky:1039267",
+  "title": "Pronájem bytu 4+kk 120 m²",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1039267-nabidka-pronajem-bytu-lyzarska-liberec"
+ },
+ {
+  "date": "2026-07-31",
+  "event": "removed",
+  "id": "sreality:1359581260",
+  "title": "Prodej rodinného domu 65 m², pozemek 400 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/1359581260"
+ },
+ {
+  "date": "2026-07-31",
+  "event": "removed",
+  "id": "sreality:3436871756",
+  "title": "Prodej rodinného domu 112 m², pozemek 1923 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/3436871756"
  }
 ]
