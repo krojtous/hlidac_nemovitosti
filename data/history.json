@@ -5278,5 +5278,101 @@
   "id": "sreality:3436871756",
   "title": "Prodej rodinného domu 112 m², pozemek 1923 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/3436871756"
+ },
+ {
+  "date": "2026-08-01",
+  "event": "appeared",
+  "id": "sreality:884789324",
+  "title": "Prodej rodinného domu 125 m², pozemek 630 m²",
+  "price": 7845000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/884789324"
+ },
+ {
+  "date": "2026-08-01",
+  "event": "price_changed",
+  "id": "sreality:1741877324",
+  "title": "Prodej rodinného domu 111 m², pozemek 458 m²",
+  "old_price": 9990000,
+  "new_price": 9500000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1741877324"
+ },
+ {
+  "date": "2026-08-01",
+  "event": "appeared",
+  "id": "sreality:1991037004",
+  "title": "Prodej rodinného domu 140 m², pozemek 342 m²",
+  "price": 1999000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/1991037004"
+ },
+ {
+  "date": "2026-08-01",
+  "event": "appeared",
+  "id": "sreality:3870085196",
+  "title": "Prodej rodinného domu 90 m², pozemek 795 m²",
+  "price": 7800000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/soutice/3870085196"
+ },
+ {
+  "date": "2026-08-01",
+  "event": "appeared",
+  "id": "sreality:69870412",
+  "title": "Prodej rodinného domu 90 m², pozemek 3037 m²",
+  "price": 5450000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/sobesin/69870412"
+ },
+ {
+  "date": "2026-08-01",
+  "event": "appeared",
+  "id": "sreality:1723650124",
+  "title": "Prodej stavebního pozemku 1998 m²",
+  "price": 3396600,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/chmelna/1723650124"
+ },
+ {
+  "date": "2026-08-01",
+  "event": "removed",
+  "id": "sreality:1222606924",
+  "title": "Prodej stavebního pozemku 925 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/1222606924"
+ },
+ {
+  "date": "2026-08-01",
+  "event": "removed",
+  "id": "sreality:224038988",
+  "title": "Prodej bytu 4+kk 123 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/224038988"
+ },
+ {
+  "date": "2026-08-01",
+  "event": "removed",
+  "id": "sreality:2609414220",
+  "title": "Pronájem bytu 3+1 127 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/liberec/2609414220"
+ },
+ {
+  "date": "2026-08-01",
+  "event": "removed",
+  "id": "sreality:3441168972",
+  "title": "Prodej bytu 4+kk 80 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/3441168972"
+ },
+ {
+  "date": "2026-08-01",
+  "event": "removed",
+  "id": "sreality:3461918796",
+  "title": "Prodej stavebního pozemku 1358 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3461918796"
+ },
+ {
+  "date": "2026-08-01",
+  "event": "removed",
+  "id": "sreality:3557982284",
+  "title": "Prodej rodinného domu 80 m², pozemek 376 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3557982284"
  }
 ]
