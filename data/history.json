@@ -5383,5 +5383,46 @@
   "price": 3290000,
   "area": "Vlašim",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/1755107404"
+ },
+ {
+  "date": "2026-08-03",
+  "event": "appeared",
+  "id": "sreality:863338572",
+  "title": "Prodej rodinného domu 80 m², pozemek 150 m²",
+  "price": 2300000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/soutice/863338572"
+ },
+ {
+  "date": "2026-08-03",
+  "event": "appeared",
+  "id": "sreality:1932775500",
+  "title": "Prodej rodinného domu 231 m², pozemek 654 m²",
+  "price": 7950000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/popovice/1932775500"
+ },
+ {
+  "date": "2026-08-03",
+  "event": "appeared",
+  "id": "sreality:1326440524",
+  "title": "Prodej rodinného domu 150 m², pozemek 1200 m²",
+  "price": 3800000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/krivsoudov/1326440524"
+ },
+ {
+  "date": "2026-08-03",
+  "event": "removed",
+  "id": "sreality:2861625420",
+  "title": "Prodej rodinného domu 231 m², pozemek 654 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/popovice/2861625420"
+ },
+ {
+  "date": "2026-08-03",
+  "event": "removed",
+  "id": "sreality:456634444",
+  "title": "Prodej rodinného domu 130 m², pozemek 2730 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/456634444"
  }
 ]
