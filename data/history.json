@@ -5424,5 +5424,67 @@
   "id": "sreality:456634444",
   "title": "Prodej rodinného domu 130 m², pozemek 2730 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/456634444"
+ },
+ {
+  "date": "2026-08-04",
+  "event": "appeared",
+  "id": "sreality:299094092",
+  "title": "Prodej rodinného domu 111 m², pozemek 458 m²",
+  "price": 9990000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/299094092"
+ },
+ {
+  "date": "2026-08-04",
+  "event": "appeared",
+  "id": "sreality:183685196",
+  "title": "Prodej rodinného domu 85 m², pozemek 620 m²",
+  "price": 8490000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/183685196"
+ },
+ {
+  "date": "2026-08-04",
+  "event": "appeared",
+  "id": "sreality:1156763724",
+  "title": "Pronájem bytu 3+1 90 m²",
+  "price": 20000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/liberec/1156763724"
+ },
+ {
+  "date": "2026-08-04",
+  "event": "removed",
+  "id": "sreality:1741877324",
+  "title": "Prodej rodinného domu 111 m², pozemek 458 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1741877324"
+ },
+ {
+  "date": "2026-08-04",
+  "event": "removed",
+  "id": "sreality:2659962956",
+  "title": "Pronájem bytu 4+1 91 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/2659962956"
+ },
+ {
+  "date": "2026-08-04",
+  "event": "removed",
+  "id": "sreality:307159884",
+  "title": "Prodej rodinného domu 135 m², pozemek 703 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/libez/307159884"
+ },
+ {
+  "date": "2026-08-04",
+  "event": "removed",
+  "id": "sreality:3340755020",
+  "title": "Prodej rodinného domu 90 m², pozemek 300 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/3340755020"
+ },
+ {
+  "date": "2026-08-04",
+  "event": "removed",
+  "id": "sreality:3769552972",
+  "title": "Pronájem bytu 4+kk 120 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/liberec/3769552972"
  }
 ]
