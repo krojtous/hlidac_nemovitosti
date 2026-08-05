@@ -5486,5 +5486,90 @@
   "id": "sreality:3769552972",
   "title": "Pronájem bytu 4+kk 120 m²",
   "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/liberec/3769552972"
+ },
+ {
+  "date": "2026-08-05",
+  "event": "appeared",
+  "id": "sreality:2120336204",
+  "title": "Prodej rodinného domu 390 m², pozemek 1199 m²",
+  "price": 11900000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/2120336204"
+ },
+ {
+  "date": "2026-08-05",
+  "event": "appeared",
+  "id": "sreality:2491535436",
+  "title": "Prodej rodinného domu 165 m², pozemek 3340 m²",
+  "price": 6490000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/podveky/2491535436"
+ },
+ {
+  "date": "2026-08-05",
+  "event": "price_changed",
+  "id": "sreality:1146060876",
+  "title": "Prodej rodinného domu 224 m², pozemek 1055 m²",
+  "old_price": 5790000,
+  "new_price": 5590000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/krivsoudov/1146060876"
+ },
+ {
+  "date": "2026-08-05",
+  "event": "appeared",
+  "id": "sreality:2349977676",
+  "title": "Pronájem bytu 4+kk 80 m²",
+  "price": 22000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/liberec/2349977676"
+ },
+ {
+  "date": "2026-08-05",
+  "event": "removed",
+  "id": "sreality:1045082188",
+  "title": "Prodej stavebního pozemku 1949 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/1045082188"
+ },
+ {
+  "date": "2026-08-05",
+  "event": "removed",
+  "id": "sreality:2219184972",
+  "title": "Prodej rodinného domu 98 m², pozemek 650 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/bystrice/2219184972"
+ },
+ {
+  "date": "2026-08-05",
+  "event": "removed",
+  "id": "sreality:271679564",
+  "title": "Prodej bytu 4+1 108 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/271679564"
+ },
+ {
+  "date": "2026-08-05",
+  "event": "removed",
+  "id": "sreality:3667075916",
+  "title": "Prodej rodinného domu 142 m², pozemek 621 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/3667075916"
+ },
+ {
+  "date": "2026-08-05",
+  "event": "removed",
+  "id": "sreality:4218871884",
+  "title": "Prodej bytu 4+kk 82 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/4218871884"
+ },
+ {
+  "date": "2026-08-05",
+  "event": "removed",
+  "id": "sreality:470991692",
+  "title": "Prodej stavebního pozemku 1535 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/benesov/470991692"
+ },
+ {
+  "date": "2026-08-05",
+  "event": "removed",
+  "id": "sreality:646067020",
+  "title": "Prodej stavebního pozemku 899 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/chaberice/646067020"
  }
 ]
