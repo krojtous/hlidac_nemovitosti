@@ -5571,5 +5571,92 @@
   "id": "sreality:646067020",
   "title": "Prodej stavebního pozemku 899 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/chaberice/646067020"
+ },
+ {
+  "date": "2026-08-06",
+  "event": "appeared",
+  "id": "sreality:3356610636",
+  "title": "Prodej rodinného domu 127 m², pozemek 156 m²",
+  "price": 11880000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3356610636"
+ },
+ {
+  "date": "2026-08-06",
+  "event": "price_changed",
+  "id": "sreality:2409951308",
+  "title": "Prodej rodinného domu 240 m², pozemek 360 m²",
+  "old_price": 7760000,
+  "new_price": 6850000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2409951308"
+ },
+ {
+  "date": "2026-08-06",
+  "event": "price_changed",
+  "id": "sreality:1594941516",
+  "title": "Prodej rodinného domu 140 m², pozemek 1534 m²",
+  "old_price": 4990000,
+  "new_price": 4190000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cechtice/1594941516"
+ },
+ {
+  "date": "2026-08-06",
+  "event": "appeared",
+  "id": "sreality:2639811404",
+  "title": "Prodej rodinného domu 120 m², pozemek 809 m²",
+  "price": 7490000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2639811404"
+ },
+ {
+  "date": "2026-08-06",
+  "event": "appeared",
+  "id": "sreality:1778438220",
+  "title": "Pronájem bytu 3+1 91 m²",
+  "price": 19500,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/benesov/1778438220"
+ },
+ {
+  "date": "2026-08-06",
+  "event": "removed",
+  "id": "bezrealitky:1007911",
+  "title": "Prodej domu 77 m², pozemek 570 m²",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1007911-nabidka-prodej-domu-roubickov-naceradec"
+ },
+ {
+  "date": "2026-08-06",
+  "event": "removed",
+  "id": "sreality:2420236364",
+  "title": "Prodej rodinného domu 215 m², pozemek 603 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2420236364"
+ },
+ {
+  "date": "2026-08-06",
+  "event": "removed",
+  "id": "sreality:2725679180",
+  "title": "Pronájem bytu 3+1 100 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/liberec/2725679180"
+ },
+ {
+  "date": "2026-08-06",
+  "event": "removed",
+  "id": "sreality:3402096716",
+  "title": "Prodej stavebního pozemku 1132 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3402096716"
+ },
+ {
+  "date": "2026-08-06",
+  "event": "removed",
+  "id": "sreality:3419922508",
+  "title": "Prodej bytu 4+1 90 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/3419922508"
+ },
+ {
+  "date": "2026-08-06",
+  "event": "removed",
+  "id": "sreality:394838860",
+  "title": "Prodej stavebního pozemku 849 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vlasim/394838860"
  }
 ]
