@@ -5658,5 +5658,81 @@
   "id": "sreality:394838860",
   "title": "Prodej stavebního pozemku 849 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vlasim/394838860"
+ },
+ {
+  "date": "2026-08-07",
+  "event": "price_changed",
+  "id": "sreality:865771596",
+  "title": "Prodej rodinného domu 200 m², pozemek 403 m²",
+  "old_price": 11198000,
+  "new_price": 10499000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/865771596"
+ },
+ {
+  "date": "2026-08-07",
+  "event": "price_changed",
+  "id": "sreality:4158304332",
+  "title": "Prodej stavebního pozemku 1004 m²",
+  "old_price": 1950000,
+  "new_price": 1750000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/soutice/4158304332"
+ },
+ {
+  "date": "2026-08-07",
+  "event": "price_changed",
+  "id": "sreality:4143063884",
+  "title": "Prodej stavebního pozemku 954 m²",
+  "old_price": 1700000,
+  "new_price": 1600000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/pravonin/4143063884"
+ },
+ {
+  "date": "2026-08-07",
+  "event": "removed",
+  "id": "sreality:121806924",
+  "title": "Prodej rodinného domu 213 m², pozemek 695 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/121806924"
+ },
+ {
+  "date": "2026-08-07",
+  "event": "removed",
+  "id": "sreality:1885279052",
+  "title": "Prodej stavebního pozemku 800 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/1885279052"
+ },
+ {
+  "date": "2026-08-07",
+  "event": "removed",
+  "id": "sreality:2609414220",
+  "title": "Pronájem bytu 3+1 127 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/liberec/2609414220"
+ },
+ {
+  "date": "2026-08-07",
+  "event": "removed",
+  "id": "sreality:3281855308",
+  "title": "Prodej stavebního pozemku 1173 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zdislavice/3281855308"
+ },
+ {
+  "date": "2026-08-07",
+  "event": "removed",
+  "id": "sreality:3773797196",
+  "title": "Prodej rodinného domu 75 m², pozemek 270 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/3773797196"
+ },
+ {
+  "date": "2026-08-07",
+  "event": "removed",
+  "id": "sreality:3901874252",
+  "title": "Prodej rodinného domu 191 m², pozemek 600 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3901874252"
+ },
+ {
+  "date": "2026-08-07",
+  "event": "removed",
+  "id": "sreality:3931013196",
+  "title": "Prodej rodinného domu 400 m², pozemek 899 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cechtice/3931013196"
  }
 ]
