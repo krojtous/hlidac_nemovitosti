@@ -5734,5 +5734,64 @@
   "id": "sreality:3931013196",
   "title": "Prodej rodinného domu 400 m², pozemek 899 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cechtice/3931013196"
+ },
+ {
+  "date": "2026-08-08",
+  "event": "appeared",
+  "id": "sreality:3696066636",
+  "title": "Prodej rodinného domu 249 m², pozemek 627 m²",
+  "price": 11900000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3696066636"
+ },
+ {
+  "date": "2026-08-08",
+  "event": "appeared",
+  "id": "sreality:1862717516",
+  "title": "Prodej rodinného domu 180 m², pozemek 621 m²",
+  "price": 10999000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov/1862717516"
+ },
+ {
+  "date": "2026-08-08",
+  "event": "price_changed",
+  "id": "sreality:1516979020",
+  "title": "Prodej rodinného domu 160 m², pozemek 3130 m²",
+  "old_price": 6990000,
+  "new_price": 6490000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/1516979020"
+ },
+ {
+  "date": "2026-08-08",
+  "event": "appeared",
+  "id": "sreality:3468152908",
+  "title": "Prodej stavebního pozemku 926 m²",
+  "price": 2680000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/3468152908"
+ },
+ {
+  "date": "2026-08-08",
+  "event": "price_changed",
+  "id": "sreality:4243451980",
+  "title": "Prodej stavebního pozemku 1248 m²",
+  "old_price": 2990000,
+  "new_price": 2790000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/4243451980"
+ },
+ {
+  "date": "2026-08-08",
+  "event": "removed",
+  "id": "sreality:2745946188",
+  "title": "Prodej rodinného domu 60 m², pozemek 461 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/2745946188"
+ },
+ {
+  "date": "2026-08-08",
+  "event": "removed",
+  "id": "sreality:3571663692",
+  "title": "Prodej rodinného domu 400 m², pozemek 1751 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cakov/3571663692"
  }
 ]
