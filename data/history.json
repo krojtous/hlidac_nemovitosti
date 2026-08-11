@@ -5837,5 +5837,133 @@
   "id": "sreality:3557982284",
   "title": "Prodej rodinného domu 80 m², pozemek 376 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3557982284"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "price_changed",
+  "id": "sreality:3436871756",
+  "title": "Prodej rodinného domu 112 m², pozemek 1923 m²",
+  "old_price": 11900000,
+  "new_price": 11300000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/3436871756"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "price_changed",
+  "id": "sreality:1326440524",
+  "title": "Prodej rodinného domu 150 m², pozemek 1200 m²",
+  "old_price": 3800000,
+  "new_price": 3700000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/krivsoudov/1326440524"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "appeared",
+  "id": "sreality:2698367052",
+  "title": "Prodej rodinného domu 66 m², pozemek 148 m²",
+  "price": 4995000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2698367052"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "price_changed",
+  "id": "sreality:105181260",
+  "title": "Prodej rodinného domu 127 m², pozemek 3187 m²",
+  "old_price": 10990000,
+  "new_price": 9970000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/soutice/105181260"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "price_changed",
+  "id": "sreality:1222627404",
+  "title": "Prodej rodinného domu 151 m², pozemek 802 m²",
+  "old_price": 11490000,
+  "new_price": 11640000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/1222627404"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "price_changed",
+  "id": "sreality:224038988",
+  "title": "Prodej bytu 4+kk 123 m²",
+  "old_price": 9988000,
+  "new_price": 9470000,
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/224038988"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "price_changed",
+  "id": "sreality:3461918796",
+  "title": "Prodej stavebního pozemku 1358 m²",
+  "old_price": 3799000,
+  "new_price": 3499000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3461918796"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "appeared",
+  "id": "sreality:835113036",
+  "title": "Prodej stavebního pozemku 1885 m²",
+  "price": 4712500,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ledecko/835113036"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "removed",
+  "id": "sreality:1156763724",
+  "title": "Pronájem bytu 3+1 90 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/liberec/1156763724"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "removed",
+  "id": "sreality:163271500",
+  "title": "Prodej rodinného domu 165 m², pozemek 735 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/163271500"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "removed",
+  "id": "sreality:1676259404",
+  "title": "Prodej rodinného domu 336 m², pozemek 1629 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1676259404"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "removed",
+  "id": "sreality:1884652364",
+  "title": "Prodej stavebního pozemku 418 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1884652364"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "removed",
+  "id": "sreality:2972901452",
+  "title": "Prodej rodinného domu 140 m², pozemek 1406 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2972901452"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "removed",
+  "id": "sreality:3060789324",
+  "title": "Prodej rodinného domu 64 m², pozemek 829 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/chotysany/3060789324"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "removed",
+  "id": "sreality:617128012",
+  "title": "Prodej rodinného domu 180 m², pozemek 859 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/617128012"
+ },
+ {
+  "date": "2026-08-11",
+  "event": "removed",
+  "id": "sreality:986018636",
+  "title": "Prodej rodinného domu 160 m², pozemek 2058 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/popovice/986018636"
  }
 ]
