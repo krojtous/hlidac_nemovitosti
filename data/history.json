@@ -5965,5 +5965,165 @@
   "id": "sreality:986018636",
   "title": "Prodej rodinného domu 160 m², pozemek 2058 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/popovice/986018636"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "appeared",
+  "id": "sreality:4092313676",
+  "title": "Prodej rodinného domu 80 m², pozemek 376 m²",
+  "price": 9373000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/4092313676"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "appeared",
+  "id": "sreality:1814806604",
+  "title": "Prodej rodinného domu 105 m², pozemek 505 m²",
+  "price": 9900000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/1814806604"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "appeared",
+  "id": "sreality:3779838028",
+  "title": "Prodej rodinného domu 134 m², pozemek 487 m²",
+  "price": 10800000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3779838028"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "appeared",
+  "id": "sreality:3849044044",
+  "title": "Prodej rodinného domu 105 m², pozemek 408 m²",
+  "price": 9800000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3849044044"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "price_changed",
+  "id": "sreality:1067561036",
+  "title": "Prodej rodinného domu 122 m², pozemek 798 m²",
+  "old_price": 5990000,
+  "new_price": 5690000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/teplysovice/1067561036"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "appeared",
+  "id": "sreality:3642474572",
+  "title": "Prodej bytu 4+kk 80 m²",
+  "price": 9666720,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/3642474572"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "appeared",
+  "id": "sreality:1478213708",
+  "title": "Prodej bytu 4+kk 123 m²",
+  "price": 9470000,
+  "area": "Masarykova třída (Liberec)",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/1478213708"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "appeared",
+  "id": "sreality:2850799692",
+  "title": "Prodej stavebního pozemku 1358 m²",
+  "price": 3499000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/2850799692"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "appeared",
+  "id": "sreality:2300297292",
+  "title": "Prodej stavebního pozemku 1200 m²",
+  "price": 1970000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/2300297292"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "appeared",
+  "id": "sreality:3802452044",
+  "title": "Prodej stavebního pozemku 1078 m²",
+  "price": 3600000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/lounovice-pod-blanikem/3802452044"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "removed",
+  "id": "sreality:1222627404",
+  "title": "Prodej rodinného domu 151 m², pozemek 802 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/1222627404"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "removed",
+  "id": "sreality:197878860",
+  "title": "Prodej rodinného domu 105 m², pozemek 408 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/197878860"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "removed",
+  "id": "sreality:224038988",
+  "title": "Prodej bytu 4+kk 123 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/224038988"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "removed",
+  "id": "sreality:2522506316",
+  "title": "Prodej rodinného domu 105 m², pozemek 505 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2522506316"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "removed",
+  "id": "sreality:3053908044",
+  "title": "Prodej rodinného domu 71 m², pozemek 565 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/libez/3053908044"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "removed",
+  "id": "sreality:3441168972",
+  "title": "Prodej bytu 4+kk 80 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/3441168972"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "removed",
+  "id": "sreality:3461918796",
+  "title": "Prodej stavebního pozemku 1358 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/3461918796"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "removed",
+  "id": "sreality:3557982284",
+  "title": "Prodej rodinného domu 80 m², pozemek 376 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3557982284"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "removed",
+  "id": "sreality:3571663692",
+  "title": "Prodej rodinného domu 400 m², pozemek 1751 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cakov/3571663692"
+ },
+ {
+  "date": "2026-08-12",
+  "event": "removed",
+  "id": "sreality:3939198028",
+  "title": "Prodej rodinného domu 134 m², pozemek 487 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3939198028"
  }
 ]
