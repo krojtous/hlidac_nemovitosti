@@ -6125,5 +6125,67 @@
   "id": "sreality:3939198028",
   "title": "Prodej rodinného domu 134 m², pozemek 487 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3939198028"
+ },
+ {
+  "date": "2026-08-13",
+  "event": "appeared",
+  "id": "sreality:4202348620",
+  "title": "Prodej rodinného domu 85 m², pozemek 730 m²",
+  "price": 3000000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/pravonin/4202348620"
+ },
+ {
+  "date": "2026-08-13",
+  "event": "appeared",
+  "id": "sreality:1062912076",
+  "title": "Prodej rodinného domu 144 m², pozemek 822 m²",
+  "price": 5950000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/podveky/1062912076"
+ },
+ {
+  "date": "2026-08-13",
+  "event": "appeared",
+  "id": "sreality:815513676",
+  "title": "Pronájem rodinného domu 157 m², pozemek 632 m²",
+  "price": 30000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/pronajem/dum/rodinny/vlasim/815513676"
+ },
+ {
+  "date": "2026-08-13",
+  "event": "removed",
+  "id": "sreality:1952940108",
+  "title": "Pronájem bytu 3+1 130 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/bystrice/1952940108"
+ },
+ {
+  "date": "2026-08-13",
+  "event": "removed",
+  "id": "sreality:2300297292",
+  "title": "Prodej stavebního pozemku 1200 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/2300297292"
+ },
+ {
+  "date": "2026-08-13",
+  "event": "removed",
+  "id": "sreality:2409951308",
+  "title": "Prodej rodinného domu 240 m², pozemek 360 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2409951308"
+ },
+ {
+  "date": "2026-08-13",
+  "event": "removed",
+  "id": "sreality:3368394828",
+  "title": "Prodej rodinného domu 144 m², pozemek 822 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/podveky/3368394828"
+ },
+ {
+  "date": "2026-08-13",
+  "event": "removed",
+  "id": "sreality:4153295692",
+  "title": "Prodej stavebního pozemku 1980 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rendejov/4153295692"
  }
 ]
