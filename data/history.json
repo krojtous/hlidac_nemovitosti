@@ -6187,5 +6187,39 @@
   "id": "sreality:4153295692",
   "title": "Prodej stavebního pozemku 1980 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rendejov/4153295692"
+ },
+ {
+  "date": "2026-08-14",
+  "event": "appeared",
+  "id": "sreality:4103782476",
+  "title": "Prodej rodinného domu 142 m², pozemek 632 m²",
+  "price": 9690000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/4103782476"
+ },
+ {
+  "date": "2026-08-14",
+  "event": "appeared",
+  "id": "sreality:1529462860",
+  "title": "Prodej stavebního pozemku 1294 m²",
+  "price": 3690000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/trhovy-stepanov/1529462860"
+ },
+ {
+  "date": "2026-08-14",
+  "event": "price_changed",
+  "id": "sreality:4153295692",
+  "title": "Prodej stavebního pozemku 1981 m²",
+  "old_price": 3950000,
+  "new_price": 3555000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rendejov/4153295692"
+ },
+ {
+  "date": "2026-08-14",
+  "event": "removed",
+  "id": "sreality:1676259404",
+  "title": "Prodej rodinného domu 336 m², pozemek 1629 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1676259404"
  }
 ]
