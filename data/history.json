@@ -6221,5 +6221,88 @@
   "id": "sreality:1676259404",
   "title": "Prodej rodinného domu 336 m², pozemek 1629 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1676259404"
+ },
+ {
+  "date": "2026-08-15",
+  "event": "appeared",
+  "id": "bezrealitky:1055848",
+  "title": "Prodej domu 111 m², pozemek 659 m²",
+  "price": 7150000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1055848-nabidka-prodej-domu"
+ },
+ {
+  "date": "2026-08-15",
+  "event": "appeared",
+  "id": "sreality:3398156364",
+  "title": "Prodej bytu 4+1 114 m²",
+  "price": 10900000,
+  "area": "Masarykova třída (Liberec)",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/3398156364"
+ },
+ {
+  "date": "2026-08-15",
+  "event": "appeared",
+  "id": "sreality:947437644",
+  "title": "Prodej stavebního pozemku 1161 m²",
+  "price": 4800000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/struharov/947437644"
+ },
+ {
+  "date": "2026-08-15",
+  "event": "removed",
+  "id": "sreality:147411788",
+  "title": "Prodej rodinného domu 150 m², pozemek 930 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/147411788"
+ },
+ {
+  "date": "2026-08-15",
+  "event": "removed",
+  "id": "sreality:2349977676",
+  "title": "Pronájem bytu 4+kk 80 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/liberec/2349977676"
+ },
+ {
+  "date": "2026-08-15",
+  "event": "removed",
+  "id": "sreality:2409951308",
+  "title": "Prodej rodinného domu 240 m², pozemek 360 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2409951308"
+ },
+ {
+  "date": "2026-08-15",
+  "event": "removed",
+  "id": "sreality:2706407500",
+  "title": "Prodej rodinného domu 250 m², pozemek 234 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2706407500"
+ },
+ {
+  "date": "2026-08-15",
+  "event": "removed",
+  "id": "sreality:3028725836",
+  "title": "Prodej rodinného domu 94 m², pozemek 1867 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/radosovice/3028725836"
+ },
+ {
+  "date": "2026-08-15",
+  "event": "removed",
+  "id": "sreality:3468152908",
+  "title": "Prodej stavebního pozemku 926 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/3468152908"
+ },
+ {
+  "date": "2026-08-15",
+  "event": "removed",
+  "id": "sreality:3683291212",
+  "title": "Prodej rodinného domu 82 m², pozemek 400 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/3683291212"
+ },
+ {
+  "date": "2026-08-15",
+  "event": "removed",
+  "id": "sreality:3901874252",
+  "title": "Prodej rodinného domu 191 m², pozemek 600 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3901874252"
  }
 ]
