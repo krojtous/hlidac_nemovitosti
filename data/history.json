@@ -6353,5 +6353,35 @@
   "id": "sreality:374424140",
   "title": "Prodej bytu 4+kk 115 m²",
   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/374424140"
+ },
+ {
+  "date": "2026-08-17",
+  "event": "appeared",
+  "id": "sreality:57262156",
+  "title": "Prodej stavebního pozemku 927 m²",
+  "price": 2750000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/trebesice/57262156"
+ },
+ {
+  "date": "2026-08-17",
+  "event": "removed",
+  "id": "sreality:1222779468",
+  "title": "Prodej rodinného domu 450 m², pozemek 1649 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/neustupov/1222779468"
+ },
+ {
+  "date": "2026-08-17",
+  "event": "removed",
+  "id": "sreality:3542474828",
+  "title": "Prodej rodinného domu 125 m², pozemek 182 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/3542474828"
+ },
+ {
+  "date": "2026-08-17",
+  "event": "removed",
+  "id": "sreality:863338572",
+  "title": "Prodej rodinného domu 80 m², pozemek 150 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/soutice/863338572"
  }
 ]
