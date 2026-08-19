@@ -6528,5 +6528,69 @@
   "id": "sreality:787710028",
   "title": "Prodej rodinného domu 202 m², pozemek 551 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/struharov/787710028"
+ },
+ {
+  "date": "2026-08-19",
+  "event": "appeared",
+  "id": "sreality:1929297996",
+  "title": "Prodej rodinného domu 120 m², pozemek 500 m²",
+  "price": 8900000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1929297996"
+ },
+ {
+  "date": "2026-08-19",
+  "event": "price_changed",
+  "id": "sreality:4092313676",
+  "title": "Prodej rodinného domu 80 m², pozemek 376 m²",
+  "old_price": 9373000,
+  "new_price": 8249000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/4092313676"
+ },
+ {
+  "date": "2026-08-19",
+  "event": "price_changed",
+  "id": "sreality:1948770380",
+  "title": "Prodej stavebního pozemku 800 m²",
+  "old_price": 1990000,
+  "new_price": 1950000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/1948770380"
+ },
+ {
+  "date": "2026-08-19",
+  "event": "appeared",
+  "id": "bezrealitky:1057136",
+  "title": "Prodej pozemku 2.100 m²",
+  "price": 3507000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1057136-nabidka-prodej-pozemku-postupice"
+ },
+ {
+  "date": "2026-08-19",
+  "event": "removed",
+  "id": "sreality:2070172492",
+  "title": "Prodej rodinného domu 70 m², pozemek 274 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2070172492"
+ },
+ {
+  "date": "2026-08-19",
+  "event": "removed",
+  "id": "sreality:2201522252",
+  "title": "Prodej bytu 4+kk 82 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2201522252"
+ },
+ {
+  "date": "2026-08-19",
+  "event": "removed",
+  "id": "sreality:2435309644",
+  "title": "Prodej stavebního pozemku 727 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbizuby/2435309644"
+ },
+ {
+  "date": "2026-08-19",
+  "event": "removed",
+  "id": "sreality:739696716",
+  "title": "Prodej rodinného domu 115 m², pozemek 1180 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/739696716"
  }
 ]
