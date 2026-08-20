@@ -6592,5 +6592,60 @@
   "id": "sreality:739696716",
   "title": "Prodej rodinného domu 115 m², pozemek 1180 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zbizuby/739696716"
+ },
+ {
+  "date": "2026-08-20",
+  "event": "appeared",
+  "id": "sreality:2441986124",
+  "title": "Pronájem bytu 4+1 80 m²",
+  "price": 17500,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/vlasim/2441986124"
+ },
+ {
+  "date": "2026-08-20",
+  "event": "appeared",
+  "id": "bezrealitky:1057475",
+  "title": "Pronájem bytu 4+1 80 m²",
+  "price": 17500,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1057475-nabidka-pronajem-bytu-obora-vlasim"
+ },
+ {
+  "date": "2026-08-20",
+  "event": "appeared",
+  "id": "sreality:2308620364",
+  "title": "Prodej stavebního pozemku 2062 m²",
+  "price": 2990000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ostredek/2308620364"
+ },
+ {
+  "date": "2026-08-20",
+  "event": "removed",
+  "id": "sreality:1485869132",
+  "title": "Prodej stavebního pozemku 696 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1485869132"
+ },
+ {
+  "date": "2026-08-20",
+  "event": "removed",
+  "id": "sreality:2093535308",
+  "title": "Prodej rodinného domu 106 m², pozemek 600 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2093535308"
+ },
+ {
+  "date": "2026-08-20",
+  "event": "removed",
+  "id": "sreality:3124835148",
+  "title": "Prodej stavebního pozemku 741 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vlasim/3124835148"
+ },
+ {
+  "date": "2026-08-20",
+  "event": "removed",
+  "id": "sreality:3740377164",
+  "title": "Prodej stavebního pozemku 657 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/3740377164"
  }
 ]
