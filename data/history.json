@@ -6647,5 +6647,100 @@
   "id": "sreality:3740377164",
   "title": "Prodej stavebního pozemku 657 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/3740377164"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "price_changed",
+  "id": "sreality:865771596",
+  "title": "Prodej rodinného domu 200 m², pozemek 403 m²",
+  "old_price": 10499000,
+  "new_price": 9998000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/865771596"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "price_changed",
+  "id": "sreality:2567062092",
+  "title": "Prodej stavebního pozemku 801 m²",
+  "old_price": 3260000,
+  "new_price": 2990000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/2567062092"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "removed",
+  "id": "sreality:1161093196",
+  "title": "Prodej rodinného domu 119 m², pozemek 940 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje/1161093196"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "removed",
+  "id": "sreality:1478213708",
+  "title": "Prodej bytu 4+kk 123 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/1478213708"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "removed",
+  "id": "sreality:2215863116",
+  "title": "Prodej stavebního pozemku 1368 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/naceradec/2215863116"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "removed",
+  "id": "sreality:2850799692",
+  "title": "Prodej stavebního pozemku 1358 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/2850799692"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "removed",
+  "id": "sreality:3642474572",
+  "title": "Prodej bytu 4+kk 80 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/3642474572"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "removed",
+  "id": "sreality:3817922636",
+  "title": "Pronájem bytu 4+1 112 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/3817922636"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "removed",
+  "id": "sreality:3958465356",
+  "title": "Prodej stavebního pozemku 699 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/3958465356"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "removed",
+  "id": "sreality:4092313676",
+  "title": "Prodej rodinného domu 80 m², pozemek 376 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/4092313676"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "removed",
+  "id": "sreality:4107141964",
+  "title": "Prodej stavebního pozemku 896 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/soutice/4107141964"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "removed",
+  "id": "sreality:699060300",
+  "title": "Prodej stavebního pozemku 1022 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/radosovice/699060300"
+ },
+ {
+  "date": "2026-08-21",
+  "event": "removed",
+  "id": "sreality:835113036",
+  "title": "Prodej stavebního pozemku 1885 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ledecko/835113036"
  }
 ]
