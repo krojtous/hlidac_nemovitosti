@@ -6811,5 +6811,28 @@
   "id": "sreality:57262156",
   "title": "Prodej stavebního pozemku 927 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/trebesice/57262156"
+ },
+ {
+  "date": "2026-08-23",
+  "event": "price_changed",
+  "id": "sreality:4107141964",
+  "title": "Prodej stavebního pozemku 896 m²",
+  "old_price": 1940000,
+  "new_price": 1840000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/soutice/4107141964"
+ },
+ {
+  "date": "2026-08-23",
+  "event": "removed",
+  "id": "sreality:163271500",
+  "title": "Prodej rodinného domu 165 m², pozemek 735 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/163271500"
+ },
+ {
+  "date": "2026-08-23",
+  "event": "removed",
+  "id": "sreality:2235686988",
+  "title": "Prodej rodinného domu 133 m², pozemek 576 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/sebirov/2235686988"
  }
 ]
