@@ -6834,5 +6834,51 @@
   "id": "sreality:2235686988",
   "title": "Prodej rodinného domu 133 m², pozemek 576 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/sebirov/2235686988"
+ },
+ {
+  "date": "2026-08-24",
+  "event": "appeared",
+  "id": "sreality:3778199628",
+  "title": "Prodej rodinného domu 109 m², pozemek 864 m²",
+  "price": 10990000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/slovenice/3778199628"
+ },
+ {
+  "date": "2026-08-24",
+  "event": "appeared",
+  "id": "sreality:829603916",
+  "title": "Prodej rodinného domu 160 m², pozemek 359 m²",
+  "price": 10990000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/popovice/829603916"
+ },
+ {
+  "date": "2026-08-24",
+  "event": "removed",
+  "id": "bezrealitky:836119",
+  "title": "Prodej pozemku 1.493 m²",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/836119-nabidka-prodej-pozemku-horka-ii"
+ },
+ {
+  "date": "2026-08-24",
+  "event": "removed",
+  "id": "sreality:1601270348",
+  "title": "Prodej stavebního pozemku 4467 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1601270348"
+ },
+ {
+  "date": "2026-08-24",
+  "event": "removed",
+  "id": "sreality:2409951308",
+  "title": "Prodej rodinného domu 240 m², pozemek 360 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2409951308"
+ },
+ {
+  "date": "2026-08-24",
+  "event": "removed",
+  "id": "sreality:3587654476",
+  "title": "Prodej rodinného domu 120 m², pozemek 753 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/3587654476"
  }
 ]
