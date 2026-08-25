@@ -6880,5 +6880,79 @@
   "id": "sreality:3587654476",
   "title": "Prodej rodinného domu 120 m², pozemek 753 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/3587654476"
+ },
+ {
+  "date": "2026-08-25",
+  "event": "price_changed",
+  "id": "sreality:3053908044",
+  "title": "Prodej rodinného domu 71 m², pozemek 565 m²",
+  "old_price": 2466000,
+  "new_price": 2500000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/libez/3053908044"
+ },
+ {
+  "date": "2026-08-25",
+  "event": "appeared",
+  "id": "sreality:1197588556",
+  "title": "Prodej stavebního pozemku 826 m²",
+  "price": 3188360,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/1197588556"
+ },
+ {
+  "date": "2026-08-25",
+  "event": "removed",
+  "id": "sreality:1212141644",
+  "title": "Prodej rodinného domu 118 m², pozemek 924 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1212141644"
+ },
+ {
+  "date": "2026-08-25",
+  "event": "removed",
+  "id": "sreality:1778438220",
+  "title": "Pronájem bytu 3+1 91 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/benesov/1778438220"
+ },
+ {
+  "date": "2026-08-25",
+  "event": "removed",
+  "id": "sreality:1885279052",
+  "title": "Prodej stavebního pozemku 800 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/1885279052"
+ },
+ {
+  "date": "2026-08-25",
+  "event": "removed",
+  "id": "sreality:2855396172",
+  "title": "Prodej rodinného domu 113 m², pozemek 55 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2855396172"
+ },
+ {
+  "date": "2026-08-25",
+  "event": "removed",
+  "id": "sreality:2991255628",
+  "title": "Prodej stavebního pozemku 889 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ostredek/2991255628"
+ },
+ {
+  "date": "2026-08-25",
+  "event": "removed",
+  "id": "sreality:3557786444",
+  "title": "Prodej rodinného domu 200 m², pozemek 526 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/3557786444"
+ },
+ {
+  "date": "2026-08-25",
+  "event": "removed",
+  "id": "sreality:4094357580",
+  "title": "Prodej stavebního pozemku 797 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/4094357580"
+ },
+ {
+  "date": "2026-08-25",
+  "event": "removed",
+  "id": "sreality:868524108",
+  "title": "Prodej stavebního pozemku 604 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/mnichovice/868524108"
  }
 ]
