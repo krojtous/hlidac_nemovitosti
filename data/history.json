@@ -6954,5 +6954,71 @@
   "id": "sreality:868524108",
   "title": "Prodej stavebního pozemku 604 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/mnichovice/868524108"
+ },
+ {
+  "date": "2026-08-26",
+  "event": "appeared",
+  "id": "sreality:268484684",
+  "title": "Prodej rodinného domu 75 m², pozemek 513 m²",
+  "price": 5400000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/struharov/268484684"
+ },
+ {
+  "date": "2026-08-26",
+  "event": "price_changed",
+  "id": "sreality:1062912076",
+  "title": "Prodej rodinného domu 144 m², pozemek 822 m²",
+  "old_price": 5950000,
+  "new_price": 5199000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/podveky/1062912076"
+ },
+ {
+  "date": "2026-08-26",
+  "event": "price_changed",
+  "id": "sreality:1941910348",
+  "title": "Prodej rodinného domu 96 m², pozemek 256 m²",
+  "old_price": 3800000,
+  "new_price": 3499000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vsechlapy/1941910348"
+ },
+ {
+  "date": "2026-08-26",
+  "event": "price_changed",
+  "id": "sreality:3398156364",
+  "title": "Prodej bytu 4+1 114 m²",
+  "old_price": 10900000,
+  "new_price": 9900000,
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/3398156364"
+ },
+ {
+  "date": "2026-08-26",
+  "event": "appeared",
+  "id": "sreality:1425129548",
+  "title": "Pronájem bytu 4+1 110 m²",
+  "price": 23000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/1425129548"
+ },
+ {
+  "date": "2026-08-26",
+  "event": "removed",
+  "id": "bezrealitky:1057475",
+  "title": "Pronájem bytu 4+1 80 m²",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1057475-nabidka-pronajem-bytu-obora-vlasim"
+ },
+ {
+  "date": "2026-08-26",
+  "event": "removed",
+  "id": "sreality:2255810636",
+  "title": "Pronájem bytu 4+1 102 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/benesov/2255810636"
+ },
+ {
+  "date": "2026-08-26",
+  "event": "removed",
+  "id": "sreality:2441986124",
+  "title": "Pronájem bytu 4+1 80 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/vlasim/2441986124"
  }
 ]
