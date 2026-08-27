@@ -7020,5 +7020,110 @@
   "id": "sreality:2441986124",
   "title": "Pronájem bytu 4+1 80 m²",
   "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/vlasim/2441986124"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "appeared",
+  "id": "sreality:1014415436",
+  "title": "Prodej rodinného domu 126 m², pozemek 975 m²",
+  "price": 9950000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/jankov/1014415436"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "price_changed",
+  "id": "sreality:3132198988",
+  "title": "Prodej rodinného domu 103 m², pozemek 551 m²",
+  "old_price": 9500000,
+  "new_price": 8500000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/benesov/3132198988"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "price_changed",
+  "id": "sreality:1562542156",
+  "title": "Prodej rodinného domu 241 m², pozemek 1264 m²",
+  "old_price": 7999000,
+  "new_price": 7499000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/teplysovice/1562542156"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "price_changed",
+  "id": "sreality:3252850764",
+  "title": "Prodej rodinného domu 200 m², pozemek 147 m²",
+  "old_price": 7200000,
+  "new_price": 6990000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3252850764"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "appeared",
+  "id": "sreality:11583564",
+  "title": "Pronájem rodinného domu 144 m², pozemek 822 m²",
+  "price": 6000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/pronajem/dum/rodinny/podveky/11583564"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "appeared",
+  "id": "sreality:241680460",
+  "title": "Pronájem bytu 3+1 100 m²",
+  "price": 24000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/liberec/241680460"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "appeared",
+  "id": "sreality:375832652",
+  "title": "Prodej stavebního pozemku 604 m²",
+  "price": 1590000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/mnichovice/375832652"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "removed",
+  "id": "bezrealitky:968533",
+  "title": "Prodej pozemku 820 m²",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/968533-nabidka-prodej-pozemku"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "removed",
+  "id": "sreality:1197588556",
+  "title": "Prodej stavebního pozemku 826 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/1197588556"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "removed",
+  "id": "sreality:127464268",
+  "title": "Prodej rodinného domu 94 m², pozemek 727 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/sebirov/127464268"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "removed",
+  "id": "sreality:2420236364",
+  "title": "Prodej rodinného domu 215 m², pozemek 603 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/2420236364"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "removed",
+  "id": "sreality:3320140620",
+  "title": "Prodej stavebního pozemku 1028 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/3320140620"
+ },
+ {
+  "date": "2026-08-27",
+  "event": "removed",
+  "id": "sreality:884789324",
+  "title": "Prodej rodinného domu 125 m², pozemek 630 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/884789324"
  }
 ]
