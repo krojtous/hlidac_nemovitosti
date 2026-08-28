@@ -7125,5 +7125,67 @@
   "id": "sreality:884789324",
   "title": "Prodej rodinného domu 125 m², pozemek 630 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/884789324"
+ },
+ {
+  "date": "2026-08-28",
+  "event": "appeared",
+  "id": "sreality:1258733644",
+  "title": "Prodej rodinného domu 128 m², pozemek 342 m²",
+  "price": 10948500,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/1258733644"
+ },
+ {
+  "date": "2026-08-28",
+  "event": "price_changed",
+  "id": "sreality:3053908044",
+  "title": "Prodej rodinného domu 71 m², pozemek 565 m²",
+  "old_price": 2500000,
+  "new_price": 3000000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/libez/3053908044"
+ },
+ {
+  "date": "2026-08-28",
+  "event": "price_changed",
+  "id": "sreality:4158304332",
+  "title": "Prodej stavebního pozemku 1004 m²",
+  "old_price": 1750000,
+  "new_price": 1499000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/soutice/4158304332"
+ },
+ {
+  "date": "2026-08-28",
+  "event": "removed",
+  "id": "bezrealitky:942752",
+  "title": "Prodej domu 248 m², pozemek 1.000 m²",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/942752-nabidka-prodej-domu-lounovice-pod-blanikem"
+ },
+ {
+  "date": "2026-08-28",
+  "event": "removed",
+  "id": "sreality:1443086412",
+  "title": "Prodej rodinného domu 193 m², pozemek 1159 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1443086412"
+ },
+ {
+  "date": "2026-08-28",
+  "event": "removed",
+  "id": "sreality:3070926924",
+  "title": "Prodej rodinného domu 42 m², pozemek 419 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/hulice/3070926924"
+ },
+ {
+  "date": "2026-08-28",
+  "event": "removed",
+  "id": "sreality:4153295692",
+  "title": "Prodej stavebního pozemku 1981 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rendejov/4153295692"
+ },
+ {
+  "date": "2026-08-28",
+  "event": "removed",
+  "id": "sreality:926081100",
+  "title": "Prodej rodinného domu 95 m², pozemek 987 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cesky-sternberk/926081100"
  }
 ]
