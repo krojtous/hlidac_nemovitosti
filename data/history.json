@@ -7187,5 +7187,28 @@
   "id": "sreality:926081100",
   "title": "Prodej rodinného domu 95 m², pozemek 987 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cesky-sternberk/926081100"
+ },
+ {
+  "date": "2026-08-29",
+  "event": "appeared",
+  "id": "sreality:2201337932",
+  "title": "Prodej rodinného domu 321 m², pozemek 891 m²",
+  "price": 4390000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/2201337932"
+ },
+ {
+  "date": "2026-08-29",
+  "event": "removed",
+  "id": "bezrealitky:1012892",
+  "title": "Pronájem bytu 3+1 100 m²",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1012892-nabidka-pronajem-bytu-na-perstyne-liberec"
+ },
+ {
+  "date": "2026-08-29",
+  "event": "removed",
+  "id": "sreality:3468152908",
+  "title": "Prodej stavebního pozemku 926 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/3468152908"
  }
 ]
