@@ -7224,5 +7224,55 @@
   "id": "sreality:132292684",
   "title": "Prodej rodinného domu 320 m², pozemek 1743 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/132292684"
+ },
+ {
+  "date": "2026-08-31",
+  "event": "price_changed",
+  "id": "sreality:3587654476",
+  "title": "Prodej rodinného domu 120 m², pozemek 753 m²",
+  "old_price": 4590000,
+  "new_price": 3980000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/3587654476"
+ },
+ {
+  "date": "2026-08-31",
+  "event": "price_changed",
+  "id": "sreality:4029341772",
+  "title": "Pronájem rodinného domu 55 m², pozemek 804 m²",
+  "old_price": 20000,
+  "new_price": 18000,
+  "url": "https://www.sreality.cz/detail/pronajem/dum/rodinny/libez/4029341772"
+ },
+ {
+  "date": "2026-08-31",
+  "event": "appeared",
+  "id": "bezrealitky:1061109",
+  "title": "Pronájem bytu 4+1 80 m²",
+  "price": 20000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1061109-nabidka-pronajem-bytu-borovy-vrch-liberec"
+ },
+ {
+  "date": "2026-08-31",
+  "event": "appeared",
+  "id": "sreality:892649548",
+  "title": "Prodej stavebního pozemku 1068 m²",
+  "price": 790000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sobesin/892649548"
+ },
+ {
+  "date": "2026-08-31",
+  "event": "removed",
+  "id": "sreality:2146598988",
+  "title": "Prodej bytu 4+kk 135 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2146598988"
+ },
+ {
+  "date": "2026-08-31",
+  "event": "removed",
+  "id": "sreality:413827148",
+  "title": "Prodej rodinného domu 42 m², pozemek 419 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/hulice/413827148"
  }
 ]
