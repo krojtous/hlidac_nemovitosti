@@ -7412,5 +7412,82 @@
   "id": "sreality:892649548",
   "title": "Prodej stavebního pozemku 1068 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sobesin/892649548"
+ },
+ {
+  "date": "2026-09-02",
+  "event": "appeared",
+  "id": "sreality:3684610124",
+  "title": "Prodej rodinného domu 125 m², pozemek 1362 m²",
+  "price": 7490000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/postupice/3684610124"
+ },
+ {
+  "date": "2026-09-02",
+  "event": "appeared",
+  "id": "sreality:453652556",
+  "title": "Prodej rodinného domu 120 m², pozemek 2823 m²",
+  "price": 6480000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/keblov/453652556"
+ },
+ {
+  "date": "2026-09-02",
+  "event": "appeared",
+  "id": "sreality:1452945484",
+  "title": "Prodej rodinného domu 210 m², pozemek 394 m²",
+  "price": 5890000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/struharov/1452945484"
+ },
+ {
+  "date": "2026-09-02",
+  "event": "price_changed",
+  "id": "sreality:3053908044",
+  "title": "Prodej rodinného domu 71 m², pozemek 565 m²",
+  "old_price": 3000000,
+  "new_price": 2500000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/libez/3053908044"
+ },
+ {
+  "date": "2026-09-02",
+  "event": "appeared",
+  "id": "sreality:278540364",
+  "title": "Prodej bytu 4+kk 132 m²",
+  "price": 8890000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/278540364"
+ },
+ {
+  "date": "2026-09-02",
+  "event": "appeared",
+  "id": "sreality:2389323852",
+  "title": "Pronájem bytu 4+1 100 m²",
+  "price": 12000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/2389323852"
+ },
+ {
+  "date": "2026-09-02",
+  "event": "appeared",
+  "id": "bezrealitky:1062298",
+  "title": "Prodej pozemku 676 m²",
+  "price": 3390000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1062298-nabidka-prodej-pozemku-slezska-liberec"
+ },
+ {
+  "date": "2026-09-02",
+  "event": "removed",
+  "id": "sreality:1594941516",
+  "title": "Prodej rodinného domu 140 m², pozemek 1534 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cechtice/1594941516"
+ },
+ {
+  "date": "2026-09-02",
+  "event": "removed",
+  "id": "sreality:374424140",
+  "title": "Prodej bytu 4+kk 115 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/374424140"
  }
 ]
