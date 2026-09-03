@@ -7489,5 +7489,89 @@
   "id": "sreality:374424140",
   "title": "Prodej bytu 4+kk 115 m²",
   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/374424140"
+ },
+ {
+  "date": "2026-09-03",
+  "event": "appeared",
+  "id": "sreality:1860776012",
+  "title": "Prodej rodinného domu 180 m², pozemek 1954 m²",
+  "price": 7900000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1860776012"
+ },
+ {
+  "date": "2026-09-03",
+  "event": "price_changed",
+  "id": "sreality:1841664076",
+  "title": "Prodej rodinného domu 210 m², pozemek 206 m²",
+  "old_price": 8840000,
+  "new_price": 8499999,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1841664076"
+ },
+ {
+  "date": "2026-09-03",
+  "event": "price_changed",
+  "id": "sreality:2295849036",
+  "title": "Prodej rodinného domu 252 m², pozemek 933 m²",
+  "old_price": 7500000,
+  "new_price": 7250000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2295849036"
+ },
+ {
+  "date": "2026-09-03",
+  "event": "price_changed",
+  "id": "sreality:2491535436",
+  "title": "Prodej rodinného domu 165 m², pozemek 3340 m²",
+  "old_price": 6490000,
+  "new_price": 5950000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/podveky/2491535436"
+ },
+ {
+  "date": "2026-09-03",
+  "event": "price_changed",
+  "id": "sreality:3062747212",
+  "title": "Prodej rodinného domu 143 m², pozemek 1514 m²",
+  "old_price": 8490000,
+  "new_price": 7490000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/krivsoudov/3062747212"
+ },
+ {
+  "date": "2026-09-03",
+  "event": "price_changed",
+  "id": "sreality:2755383372",
+  "title": "Prodej stavebního pozemku 6239 m²",
+  "old_price": 3570750,
+  "new_price": 3470750,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/2755383372"
+ },
+ {
+  "date": "2026-09-03",
+  "event": "price_changed",
+  "id": "sreality:1401774924",
+  "title": "Prodej stavebního pozemku 1391 m²",
+  "old_price": 2850000,
+  "new_price": 3090000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/divisov/1401774924"
+ },
+ {
+  "date": "2026-09-03",
+  "event": "removed",
+  "id": "sreality:1601270348",
+  "title": "Prodej stavebního pozemku 4467 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1601270348"
+ },
+ {
+  "date": "2026-09-03",
+  "event": "removed",
+  "id": "sreality:1915064396",
+  "title": "Prodej rodinného domu 93 m², pozemek 857 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/lukavec/1915064396"
+ },
+ {
+  "date": "2026-09-03",
+  "event": "removed",
+  "id": "sreality:2207875148",
+  "title": "Prodej stavebního pozemku 1359 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sebirov/2207875148"
  }
 ]
