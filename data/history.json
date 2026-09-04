@@ -7573,5 +7573,98 @@
   "id": "sreality:2207875148",
   "title": "Prodej stavebního pozemku 1359 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sebirov/2207875148"
+ },
+ {
+  "date": "2026-09-04",
+  "event": "price_changed",
+  "id": "sreality:1929297996",
+  "title": "Prodej rodinného domu 120 m², pozemek 500 m²",
+  "old_price": 8900000,
+  "new_price": 7990000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1929297996"
+ },
+ {
+  "date": "2026-09-04",
+  "event": "price_changed",
+  "id": "sreality:3701837900",
+  "title": "Prodej rodinného domu 110 m², pozemek 1178 m²",
+  "old_price": 6240000,
+  "new_price": 5900000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/petroupim/3701837900"
+ },
+ {
+  "date": "2026-09-04",
+  "event": "appeared",
+  "id": "bezrealitky:1006214",
+  "title": "Prodej domu 400 m², pozemek 1.333 m²",
+  "price": 6300000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1006214-nabidka-prodej-domu-vlasim"
+ },
+ {
+  "date": "2026-09-04",
+  "event": "appeared",
+  "id": "sreality:3046649932",
+  "title": "Prodej stavebního pozemku 1877 m²",
+  "price": 3000000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bernartice/3046649932"
+ },
+ {
+  "date": "2026-09-04",
+  "event": "price_changed",
+  "id": "sreality:2755383372",
+  "title": "Prodej stavebního pozemku 6239 m²",
+  "old_price": 3470750,
+  "new_price": 3270750,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/2755383372"
+ },
+ {
+  "date": "2026-09-04",
+  "event": "price_changed",
+  "id": "sreality:2984566860",
+  "title": "Prodej stavebního pozemku 1181 m²",
+  "old_price": 1889600,
+  "new_price": 1771500,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sebirov/2984566860"
+ },
+ {
+  "date": "2026-09-04",
+  "event": "price_changed",
+  "id": "sreality:1192091724",
+  "title": "Prodej stavebního pozemku 2632 m²",
+  "old_price": 4211200,
+  "new_price": 2368800,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/sebirov/1192091724"
+ },
+ {
+  "date": "2026-09-04",
+  "event": "price_changed",
+  "id": "bezrealitky:1036886",
+  "title": "Prodej pozemku 1.070 m²",
+  "old_price": 3390000,
+  "new_price": 3090000,
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1036886-nabidka-prodej-pozemku-jablonec-nad-nisou"
+ },
+ {
+  "date": "2026-09-04",
+  "event": "removed",
+  "id": "sreality:2308620364",
+  "title": "Prodej stavebního pozemku 2062 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ostredek/2308620364"
+ },
+ {
+  "date": "2026-09-04",
+  "event": "removed",
+  "id": "sreality:3053908044",
+  "title": "Prodej rodinného domu 71 m², pozemek 565 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/libez/3053908044"
+ },
+ {
+  "date": "2026-09-04",
+  "event": "removed",
+  "id": "sreality:3428574028",
+  "title": "Prodej rodinného domu 64 m², pozemek 530 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3428574028"
  }
 ]
