@@ -7666,5 +7666,37 @@
   "id": "sreality:3428574028",
   "title": "Prodej rodinného domu 64 m², pozemek 530 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3428574028"
+ },
+ {
+  "date": "2026-09-05",
+  "event": "appeared",
+  "id": "sreality:1102000204",
+  "title": "Prodej rodinného domu 160 m², pozemek 1175 m²",
+  "price": 8500000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kacov/1102000204"
+ },
+ {
+  "date": "2026-09-05",
+  "event": "price_changed",
+  "id": "sreality:3209265228",
+  "title": "Prodej bytu 4+kk 90 m²",
+  "old_price": 7990000,
+  "new_price": 7100000,
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/3209265228"
+ },
+ {
+  "date": "2026-09-05",
+  "event": "removed",
+  "id": "sreality:1707601996",
+  "title": "Prodej rodinného domu 120 m², pozemek 417 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1707601996"
+ },
+ {
+  "date": "2026-09-05",
+  "event": "removed",
+  "id": "sreality:3683291212",
+  "title": "Prodej rodinného domu 82 m², pozemek 400 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/3683291212"
  }
 ]
