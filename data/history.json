@@ -7705,5 +7705,80 @@
   "id": "sreality:3235467852",
   "title": "Prodej stavebního pozemku 841 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vlasim/3235467852"
+ },
+ {
+  "date": "2026-09-07",
+  "event": "appeared",
+  "id": "sreality:3189583948",
+  "title": "Prodej rodinného domu 82 m², pozemek 342 m²",
+  "price": 3700000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/3189583948"
+ },
+ {
+  "date": "2026-09-07",
+  "event": "appeared",
+  "id": "sreality:3900518476",
+  "title": "Prodej stavebního pozemku 1000 m²",
+  "price": 1620000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ratmerice/3900518476"
+ },
+ {
+  "date": "2026-09-07",
+  "event": "price_changed",
+  "id": "sreality:225878092",
+  "title": "Prodej stavebního pozemku 848 m²",
+  "old_price": 2544000,
+  "new_price": 2416800,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/strojetice/225878092"
+ },
+ {
+  "date": "2026-09-07",
+  "event": "price_changed",
+  "id": "sreality:4275979084",
+  "title": "Prodej stavebního pozemku 845 m²",
+  "old_price": 2535000,
+  "new_price": 2408250,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/strojetice/4275979084"
+ },
+ {
+  "date": "2026-09-07",
+  "event": "price_changed",
+  "id": "sreality:2910232652",
+  "title": "Prodej stavebního pozemku 952 m²",
+  "old_price": 2856000,
+  "new_price": 2713200,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/strojetice/2910232652"
+ },
+ {
+  "date": "2026-09-07",
+  "event": "price_changed",
+  "id": "sreality:3967197260",
+  "title": "Prodej stavebního pozemku 969 m²",
+  "old_price": 2907000,
+  "new_price": 2761650,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/strojetice/3967197260"
+ },
+ {
+  "date": "2026-09-07",
+  "event": "removed",
+  "id": "bezrealitky:1032625",
+  "title": "Pronájem domu 140 m², pozemek 750 m²",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1032625-nabidka-pronajem-domu-trhovy-stepanov"
+ },
+ {
+  "date": "2026-09-07",
+  "event": "removed",
+  "id": "sreality:1617395788",
+  "title": "Prodej stavebního pozemku 703 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/1617395788"
+ },
+ {
+  "date": "2026-09-07",
+  "event": "removed",
+  "id": "sreality:96501836",
+  "title": "Prodej stavebního pozemku 717 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/96501836"
  }
 ]
