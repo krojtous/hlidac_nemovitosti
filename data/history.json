@@ -7780,5 +7780,84 @@
   "id": "sreality:96501836",
   "title": "Prodej stavebního pozemku 717 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/libez/96501836"
+ },
+ {
+  "date": "2026-09-08",
+  "event": "price_changed",
+  "id": "sreality:1326440524",
+  "title": "Prodej rodinného domu 150 m², pozemek 1200 m²",
+  "old_price": 3499000,
+  "new_price": 3299000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/krivsoudov/1326440524"
+ },
+ {
+  "date": "2026-09-08",
+  "event": "appeared",
+  "id": "sreality:3249352780",
+  "title": "Prodej rodinného domu 207 m², pozemek 657 m²",
+  "price": 2999000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/rataje-nad-sazavou/3249352780"
+ },
+ {
+  "date": "2026-09-08",
+  "event": "price_changed",
+  "id": "sreality:268484684",
+  "title": "Prodej rodinného domu 75 m², pozemek 513 m²",
+  "old_price": 5400000,
+  "new_price": 5200000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/struharov/268484684"
+ },
+ {
+  "date": "2026-09-08",
+  "event": "price_changed",
+  "id": "sreality:4041691980",
+  "title": "Prodej rodinného domu 300 m², pozemek 4182 m²",
+  "old_price": 11990000,
+  "new_price": 11550000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/jankov/4041691980"
+ },
+ {
+  "date": "2026-09-08",
+  "event": "appeared",
+  "id": "sreality:833433676",
+  "title": "Prodej bytu 4+kk 82 m²",
+  "price": 3890000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/833433676"
+ },
+ {
+  "date": "2026-09-08",
+  "event": "appeared",
+  "id": "sreality:4205588556",
+  "title": "Pronájem bytu 4+1 86 m²",
+  "price": 24000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/4205588556"
+ },
+ {
+  "date": "2026-09-08",
+  "event": "appeared",
+  "id": "bezrealitky:798654",
+  "title": "Pronájem bytu 3+1 100 m²",
+  "price": 20000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/798654-nabidka-pronajem-bytu-v-paloukach-zruc-nad-sazavou"
+ },
+ {
+  "date": "2026-09-08",
+  "event": "price_changed",
+  "id": "sreality:1795253580",
+  "title": "Prodej stavebního pozemku 1400 m²",
+  "old_price": 3290000,
+  "new_price": 2999000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/velis/1795253580"
+ },
+ {
+  "date": "2026-09-08",
+  "event": "removed",
+  "id": "sreality:3592675404",
+  "title": "Pronájem rodinného domu 140 m², pozemek 2500 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/dum/rodinny/liberec/3592675404"
  }
 ]
