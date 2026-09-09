@@ -7859,5 +7859,107 @@
   "id": "sreality:3592675404",
   "title": "Pronájem rodinného domu 140 m², pozemek 2500 m²",
   "url": "https://www.sreality.cz/detail/pronajem/dum/rodinny/liberec/3592675404"
+ },
+ {
+  "date": "2026-09-09",
+  "event": "appeared",
+  "id": "sreality:777138252",
+  "title": "Prodej rodinného domu 132 m², pozemek 450 m²",
+  "price": 2490000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/777138252"
+ },
+ {
+  "date": "2026-09-09",
+  "event": "price_changed",
+  "id": "sreality:3317289036",
+  "title": "Prodej rodinného domu 120 m², pozemek 1198 m²",
+  "old_price": 8500000,
+  "new_price": 7999000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/kozmice/3317289036"
+ },
+ {
+  "date": "2026-09-09",
+  "event": "price_changed",
+  "id": "sreality:3901874252",
+  "title": "Prodej rodinného domu 191 m², pozemek 600 m²",
+  "old_price": 7000000,
+  "new_price": 6700000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/3901874252"
+ },
+ {
+  "date": "2026-09-09",
+  "event": "price_changed",
+  "id": "sreality:2850799692",
+  "title": "Prodej stavebního pozemku 1358 m²",
+  "old_price": 3499000,
+  "new_price": 3199000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/2850799692"
+ },
+ {
+  "date": "2026-09-09",
+  "event": "appeared",
+  "id": "sreality:1143091276",
+  "title": "Prodej stavebního pozemku 909 m²",
+  "price": 2490000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/postupice/1143091276"
+ },
+ {
+  "date": "2026-09-09",
+  "event": "appeared",
+  "id": "sreality:568537164",
+  "title": "Prodej stavebního pozemku 145 m²",
+  "price": 2200000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/benesov/568537164"
+ },
+ {
+  "date": "2026-09-09",
+  "event": "price_changed",
+  "id": "sreality:3571893068",
+  "title": "Prodej stavebního pozemku 1719 m²",
+  "old_price": 1890900,
+  "new_price": 1701810,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bystrice/3571893068"
+ },
+ {
+  "date": "2026-09-09",
+  "event": "price_changed",
+  "id": "sreality:4147573580",
+  "title": "Prodej stavebního pozemku 816 m²",
+  "old_price": 1057536,
+  "new_price": 951782,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/lounovice-pod-blanikem/4147573580"
+ },
+ {
+  "date": "2026-09-09",
+  "event": "price_changed",
+  "id": "bezrealitky:1043219",
+  "title": "Prodej pozemku 2.929 m²",
+  "old_price": 3807700,
+  "new_price": 3221900,
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1043219-nabidka-prodej-pozemku-tremosnice"
+ },
+ {
+  "date": "2026-09-09",
+  "event": "removed",
+  "id": "sreality:1311576908",
+  "title": "Prodej rodinného domu 150 m², pozemek 11572 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/sebirov/1311576908"
+ },
+ {
+  "date": "2026-09-09",
+  "event": "removed",
+  "id": "sreality:2251141196",
+  "title": "Prodej stavebního pozemku 1230 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/jankov/2251141196"
+ },
+ {
+  "date": "2026-09-09",
+  "event": "removed",
+  "id": "sreality:2745946188",
+  "title": "Prodej rodinného domu 60 m², pozemek 461 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/2745946188"
  }
 ]
