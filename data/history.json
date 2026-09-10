@@ -7961,5 +7961,85 @@
   "id": "sreality:2745946188",
   "title": "Prodej rodinného domu 60 m², pozemek 461 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/2745946188"
+ },
+ {
+  "date": "2026-09-10",
+  "event": "price_changed",
+  "id": "sreality:2656497740",
+  "title": "Prodej rodinného domu 121 m², pozemek 407 m²",
+  "old_price": 5480000,
+  "new_price": 5380000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vlasim/2656497740"
+ },
+ {
+  "date": "2026-09-10",
+  "event": "appeared",
+  "id": "sreality:1758605388",
+  "title": "Prodej rodinného domu 202 m², pozemek 551 m²",
+  "price": 10900000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/struharov/1758605388"
+ },
+ {
+  "date": "2026-09-10",
+  "event": "appeared",
+  "id": "sreality:36778060",
+  "title": "Pronájem rodinného domu 140 m², pozemek 2500 m²",
+  "price": 29000,
+  "area": "Masarykova třída (Liberec)",
+  "url": "https://www.sreality.cz/detail/pronajem/dum/rodinny/liberec/36778060"
+ },
+ {
+  "date": "2026-09-10",
+  "event": "appeared",
+  "id": "sreality:1499541580",
+  "title": "Pronájem bytu 4+kk 120 m²",
+  "price": 24000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/liberec/1499541580"
+ },
+ {
+  "date": "2026-09-10",
+  "event": "price_changed",
+  "id": "sreality:2567062092",
+  "title": "Prodej stavebního pozemku 801 m²",
+  "old_price": 2990000,
+  "new_price": 2500000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/rataje-nad-sazavou/2567062092"
+ },
+ {
+  "date": "2026-09-10",
+  "event": "removed",
+  "id": "sreality:1517932620",
+  "title": "Prodej rodinného domu 156 m², pozemek 475 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/vracovice/1517932620"
+ },
+ {
+  "date": "2026-09-10",
+  "event": "removed",
+  "id": "sreality:2389323852",
+  "title": "Pronájem bytu 4+1 100 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/2389323852"
+ },
+ {
+  "date": "2026-09-10",
+  "event": "removed",
+  "id": "sreality:2856739916",
+  "title": "Prodej bytu 4+kk 124 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2856739916"
+ },
+ {
+  "date": "2026-09-10",
+  "event": "removed",
+  "id": "sreality:4041691980",
+  "title": "Prodej rodinného domu 300 m², pozemek 4182 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/jankov/4041691980"
+ },
+ {
+  "date": "2026-09-10",
+  "event": "removed",
+  "id": "sreality:4178894924",
+  "title": "Prodej rodinného domu 150 m², pozemek 858 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/4178894924"
  }
 ]
