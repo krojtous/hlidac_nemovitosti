@@ -35,7 +35,7 @@ def vzorek():
         "area_m2": 90,
         "disposition": "4+kk",
         "address": "Ukázková 1, Liberec",
-        "matched_area": "Ruprechtice (Liberec)",
+        "matched_area": "Vratislavice nad Nisou",
         "distance_km": 1.2,
         "source": "sreality",
     }

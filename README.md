@@ -1,7 +1,7 @@
 # 🏠 Hlídač nemovitostí
 
 Automaticky sleduje nabídku nemovitostí na **Sreality.cz** a **Bezrealitky.cz**
-ve vybraných lokalitách. Jednou denně projde inzeráty, uloží je, **zvýrazní nové**,
+ve Vratislavicích nad Nisou a okolí. Jednou denně projde inzeráty, uloží je, **zvýrazní nové**,
 pošle **e-mail** s novinkami a udržuje **přehlednou tabulku** s historií.
 
 ## Co hlídá (výchozí nastavení)
@@ -19,14 +19,11 @@ pošle **e-mail** s novinkami a udržuje **přehlednou tabulku** s historií.
 V tabulce se prodej a pronájem dají oddělit filtrem; nájem je vždy značený
 `Kč/měs`, ať se neplete s kupní cenou.
 
-**Lokality** – vždy *celá oblast + okruh navíc* kolem ní:
+**Lokalita** – *celá oblast + okruh navíc* kolem ní:
 
 | Lokalita | Velikost oblasti | Okruh navíc | Hledá se do |
 |---|---|---|---|
 | Vratislavice nad Nisou | 2,0 km | 1,0 km | 3,0 km |
-| Vlašim | 2,5 km | 15,0 km | 17,5 km |
-| Ruprechtice – Liberec | 1,5 km | 1,2 km | 2,7 km |
-| Masarykova třída – Liberec | 0,5 km | 0,5 km | 1,0 km |
 
 Vše se dá změnit v souboru [`config.py`](config.py) – je bohatě okomentovaný.
 
@@ -183,7 +180,8 @@ Soubor je obyčejný seznam id, takže se dá upravit i ručně přímo na GitHu
 
 ## Úpravy hledání
 Otevři [`config.py`](config.py) a uprav:
-- `AREAS` – lokality. GPS střed si ověříš na mapě, k němu dvě čísla:
+- `AREAS` – lokality (teď jen Vratislavice nad Nisou, další přidáš jako další
+  položku seznamu). GPS střed si ověříš na mapě, k němu dvě čísla:
   - `area_radius_km` – jak je velká **samotná oblast** (od středu k jejímu okraji),
   - `radius_km` – **okruh navíc** kolem oblasti.
 
@@ -197,8 +195,9 @@ Otevři [`config.py`](config.py) a uprav:
 Když portál zná jen obec, posadí inzerát doprostřed města – pozemek „na náměstí“
 v Liberci pak spadne do lokality, se kterou nemá nic společného. Takové inzeráty
 se berou jen u lokalit s dosahem aspoň `city_only_min_reach_km` kilometrů
-(výchozí 10): u Vlašimi s okruhem 17,5 km je střed vesnice dost přesný, u okolí
-Masarykovy třídy ne. Nastavíš 0, když je chceš vždy, nebo 999, když nikdy.
+(výchozí 10): u lokality s dosahem kolem 15 km je střed vesnice dost přesný,
+u Vratislavic s dosahem 3 km ne – tam se proto neberou. Nastavíš 0, když je
+chceš vždy, nebo 999, když nikdy.
 
 > Po větší změně lokalit doporučuji smazat soubory v `data/`, aby se evidence
 > „srovnala“ znovu podle nových kritérií (jinak se posun může projevit jako spousta

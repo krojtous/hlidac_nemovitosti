@@ -24,13 +24,6 @@ AREAS = [
     # Vratislavice se táhnou údolím, od středu ke krajům jsou to zhruba 2 km.
     {"name": "Vratislavice nad Nisou", "lat": 50.7490, "lon": 15.0959,
      "area_radius_km": 2.0, "radius_km": 1.0},
-    {"name": "Vlašim", "lat": 49.7043, "lon": 14.9010,
-     "area_radius_km": 2.5, "radius_km": 15.0},
-    {"name": "Ruprechtice (Liberec)", "lat": 50.7880, "lon": 15.0680,
-     "area_radius_km": 1.5, "radius_km": 1.2},
-    # Masarykova třída je ulice, ne čtvrť – „oblast“ je tedy jen její délka.
-    {"name": "Masarykova třída (Liberec)", "lat": 50.7720, "lon": 15.0700,
-     "area_radius_km": 0.5, "radius_km": 0.5},
 ]
 
 # ---------------------------------------------------------------------------
