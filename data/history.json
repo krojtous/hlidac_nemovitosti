@@ -8041,5 +8041,105 @@
   "id": "sreality:4178894924",
   "title": "Prodej rodinného domu 150 m², pozemek 858 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/4178894924"
+ },
+ {
+  "date": "2026-09-11",
+  "event": "appeared",
+  "id": "sreality:1321218124",
+  "title": "Prodej rodinného domu 154 m², pozemek 1470 m²",
+  "price": 10600000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/straz-nad-nisou/1321218124"
+ },
+ {
+  "date": "2026-09-11",
+  "event": "appeared",
+  "id": "sreality:18886732",
+  "title": "Prodej rodinného domu 120 m², pozemek 2546 m²",
+  "price": 5950900,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/radosovice/18886732"
+ },
+ {
+  "date": "2026-09-11",
+  "event": "appeared",
+  "id": "sreality:2219847756",
+  "title": "Prodej rodinného domu 50 m², pozemek 546 m²",
+  "price": 1990000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/ctibor/2219847756"
+ },
+ {
+  "date": "2026-09-11",
+  "event": "appeared",
+  "id": "sreality:88092748",
+  "title": "Prodej rodinného domu 120 m², pozemek 809 m²",
+  "price": 7645000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/88092748"
+ },
+ {
+  "date": "2026-09-11",
+  "event": "price_changed",
+  "id": "sreality:1362595916",
+  "title": "Prodej rodinného domu 200 m², pozemek 429 m²",
+  "old_price": 3190000,
+  "new_price": 3000000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/tehov/1362595916"
+ },
+ {
+  "date": "2026-09-11",
+  "event": "appeared",
+  "id": "sreality:3505467468",
+  "title": "Prodej rodinného domu 152 m², pozemek 1177 m²",
+  "price": 3200000,
+  "area": "Vlašim",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/cechtice/3505467468"
+ },
+ {
+  "date": "2026-09-11",
+  "event": "appeared",
+  "id": "bezrealitky:1065406",
+  "title": "Prodej domu 180 m², pozemek 621 m²",
+  "price": 10999000,
+  "area": "Vlašim",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1065406-nabidka-prodej-domu-nad-skolou-so-pou-vlasim"
+ },
+ {
+  "date": "2026-09-11",
+  "event": "appeared",
+  "id": "sreality:463548492",
+  "title": "Pronájem bytu 4+kk 110 m²",
+  "price": 23000,
+  "area": "Ruprechtice (Liberec)",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+kk/liberec/463548492"
+ },
+ {
+  "date": "2026-09-11",
+  "event": "removed",
+  "id": "sreality:1239171660",
+  "title": "Prodej rodinného domu 94 m², pozemek 787 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/divisov/1239171660"
+ },
+ {
+  "date": "2026-09-11",
+  "event": "removed",
+  "id": "sreality:191754316",
+  "title": "Prodej rodinného domu 170 m², pozemek 280 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/naceradec/191754316"
+ },
+ {
+  "date": "2026-09-11",
+  "event": "removed",
+  "id": "sreality:2991255628",
+  "title": "Prodej stavebního pozemku 889 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ostredek/2991255628"
+ },
+ {
+  "date": "2026-09-11",
+  "event": "removed",
+  "id": "sreality:514646092",
+  "title": "Prodej rodinného domu 38 m², pozemek 594 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/zruc-nad-sazavou/514646092"
  }
 ]
