@@ -8148,5 +8148,14 @@
   "id": "sreality:3752251468",
   "title": "Prodej bytu 3+1 120 m²",
   "url": "https://www.sreality.cz/detail/prodej/byt/3+1/liberec/3752251468"
+ },
+ {
+  "date": "2026-09-15",
+  "event": "price_changed",
+  "id": "sreality:2972901452",
+  "title": "Prodej rodinného domu 140 m², pozemek 1406 m²",
+  "old_price": 9990000,
+  "new_price": 8890000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2972901452"
  }
 ]
