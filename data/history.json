@@ -8157,5 +8157,21 @@
   "old_price": 9990000,
   "new_price": 8890000,
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2972901452"
+ },
+ {
+  "date": "2026-09-16",
+  "event": "appeared",
+  "id": "sreality:1427386444",
+  "title": "Prodej bytu 4+kk 80 m²",
+  "price": 9666720,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/1427386444"
+ },
+ {
+  "date": "2026-09-16",
+  "event": "removed",
+  "id": "sreality:1150178124",
+  "title": "Prodej bytu 4+1 94 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/1150178124"
  }
 ]
