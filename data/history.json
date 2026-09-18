@@ -8182,5 +8182,35 @@
   "price": 6990000,
   "area": "Vratislavice nad Nisou",
   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/2031371084"
+ },
+ {
+  "date": "2026-09-18",
+  "event": "appeared",
+  "id": "sreality:63512652",
+  "title": "Prodej bytu 4+1 80 m²",
+  "price": 8490000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/63512652"
+ },
+ {
+  "date": "2026-09-18",
+  "event": "removed",
+  "id": "sreality:2755613516",
+  "title": "Prodej stavebního pozemku 1247 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/jablonec-nad-nisou/2755613516"
+ },
+ {
+  "date": "2026-09-18",
+  "event": "removed",
+  "id": "sreality:2941469516",
+  "title": "Prodej bytu 4+1 82 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/2941469516"
+ },
+ {
+  "date": "2026-09-18",
+  "event": "removed",
+  "id": "sreality:833433676",
+  "title": "Prodej bytu 4+kk 82 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/833433676"
  }
 ]
