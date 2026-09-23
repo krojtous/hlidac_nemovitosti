@@ -8221,5 +8221,21 @@
   "price": 9700000,
   "area": "Vratislavice nad Nisou",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3525845068"
+ },
+ {
+  "date": "2026-09-23",
+  "event": "price_changed",
+  "id": "sreality:241680460",
+  "title": "Pronájem bytu 3+1 100 m²",
+  "old_price": 24000,
+  "new_price": 22000,
+  "url": "https://www.sreality.cz/detail/pronajem/byt/3+1/liberec/241680460"
+ },
+ {
+  "date": "2026-09-23",
+  "event": "removed",
+  "id": "sreality:2389323852",
+  "title": "Pronájem bytu 4+1 100 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/2389323852"
  }
 ]
