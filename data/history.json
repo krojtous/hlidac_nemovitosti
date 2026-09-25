@@ -8251,5 +8251,21 @@
   "id": "sreality:2850799692",
   "title": "Prodej stavebního pozemku 1358 m²",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/2850799692"
+ },
+ {
+  "date": "2026-09-25",
+  "event": "price_changed",
+  "id": "sreality:2146598988",
+  "title": "Prodej bytu 4+kk 135 m²",
+  "old_price": 8900000,
+  "new_price": 8200000,
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/2146598988"
+ },
+ {
+  "date": "2026-09-25",
+  "event": "removed",
+  "id": "sreality:1425129548",
+  "title": "Pronájem bytu 4+1 110 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/1425129548"
  }
 ]
