@@ -8283,5 +8283,30 @@
   "id": "sreality:4158648396",
   "title": "Prodej bytu 4+1 81 m²",
   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/4158648396"
+ },
+ {
+  "date": "2026-09-30",
+  "event": "price_changed",
+  "id": "sreality:2991689804",
+  "title": "Prodej rodinného domu 135 m², pozemek 211 m²",
+  "old_price": 8490000,
+  "new_price": 7990000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2991689804"
+ },
+ {
+  "date": "2026-09-30",
+  "event": "price_changed",
+  "id": "sreality:2031371084",
+  "title": "Prodej bytu 4+1 81 m²",
+  "old_price": 6990000,
+  "new_price": 6790000,
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/2031371084"
+ },
+ {
+  "date": "2026-09-30",
+  "event": "removed",
+  "id": "sreality:3752251468",
+  "title": "Prodej bytu 3+1 120 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/3+1/liberec/3752251468"
  }
 ]
