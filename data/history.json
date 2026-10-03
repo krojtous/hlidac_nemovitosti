@@ -8335,5 +8335,12 @@
   "price": 3000000,
   "area": "Vratislavice nad Nisou",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1759846476"
+ },
+ {
+  "date": "2026-10-03",
+  "event": "removed",
+  "id": "sreality:1425129548",
+  "title": "Pronájem bytu 4+1 110 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/1425129548"
  }
 ]
