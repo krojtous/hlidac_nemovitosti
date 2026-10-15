@@ -8437,5 +8437,28 @@
   "id": "sreality:2047894348",
   "title": "Prodej rodinného domu 133 m², pozemek 237 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2047894348"
+ },
+ {
+  "date": "2026-10-15",
+  "event": "appeared",
+  "id": "sreality:1579159628",
+  "title": "Prodej rodinného domu 185 m², pozemek 443 m²",
+  "price": 8990000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1579159628"
+ },
+ {
+  "date": "2026-10-15",
+  "event": "removed",
+  "id": "bezrealitky:1023789",
+  "title": "Prodej domu 110 m², pozemek 896 m²",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023789-nabidka-prodej-domu-pod-vodarnou-jablonec-nad-nisou"
+ },
+ {
+  "date": "2026-10-15",
+  "event": "removed",
+  "id": "sreality:2972901452",
+  "title": "Prodej rodinného domu 140 m², pozemek 1406 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2972901452"
  }
 ]
