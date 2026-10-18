@@ -8490,5 +8490,12 @@
   "old_price": 10400000,
   "new_price": 9950000,
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3193565260"
+ },
+ {
+  "date": "2026-10-18",
+  "event": "removed",
+  "id": "sreality:4158648396",
+  "title": "Prodej bytu 4+1 81 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/4158648396"
  }
 ]
