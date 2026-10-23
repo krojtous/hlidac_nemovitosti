@@ -8504,5 +8504,30 @@
   "id": "sreality:1312596044",
   "title": "Pronájem bytu 4+1 83 m²",
   "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/1312596044"
+ },
+ {
+  "date": "2026-10-23",
+  "event": "appeared",
+  "id": "sreality:3776446540",
+  "title": "Prodej bytu 4+kk 95 m²",
+  "price": 10280000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/3776446540"
+ },
+ {
+  "date": "2026-10-23",
+  "event": "appeared",
+  "id": "sreality:4078436428",
+  "title": "Prodej bytu 4+kk 96 m²",
+  "price": 10900000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/4078436428"
+ },
+ {
+  "date": "2026-10-23",
+  "event": "removed",
+  "id": "sreality:1638621772",
+  "title": "Prodej bytu 4+kk 92 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/1638621772"
  }
 ]
