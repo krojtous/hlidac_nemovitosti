@@ -8529,5 +8529,21 @@
   "id": "sreality:1638621772",
   "title": "Prodej bytu 4+kk 92 m²",
   "url": "https://www.sreality.cz/detail/prodej/byt/4+kk/liberec/1638621772"
+ },
+ {
+  "date": "2026-10-24",
+  "event": "appeared",
+  "id": "sreality:3625910348",
+  "title": "Prodej rodinného domu 280 m², pozemek 876 m²",
+  "price": 9700000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3625910348"
+ },
+ {
+  "date": "2026-10-24",
+  "event": "removed",
+  "id": "sreality:3193565260",
+  "title": "Prodej rodinného domu 280 m², pozemek 876 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3193565260"
  }
 ]
