@@ -8545,5 +8545,23 @@
   "id": "sreality:3193565260",
   "title": "Prodej rodinného domu 280 m², pozemek 876 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3193565260"
+ },
+ {
+  "date": "2026-10-26",
+  "event": "price_changed",
+  "id": "sreality:1579159628",
+  "title": "Prodej rodinného domu 185 m², pozemek 443 m²",
+  "old_price": 8990000,
+  "new_price": 8250000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1579159628"
+ },
+ {
+  "date": "2026-10-26",
+  "event": "price_changed",
+  "id": "sreality:1249112140",
+  "title": "Prodej stavebního pozemku 1019 m²",
+  "old_price": 1790000,
+  "new_price": 1490000,
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/1249112140"
  }
 ]
