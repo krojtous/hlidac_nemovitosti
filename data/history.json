@@ -8579,5 +8579,23 @@
   "id": "sreality:2972901452",
   "title": "Prodej rodinného domu 140 m², pozemek 1406 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/2972901452"
+ },
+ {
+  "date": "2026-10-28",
+  "event": "appeared",
+  "id": "bezrealitky:1082861",
+  "title": "Prodej domu 121 m², pozemek 950 m²",
+  "price": 11533000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1082861-nabidka-prodej-domu-tyrsuv-vrch-liberec"
+ },
+ {
+  "date": "2026-10-28",
+  "event": "appeared",
+  "id": "sreality:1981546572",
+  "title": "Prodej bytu 4+1 96 m²",
+  "price": 6899000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/1981546572"
  }
 ]
