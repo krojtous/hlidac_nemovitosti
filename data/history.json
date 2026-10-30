@@ -8597,5 +8597,14 @@
   "price": 6899000,
   "area": "Vratislavice nad Nisou",
   "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/1981546572"
+ },
+ {
+  "date": "2026-10-30",
+  "event": "appeared",
+  "id": "sreality:579010636",
+  "title": "Prodej rodinného domu 140 m², pozemek 1406 m²",
+  "price": 8890000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/579010636"
  }
 ]
