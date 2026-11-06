@@ -8690,5 +8690,21 @@
   "price": 28656,
   "area": "Vratislavice nad Nisou",
   "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1085733-nabidka-pronajem-bytu-nadvorni-liberec"
+ },
+ {
+  "date": "2026-11-06",
+  "event": "appeared",
+  "id": "sreality:2372628556",
+  "title": "Prodej stavebního pozemku 1247 m²",
+  "price": 2487765,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/jablonec-nad-nisou/2372628556"
+ },
+ {
+  "date": "2026-11-06",
+  "event": "removed",
+  "id": "sreality:2755613516",
+  "title": "Prodej stavebního pozemku 1247 m²",
+  "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/jablonec-nad-nisou/2755613516"
  }
 ]
