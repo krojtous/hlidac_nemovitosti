@@ -8738,5 +8738,21 @@
   "id": "sreality:3696066636",
   "title": "Prodej rodinného domu 249 m², pozemek 627 m²",
   "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/3696066636"
+ },
+ {
+  "date": "2026-11-11",
+  "event": "appeared",
+  "id": "sreality:758083660",
+  "title": "Pronájem bytu 4+1 82 m²",
+  "price": 20000,
+  "area": "Vratislavice nad Nisou",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/758083660"
+ },
+ {
+  "date": "2026-11-11",
+  "event": "removed",
+  "id": "sreality:2031371084",
+  "title": "Prodej bytu 4+1 81 m²",
+  "url": "https://www.sreality.cz/detail/prodej/byt/4+1/liberec/2031371084"
  }
 ]
