@@ -8779,5 +8779,12 @@
   "price": 3550000,
   "area": "Vratislavice nad Nisou",
   "url": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/liberec/2211213388"
+ },
+ {
+  "date": "2026-11-17",
+  "event": "removed",
+  "id": "sreality:758083660",
+  "title": "Pronájem bytu 4+1 82 m²",
+  "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/758083660"
  }
 ]
