@@ -8786,5 +8786,30 @@
   "id": "sreality:758083660",
   "title": "Pronájem bytu 4+1 82 m²",
   "url": "https://www.sreality.cz/detail/pronajem/byt/4+1/liberec/758083660"
+ },
+ {
+  "date": "2026-11-19",
+  "event": "price_changed",
+  "id": "sreality:4092313676",
+  "title": "Prodej rodinného domu 80 m², pozemek 376 m²",
+  "old_price": 8249000,
+  "new_price": 7590000,
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/4092313676"
+ },
+ {
+  "date": "2026-11-19",
+  "event": "price_changed",
+  "id": "bezrealitky:1036886",
+  "title": "Prodej pozemku 1.070 m²",
+  "old_price": 3090000,
+  "new_price": 2990000,
+  "url": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1036886-nabidka-prodej-pozemku-jablonec-nad-nisou"
+ },
+ {
+  "date": "2026-11-19",
+  "event": "removed",
+  "id": "sreality:1225850956",
+  "title": "Prodej rodinného domu 121 m², pozemek 950 m²",
+  "url": "https://www.sreality.cz/detail/prodej/dum/rodinny/liberec/1225850956"
  }
 ]
